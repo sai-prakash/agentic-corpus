@@ -1,0 +1,12 @@
+{
+  "date": "2026-08-26",
+  "items": [
+    { "id": "arxiv-2608.21156", "kind": "paper", "url": "https://arxiv.org/abs/2608.21156" },
+    { "id": "arxiv-2608.24876", "kind": "paper", "url": "https://arxiv.org/abs/2608.24876" },
+    { "id": "arxiv-2608.24804", "kind": "paper", "url": "https://arxiv.org/abs/2608.24804" },
+    { "id": "arxiv-2607.25415", "kind": "paper", "url": "https://arxiv.org/html/2607.25415v1" },
+    { "id": "x-philschmid-harness", "kind": "x", "url": "https://x.com/_philschmid/status/2008175408923959574" },
+    { "id": "x-damidefi-monoliths", "kind": "x", "url": "https://x.com/DamiDefi/status/2068598041368826125" },
+    { "id": "x-mardehaym-seven", "kind": "x", "url": "https://x.com/mardehaym/status/2092516152274554891" }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "updated": "2026-08-26",
+  "title": "Agentic corpus",
+  "nodes": [
+    { "id": "prompt-engineering", "type": "paradigm", "label": "Prompt engineering", "heat": 2 },
+    { "id": "context-engineering", "type": "paradigm", "label": "Context engineering", "heat": 3 },
+    { "id": "agent-harness", "type": "paradigm", "label": "Agent harness", "heat": 5 },
+    { "id": "loop-engineering", "type": "paradigm", "label": "Loop engineering", "heat": 4 },
+    { "id": "graph-engineering", "type": "paradigm", "label": "Graph engineering", "heat": 5 },
+    { "id": "harness-evolution", "type": "method", "label": "Harness evolution", "heat": 5 },
+    { "id": "memory-graphs", "type": "method", "label": "Memory graphs", "heat": 4 },
+    { "id": "evals-gates", "type": "method", "label": "Evals & gates", "heat": 3 },
+    { "id": "knowledge-graph", "type": "structure", "label": "Knowledge graph", "heat": 4 },
+    { "id": "control-graph", "type": "structure", "label": "Control graph", "heat": 4 },
+    { "id": "webllm", "type": "tool", "label": "WebLLM", "heat": 3 },
+    { "id": "lab-graph", "type": "lab", "label": "Graph Engineering Lab", "heat": 4 },
+    { "id": "atlas", "type": "lab", "label": "Aether Atlas", "heat": 3 },
+    { "id": "kimi-harness", "type": "lab", "label": "Kimi K3 harness", "heat": 3 },
+    { "id": "recuris", "type": "paper", "label": "Recuris", "heat": 5 },
+    { "id": "starharness", "type": "paper", "label": "StarHarness", "heat": 5 },
+    { "id": "survey-ge", "type": "paper", "label": "GE survey 2608.21156", "heat": 5 }
+  ],
+  "edges": [
+    { "from": "prompt-engineering", "rel": "precedes", "to": "context-engineering", "source": "arxiv-2608.21156" },
+    { "from": "context-engineering", "rel": "precedes", "to": "agent-harness", "source": "arxiv-2608.21156" },
+    { "from": "agent-harness", "rel": "precedes", "to": "loop-engineering", "source": "arxiv-2608.21156" },
+    { "from": "loop-engineering", "rel": "precedes", "to": "graph-engineering", "source": "arxiv-2608.21156" },
+    { "from": "survey-ge", "rel": "defines", "to": "graph-engineering", "source": "arxiv-2608.21156" },
+    { "from": "graph-engineering", "rel": "uses", "to": "knowledge-graph", "source": "arxiv-2608.21156" },
+    { "from": "graph-engineering", "rel": "uses", "to": "control-graph", "source": "arxiv-2608.21156" },
+    { "from": "agent-harness", "rel": "contains", "to": "control-graph", "source": "arxiv-2606.20683" },
+    { "from": "memory-graphs", "rel": "implements", "to": "knowledge-graph", "source": "arxiv-2604.08224" },
+    { "from": "harness-evolution", "rel": "improves", "to": "agent-harness", "source": "arxiv-2608.24804" },
+    { "from": "starharness", "rel": "exemplifies", "to": "harness-evolution", "source": "arxiv-2608.24804" },
+    { "from": "recuris", "rel": "exemplifies", "to": "memory-graphs", "source": "arxiv-2608.24876" },
+    { "from": "recuris", "rel": "uses", "to": "loop-engineering", "source": "arxiv-2608.24876" },
+    { "from": "evals-gates", "rel": "governs", "to": "harness-evolution", "source": "arxiv-2608.24804" },
+    { "from": "lab-graph", "rel": "teaches", "to": "graph-engineering", "source": "first-party" },
+    { "from": "lab-graph", "rel": "uses", "to": "webllm", "source": "first-party" },
+    { "from": "kimi-harness", "rel": "implements", "to": "agent-harness", "source": "first-party" },
+    { "from": "atlas", "rel": "indexes", "to": "agent-harness", "source": "first-party" }
+  ]
+}
