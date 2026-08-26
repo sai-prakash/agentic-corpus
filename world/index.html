@@ -1,69 +1,53 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Agentic Corpus · world</title>
-    <style>
-      :root { --ink:#e8e0d4; --muted:#8a8378; --bg:#07080c; }
-      html, body { margin:0; height:100%; background:var(--bg); color:var(--ink); font-family: system-ui, sans-serif; }
-      #graph { position:fixed; inset:0; }
-      .hud { position:fixed; z-index:2; left:18px; top:18px; max-width:340px; pointer-events:none; }
-      .hud h1 { font-weight:500; font-size:22px; margin:0 0 6px; }
-      .hud p { margin:0; color:var(--muted); font-size:13px; line-height:1.45; }
-      .panel { position:fixed; z-index:2; right:18px; top:18px; width:min(360px,92vw); background:rgba(10,12,16,.78); border:1px solid #2a2d36; border-radius:14px; padding:14px 16px; }
-      .panel .k { font-size:11px; letter-spacing:.12em; text-transform:uppercase; color:#9a8f7a; }
-      .panel h2 { margin:6px 0 8px; font-size:20px; font-weight:500; }
-      .panel a { color:#d9a36a; }
-      .empty { color:var(--muted); font-size:13px; }
-      .foot { position:fixed; z-index:2; left:18px; bottom:14px; font-size:12px; color:#6d675e; }
-      .foot a { color:#b9a58a; }
-    </style>
-    <script src="https://unpkg.com/3d-force-graph@1.73.3/dist/3d-force-graph.min.js"></script>
-  </head>
-  <body>
-    <div id="graph"></div>
-    <div class="hud">
-      <h1>Agentic corpus</h1>
-      <p>Your captured slice of AI / agentic AI. Click a node. Not the whole world — the part you can cite.</p>
-    </div>
-    <aside class="panel" id="panel">
-      <div class="k">inspect</div>
-      <p class="empty">Click any body in the field.</p>
-    </aside>
-    <div class="foot"><a href="https://github.com/sai-prakash/agentic-corpus">source</a> · graph.json</div>
-    <script>
-      const COLORS = { paradigm:"#d9a36a", method:"#6db3a8", structure:"#7aa2d4", tool:"#c27a9a", lab:"#c45c26", paper:"#b7b39a" };
-      const panel = document.getElementById("panel");
-      function show(n, neighbors) {
-        const href = "https://github.com/sai-prakash/agentic-corpus/blob/main/concepts/" + n.id + ".md";
-        panel.innerHTML = '<div class="k">' + (n.type||"node") + " · heat " + (n.heat??"?") + "</div><h2>" + n.label + "</h2><p class="empty">" + (neighbors.join("<br>")||"No neighbors.") + "</p><p><a href=\"" + href + "\">concept file</a></p>";
-      }
-      fetch("./graph.json").then(r => r.json()).then(raw => {
-        const gData = {
-          nodes: raw.nodes.map(n => Object.assign({}, n)),
-          links: raw.edges.map(e => ({ source: e.from, target: e.to, rel: e.rel }))
-        };
-        const Graph = ForceGraph3D()(document.getElementById("graph"))
-          .graphData(gData)
-          .backgroundColor("#07080c")
-          .nodeLabel(n => n.label)
-          .nodeRelSize(5)
-          .nodeVal(n => (n.heat || 2) * 1.4)
-          .nodeColor(n => COLORS[n.type] || "#888")
-          .linkColor(() => "rgba(180,170,150,0.28)")
-          .linkOpacity(0.4)
-          .linkDirectionalArrowLength(3)
-          .onNodeClick(n => {
-            const neigh = gData.links.filter(l => l.source.id === n.id || l.target.id === n.id).map(l => {
-              const other = l.source.id === n.id ? l.target : l.source;
-              const dir = l.source.id === n.id ? "→" : "←";
-              return l.rel + " " + dir + " " + other.label;
-            });
-            show(n, neigh);
-          });
-        Graph.d3Force("charge").strength(-90);
-      }).catch(err => { panel.innerHTML = "<p class=empty>" + err.message + "</p>"; });
-    </script>
-  </body>
-</html>
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Agentic Corpus · local desk</title>
+<style>
+:root { --ink:#e8e0d4; --muted:#8a8378; --bg:#07080c; --panel:rgba(12,14,18,.86); --line:#2a2d36; --accent:#d9a36a; }
+* { box-sizing:border-box; }
+html,body { margin:0; height:100%; background:var(--bg); color:var(--ink); font-family:ui-sans-serif,system-ui,sans-serif; }
+#graph { position:fixed; inset:0; }
+.top { position:fixed; z-index:3; left:0; right:0; top:0; display:flex; justify-content:space-between; padding:14px 18px; pointer-events:none; }
+.top h1 { margin:0; font-size:18px; font-weight:500; }
+.top p { margin:2px 0 0; color:var(--muted); font-size:12px; }
+.badge { pointer-events:auto; font-size:11px; color:var(--muted); border:1px solid var(--line); border-radius:999px; padding:4px 10px; }
+.desk { position:fixed; z-index:3; left:14px; top:64px; bottom:14px; width:min(380px,92vw); }
+.card { background:var(--panel); border:1px solid var(--line); border-radius:14px; padding:12px 14px; overflow:auto; height:100%; backdrop-filter:blur(12px); }
+.card h2 { margin:0 0 8px; font-size:11px; letter-spacing:.12em; text-transform:uppercase; color:#9a8f7a; }
+.item { padding:8px 0; border-top:1px solid #1d2028; }
+.item:first-of-type { border-top:0; }
+.item a { color:var(--ink); text-decoration:none; }
+.item a:hover { color:var(--accent); }
+.meta { color:var(--muted); font-size:11px; margin-top:3px; }
+.inspect { position:fixed; z-index:3; right:14px; top:64px; width:min(320px,90vw); height:auto; max-height:40vh; }
+</style>
+<script src="https://unpkg.com/3d-force-graph@1.73.3/dist/3d-force-graph.min.js"></script>
+</head>
+<body>
+<div id="graph"></div>
+<header class="top"><div><h1>Local desk</h1><p>Inbox from public APIs · Aether later</p></div><div class="badge" id="stamp">loading…</div></header>
+<section class="desk"><div class="card"><h2>Inbox</h2><div id="list">npm run collect && npm run local</div></div></section>
+<aside class="card inspect" id="panel"><h2>Node</h2><p class="meta">Click a body.</p></aside>
+<script>
+const COLORS={paradigm:"#d9a36a",method:"#6db3a8",structure:"#7aa2d4",tool:"#c27a9a",lab:"#c45c26",paper:"#b7b39a"};
+function loadJson(path){return fetch(path).then(function(r){if(!r.ok)throw new Error(path+" "+r.status);return r.json();});}
+function renderInbox(inbox){
+  document.getElementById("stamp").textContent=((inbox.collected_at||"").replace("T"," ").slice(0,16))+" · "+((inbox.items&&inbox.items.length)||0)+" items";
+  var list=document.getElementById("list");
+  if(!inbox.items||!inbox.items.length){list.innerHTML="<p class=meta>Empty. Run npm run collect</p>";return;}
+  list.innerHTML=inbox.items.map(function(it){return "<div class=item><a href='"+it.url+"' target=_blank rel=noopener>"+it.title+"</a><div class=meta>"+it.source+" · "+(it.date||"—")+"</div></div>";}).join("");
+}
+Promise.all([loadJson("./graph.json"),loadJson("./inbox.json").catch(function(){return {items:[],collected_at:"";}})]).then(function(pair){
+  var raw=pair[0], inbox=pair[1];
+  var gData={nodes:raw.nodes.map(function(n){return Object.assign({},n);}),links:raw.edges.map(function(e){return {source:e.from,target:e.to,rel:e.rel};})};
+  var Graph=ForceGraph3D()(document.getElementById("graph")).graphData(gData).backgroundColor("#07080c").nodeLabel(function(n){return n.label;}).nodeRelSize(5).nodeVal(function(n){return (n.heat||2)*1.4;}).nodeColor(function(n){return COLORS[n.type]||"#888";}).linkColor(function(){return "rgba(180,170,150,0.28)";}).linkOpacity(0.4).linkDirectionalArrowLength(3).onNodeClick(function(n){
+    var neigh=gData.links.filter(function(l){return l.source.id===n.id||l.target.id===n.id;}).map(function(l){var other=l.source.id===n.id?l.target:l.source;return l.rel+" → "+other.label;});
+    document.getElementById("panel").innerHTML="<h2>"+(n.type||"node")+"</h2><p><strong>"+n.label+"</strong></p><p class=meta>"+(neigh.join("<br>")||"no neighbors")+"</p>";
+  });
+  Graph.d3Force("charge").strength(-90);
+  renderInbox(inbox);
+}).catch(function(err){document.getElementById("list").textContent=err.message;});
+</script>
+</body></html>
