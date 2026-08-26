@@ -1,33 +1,85 @@
 # Agentic Corpus
 
-Local-first working set for AI + agentic AI. Aether comes later.
+GitHub-native working set for **AI + agentic AI**.
 
-## Run on your machine (this is the view)
+Local desk first. Aether stays parked until the inbox and graph are trustworthy.
 
-```bash
-git clone https://github.com/sai-prakash/agentic-corpus.git
-cd agentic-corpus
-npm run collect    # arXiv + HN + Hugging Face papers + GitHub search
-npm run local      # http://127.0.0.1:4173
+```
+public APIs + RSS
+        │
+        ▼
+  npm run collect
+        │
+        ▼
+  world/inbox.json + sources/YYYY-MM-DD.json
+        │
+        ▼
+  npm run local   →  http://127.0.0.1:4173
 ```
 
-Do not open `world/index.html` as a file. The desk fetches JSON; use the local server.
+Live world (after Pages is on):
+**https://sai-prakash.github.io/agentic-corpus/**
 
-Optional: `GITHUB_TOKEN=... npm run collect` raises GitHub search quota.
+## Local — do this first
 
-## What collect hits (programmatic, public)
+From this repo:
 
-| Source | API |
+```bash
+npm run collect
+npm run local
+```
+
+Open `http://127.0.0.1:4173`. Do not open `world/index.html` as `file://` — the browser will block `fetch` of the JSON.
+
+What you should see:
+
+- Left (or bottom on phone): inbox from the last collect
+- Source chips + search
+- Source health (how many rows each API returned)
+- 3D field: durable concepts from `world/graph.json` plus today’s inbox rows hooked onto nearby concepts
+
+Collect writes two files:
+
+| File | Role |
 |---|---|
-| arXiv | export.arxiv.org/api/query |
-| HN | hn.algolia.com |
-| Hugging Face | /api/daily_papers |
-| GitHub | search/repositories (token optional) |
+| `world/inbox.json` | What the desk reads |
+| `sources/YYYY-MM-DD.json` | Dated snapshot you can diff |
 
-X is *not* scraped here. Daily Grok automation still samples X into `days/`.
+## Programmatic sources (no unofficial X scrape)
 
-Inbox lands in `world/inbox.json`. Graph stays `world/graph.json`.
+| Source | API | Key |
+|---|---|---|
+| arXiv | Atom `export.arxiv.org` | none |
+| Hacker News | Algolia | none |
+| Hugging Face | `/api/daily_papers` | none |
+| OpenAlex | works search | none (mailto in UA) |
+| Lobsters | `/t/ai.json` | none |
+| Dev.to | `/api/articles` | none |
+| Simon Willison | Atom | none |
+| Latent Space | RSS | none |
+| Import AI | RSS | none |
+| GitHub repos | Search API | optional `GITHUB_TOKEN` |
 
-## After it works locally
+X discourse is **not** scraped here. Grok’s X search (daily automation in `COLLECTOR.md`) is the legal intake for threads. Store claims + URLs, not a tweet dump.
 
-Then pipe the same JSON into aether-atlas. Not before.
+Skipped on purpose: Semantic Scholar (429 without a key), Reddit (blocks datacenter IPs), Papers with Code HTML.
+
+## What this is
+
+- One concept = one markdown file (`METHOD.md`)
+- One day = one briefing in `days/`
+- One graph = `world/graph.json`
+- One inbox = `world/inbox.json` from `npm run collect`
+
+## What this is not
+
+- Not Aether Atlas (product layer, later)
+- Not a firehose of every X post
+- Not Neon / Vercel / a database you cannot diff
+
+## Publish path (after the desk works)
+
+1. Open today’s `days/` file and the inbox
+2. If an idea passes `METHOD.md`, write `concepts/<slug>.md` and add a node
+3. Clone [graph-engineering-lab](https://github.com/sai-prakash/graph-engineering-lab) only when the idea is path-shaped
+4. Aether later — it consumes this corpus, it does not replace it
