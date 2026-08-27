@@ -1,0 +1,17 @@
+{
+  "date": "2026-08-27",
+  "items": [
+    { "id": "openai-harness-eng", "kind": "essay", "url": "https://openai.com/index/harness-engineering/" },
+    { "id": "arxiv-2608.21156", "kind": "paper", "url": "https://arxiv.org/abs/2608.21156" },
+    { "id": "arxiv-2608.24876", "kind": "paper", "url": "https://arxiv.org/abs/2608.24876" },
+    { "id": "arxiv-2607.27652", "kind": "paper", "url": "https://arxiv.org/abs/2607.27652" },
+    { "id": "github-harness-g", "kind": "repo", "url": "https://github.com/7HHHHH/Harness-G" },
+    { "id": "arxiv-2608.16114", "kind": "paper", "url": "https://arxiv.org/abs/2608.16114" },
+    { "id": "vasiliev-three-graphs", "kind": "essay", "url": "https://sergeyvasiliev.substack.com/p/knowledge-graph-memory-graph-and" },
+    { "id": "x-yotg-three-roles", "kind": "x", "url": "https://x.com/TheYotg/status/2092199339292504345" },
+    { "id": "x-santtiagom-roadmap", "kind": "x", "url": "https://x.com/santtiagom_/status/2092751908922446181" },
+    { "id": "github-learn-harness", "kind": "repo", "url": "https://github.com/walkinglabs/learn-harness-engineering" },
+    { "id": "x-shcallaway-no-alpha", "kind": "x", "url": "https://x.com/shcallaway/status/2092763294599954698" },
+    { "id": "x-brick4956-propose", "kind": "x", "url": "https://x.com/brick4956/status/2092790158173069695" }
+  ]
+}
