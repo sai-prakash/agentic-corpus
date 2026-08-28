@@ -1,0 +1,17 @@
+{
+  "date": "2026-08-28",
+  "items": [
+    { "id": "arxiv-2608.25593", "kind": "paper", "url": "https://arxiv.org/abs/2608.25593" },
+    { "id": "github-jit-agent", "kind": "repo", "url": "https://github.com/bingreeky/JIT" },
+    { "id": "anthropic-mhs", "kind": "essay", "url": "https://www.anthropic.com/news/model-hardware-standard-research-preview" },
+    { "id": "arxiv-2608.25500", "kind": "paper", "url": "https://arxiv.org/abs/2608.25500" },
+    { "id": "arxiv-2608.25123", "kind": "paper", "url": "https://arxiv.org/abs/2608.25123" },
+    { "id": "arxiv-2604.05333", "kind": "paper", "url": "https://arxiv.org/abs/2604.05333" },
+    { "id": "x-0xnoonez-three", "kind": "x", "url": "https://x.com/0xnoonez/status/2092960563999433174" },
+    { "id": "x-satykrish-proactive", "kind": "x", "url": "https://x.com/SatyKrish/status/2093060877159395792" },
+    { "id": "x-vtrivedy-grpo", "kind": "x", "url": "https://x.com/Vtrivedy10/status/2093025607030395105" },
+    { "id": "x-bigvikdada-mhs", "kind": "x", "url": "https://x.com/BigVikDada/status/2093134224580628510" },
+    { "id": "x-2abstract4me-redtape", "kind": "x", "url": "https://x.com/2abstract4me/status/2092781472965157296" },
+    { "id": "redtape-eval", "kind": "essay", "url": "https://redtapeeval.usenimbus.app/" }
+  ]
+}

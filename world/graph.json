@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-27",
+  "updated": "2026-08-28",
   "title": "Agentic corpus",
   "nodes": [
     { "id": "prompt-engineering", "type": "paradigm", "label": "Prompt engineering", "heat": 2 },
@@ -8,12 +8,15 @@
     { "id": "loop-engineering", "type": "paradigm", "label": "Loop engineering", "heat": 4 },
     { "id": "graph-engineering", "type": "paradigm", "label": "Graph engineering", "heat": 5 },
     { "id": "harness-evolution", "type": "method", "label": "Harness evolution", "heat": 5 },
+    { "id": "harness-intelligence", "type": "method", "label": "Harness intelligence", "heat": 5 },
     { "id": "memory-graphs", "type": "method", "label": "Memory graphs", "heat": 5 },
-    { "id": "skill-memory", "type": "method", "label": "Skill memory", "heat": 4 },
+    { "id": "skill-memory", "type": "method", "label": "Skill memory", "heat": 5 },
     { "id": "evals-gates", "type": "method", "label": "Evals & gates", "heat": 4 },
     { "id": "knowledge-graph", "type": "structure", "label": "Knowledge graph", "heat": 4 },
     { "id": "control-graph", "type": "structure", "label": "Control graph", "heat": 4 },
     { "id": "context-graph", "type": "structure", "label": "Context graph", "heat": 4 },
+    { "id": "mcp", "type": "tool", "label": "MCP", "heat": 4 },
+    { "id": "mhs", "type": "tool", "label": "Model Hardware Standard", "heat": 4 },
     { "id": "webllm", "type": "tool", "label": "WebLLM", "heat": 3 },
     { "id": "lab-graph", "type": "lab", "label": "Graph Engineering Lab", "heat": 4 },
     { "id": "atlas", "type": "lab", "label": "Aether Atlas", "heat": 3 },
@@ -22,7 +25,10 @@
     { "id": "starharness", "type": "paper", "label": "StarHarness", "heat": 5 },
     { "id": "survey-ge", "type": "paper", "label": "GE survey 2608.21156", "heat": 5 },
     { "id": "harness-g", "type": "paper", "label": "Harness-G", "heat": 4 },
-    { "id": "hyperskill", "type": "paper", "label": "HyperSkill", "heat": 4 }
+    { "id": "hyperskill", "type": "paper", "label": "HyperSkill", "heat": 4 },
+    { "id": "jit-agent", "type": "paper", "label": "JIT-Agent", "heat": 5 },
+    { "id": "caskg", "type": "paper", "label": "CaSKG", "heat": 4 },
+    { "id": "selfgraphrag", "type": "paper", "label": "SelfGraphRAG", "heat": 3 }
   ],
   "edges": [
     { "from": "prompt-engineering", "rel": "precedes", "to": "context-engineering", "source": "arxiv-2608.21156" },
@@ -52,6 +58,21 @@
     { "from": "lab-graph", "rel": "should-teach", "to": "context-graph", "source": "vasiliev-three-graphs" },
     { "from": "lab-graph", "rel": "uses", "to": "webllm", "source": "first-party" },
     { "from": "kimi-harness", "rel": "implements", "to": "agent-harness", "source": "first-party" },
-    { "from": "atlas", "rel": "indexes", "to": "agent-harness", "source": "first-party" }
+    { "from": "atlas", "rel": "indexes", "to": "agent-harness", "source": "first-party" },
+    { "from": "harness-intelligence", "rel": "improves", "to": "agent-harness", "source": "arxiv-2608.25593" },
+    { "from": "harness-intelligence", "rel": "specializes", "to": "harness-evolution", "source": "arxiv-2608.25593" },
+    { "from": "jit-agent", "rel": "exemplifies", "to": "harness-intelligence", "source": "arxiv-2608.25593" },
+    { "from": "jit-agent", "rel": "exemplifies", "to": "harness-evolution", "source": "github-jit-agent" },
+    { "from": "evals-gates", "rel": "governs", "to": "harness-intelligence", "source": "x-vtrivedy-grpo" },
+    { "from": "caskg", "rel": "exemplifies", "to": "skill-memory", "source": "arxiv-2608.25500" },
+    { "from": "caskg", "rel": "uses", "to": "memory-graphs", "source": "arxiv-2608.25500" },
+    { "from": "selfgraphrag", "rel": "exemplifies", "to": "graph-engineering", "source": "arxiv-2608.25123" },
+    { "from": "selfgraphrag", "rel": "supervises", "to": "knowledge-graph", "source": "arxiv-2608.25123" },
+    { "from": "mcp", "rel": "feeds", "to": "agent-harness", "source": "anthropic-mhs" },
+    { "from": "mcp", "rel": "precedes", "to": "mhs", "source": "anthropic-mhs" },
+    { "from": "mhs", "rel": "extends", "to": "agent-harness", "source": "anthropic-mhs" },
+    { "from": "evals-gates", "rel": "governs", "to": "mhs", "source": "x-bigvikdada-mhs" },
+    { "from": "agent-harness", "rel": "contains", "to": "context-graph", "source": "x-0xnoonez-three" },
+    { "from": "agent-harness", "rel": "contains", "to": "memory-graphs", "source": "x-0xnoonez-three" }
   ]
 }
