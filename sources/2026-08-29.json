@@ -1,0 +1,17 @@
+{
+  "date": "2026-08-29",
+  "items": [
+    { "id": "arxiv-2608.26983", "kind": "paper", "url": "https://arxiv.org/abs/2608.26983" },
+    { "id": "github-graphmemix", "kind": "repo", "url": "https://github.com/ligeng0197/graphmemix" },
+    { "id": "arxiv-2608.25960", "kind": "paper", "url": "https://arxiv.org/abs/2608.25960" },
+    { "id": "openreview-agent-seer", "kind": "paper", "url": "https://openreview.net/forum?id=AIgA3oUd7l" },
+    { "id": "arxiv-2608.26199", "kind": "paper", "url": "https://arxiv.org/abs/2608.26199" },
+    { "id": "arxiv-2605.27922", "kind": "paper", "url": "https://arxiv.org/abs/2605.27922" },
+    { "id": "harness-bench-site", "kind": "essay", "url": "https://www.harness-bench.ai/" },
+    { "id": "x-hnshah-harnessbench", "kind": "x", "url": "https://x.com/hnshah/status/2093203170478469344" },
+    { "id": "x-kerrsee-seer", "kind": "x", "url": "https://x.com/kerrsee/status/2093414433183985877" },
+    { "id": "x-theagenttimes-seer", "kind": "x", "url": "https://x.com/theagenttimes_/status/2093520225945919517" },
+    { "id": "x-cloudsa-tracing", "kind": "x", "url": "https://x.com/cloudsa/status/2093519067797995703" },
+    { "id": "thenewstack-sai-osworld", "kind": "essay", "url": "https://thenewstack.io/sai-agent-osworld-benchmark/" }
+  ]
+}

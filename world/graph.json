@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-28",
+  "updated": "2026-08-29",
   "title": "Agentic corpus",
   "nodes": [
     { "id": "prompt-engineering", "type": "paradigm", "label": "Prompt engineering", "heat": 2 },
@@ -28,7 +28,11 @@
     { "id": "hyperskill", "type": "paper", "label": "HyperSkill", "heat": 4 },
     { "id": "jit-agent", "type": "paper", "label": "JIT-Agent", "heat": 5 },
     { "id": "caskg", "type": "paper", "label": "CaSKG", "heat": 4 },
-    { "id": "selfgraphrag", "type": "paper", "label": "SelfGraphRAG", "heat": 3 }
+    { "id": "selfgraphrag", "type": "paper", "label": "SelfGraphRAG", "heat": 3 },
+    { "id": "graphmemix", "type": "paper", "label": "GraphMemix", "heat": 5 },
+    { "id": "livingrag", "type": "paper", "label": "LivingRAG", "heat": 4 },
+    { "id": "agent-seer", "type": "paper", "label": "Agent Seer", "heat": 4 },
+    { "id": "harness-bench", "type": "paper", "label": "Harness-Bench", "heat": 4 }
   ],
   "edges": [
     { "from": "prompt-engineering", "rel": "precedes", "to": "context-engineering", "source": "arxiv-2608.21156" },
@@ -73,6 +77,16 @@
     { "from": "mhs", "rel": "extends", "to": "agent-harness", "source": "anthropic-mhs" },
     { "from": "evals-gates", "rel": "governs", "to": "mhs", "source": "x-bigvikdada-mhs" },
     { "from": "agent-harness", "rel": "contains", "to": "context-graph", "source": "x-0xnoonez-three" },
-    { "from": "agent-harness", "rel": "contains", "to": "memory-graphs", "source": "x-0xnoonez-three" }
+    { "from": "agent-harness", "rel": "contains", "to": "memory-graphs", "source": "x-0xnoonez-three" },
+    { "from": "graphmemix", "rel": "exemplifies", "to": "memory-graphs", "source": "arxiv-2608.26983" },
+    { "from": "graphmemix", "rel": "assembles", "to": "context-graph", "source": "arxiv-2608.26983" },
+    { "from": "livingrag", "rel": "exemplifies", "to": "graph-engineering", "source": "arxiv-2608.25960" },
+    { "from": "livingrag", "rel": "writes", "to": "memory-graphs", "source": "arxiv-2608.25960" },
+    { "from": "agent-seer", "rel": "exemplifies", "to": "evals-gates", "source": "openreview-agent-seer" },
+    { "from": "agent-seer", "rel": "uses", "to": "mcp", "source": "openreview-agent-seer" },
+    { "from": "evals-gates", "rel": "governs", "to": "mcp", "source": "arxiv-2608.26199" },
+    { "from": "harness-bench", "rel": "measures", "to": "agent-harness", "source": "arxiv-2605.27922" },
+    { "from": "harness-bench", "rel": "feeds", "to": "evals-gates", "source": "x-hnshah-harnessbench" },
+    { "from": "lab-graph", "rel": "should-teach", "to": "memory-graphs", "source": "arxiv-2608.26983" }
   ]
 }
