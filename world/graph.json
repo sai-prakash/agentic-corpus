@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-29",
+  "updated": "2026-08-30",
   "title": "Agentic corpus",
   "nodes": [
     { "id": "prompt-engineering", "type": "paradigm", "label": "Prompt engineering", "heat": 2 },
@@ -11,7 +11,7 @@
     { "id": "harness-intelligence", "type": "method", "label": "Harness intelligence", "heat": 5 },
     { "id": "memory-graphs", "type": "method", "label": "Memory graphs", "heat": 5 },
     { "id": "skill-memory", "type": "method", "label": "Skill memory", "heat": 5 },
-    { "id": "evals-gates", "type": "method", "label": "Evals & gates", "heat": 4 },
+    { "id": "evals-gates", "type": "method", "label": "Evals & gates", "heat": 5 },
     { "id": "knowledge-graph", "type": "structure", "label": "Knowledge graph", "heat": 4 },
     { "id": "control-graph", "type": "structure", "label": "Control graph", "heat": 4 },
     { "id": "context-graph", "type": "structure", "label": "Context graph", "heat": 4 },
@@ -32,7 +32,13 @@
     { "id": "graphmemix", "type": "paper", "label": "GraphMemix", "heat": 5 },
     { "id": "livingrag", "type": "paper", "label": "LivingRAG", "heat": 4 },
     { "id": "agent-seer", "type": "paper", "label": "Agent Seer", "heat": 4 },
-    { "id": "harness-bench", "type": "paper", "label": "Harness-Bench", "heat": 4 }
+    { "id": "harness-bench", "type": "paper", "label": "Harness-Bench", "heat": 4 },
+    { "id": "wikiskill", "type": "paper", "label": "WikiSkill", "heat": 5 },
+    { "id": "harnesslens", "type": "paper", "label": "HarnessLens", "heat": 5 },
+    { "id": "sara", "type": "paper", "label": "SARA", "heat": 4 },
+    { "id": "agentjudgebench", "type": "paper", "label": "AgentJudgeBench", "heat": 4 },
+    { "id": "bts-agentbench", "type": "paper", "label": "BTS-AgentBench", "heat": 4 },
+    { "id": "parametric-kg", "type": "paper", "label": "Parametric KG memory", "heat": 3 }
   ],
   "edges": [
     { "from": "prompt-engineering", "rel": "precedes", "to": "context-engineering", "source": "arxiv-2608.21156" },
@@ -87,6 +93,16 @@
     { "from": "evals-gates", "rel": "governs", "to": "mcp", "source": "arxiv-2608.26199" },
     { "from": "harness-bench", "rel": "measures", "to": "agent-harness", "source": "arxiv-2605.27922" },
     { "from": "harness-bench", "rel": "feeds", "to": "evals-gates", "source": "x-hnshah-harnessbench" },
-    { "from": "lab-graph", "rel": "should-teach", "to": "memory-graphs", "source": "arxiv-2608.26983" }
+    { "from": "lab-graph", "rel": "should-teach", "to": "memory-graphs", "source": "arxiv-2608.26983" },
+    { "from": "wikiskill", "rel": "exemplifies", "to": "skill-memory", "source": "arxiv-2608.27454" },
+    { "from": "wikiskill", "rel": "writes", "to": "memory-graphs", "source": "arxiv-2608.27454" },
+    { "from": "harnesslens", "rel": "exemplifies", "to": "harness-evolution", "source": "arxiv-2608.27311" },
+    { "from": "harnesslens", "rel": "uses", "to": "evals-gates", "source": "arxiv-2608.27311" },
+    { "from": "sara", "rel": "governs", "to": "agent-harness", "source": "arxiv-2608.27146" },
+    { "from": "sara", "rel": "uses", "to": "control-graph", "source": "arxiv-2608.27146" },
+    { "from": "agentjudgebench", "rel": "measures", "to": "evals-gates", "source": "arxiv-2608.26623" },
+    { "from": "bts-agentbench", "rel": "feeds", "to": "evals-gates", "source": "arxiv-2608.27334" },
+    { "from": "parametric-kg", "rel": "contrasts", "to": "memory-graphs", "source": "arxiv-2608.25489" },
+    { "from": "lab-graph", "rel": "should-teach", "to": "skill-memory", "source": "arxiv-2608.27454" }
   ]
 }

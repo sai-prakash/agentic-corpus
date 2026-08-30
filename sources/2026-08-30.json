@@ -1,0 +1,17 @@
+{
+  "date": "2026-08-30",
+  "items": [
+    { "id": "arxiv-2608.27454", "kind": "paper", "url": "https://arxiv.org/abs/2608.27454" },
+    { "id": "decoder-wikiskill", "kind": "essay", "url": "https://the-decoder.com/google-gives-ai-agents-their-own-wiki-so-they-can-learn-from-mistakes-and-successes/" },
+    { "id": "arxiv-2608.27311", "kind": "paper", "url": "https://arxiv.org/abs/2608.27311" },
+    { "id": "github-harnesslens", "kind": "repo", "url": "https://github.com/jhxu5214/HarnessLens" },
+    { "id": "arxiv-2608.27146", "kind": "paper", "url": "https://arxiv.org/abs/2608.27146" },
+    { "id": "arxiv-2608.26623", "kind": "paper", "url": "https://arxiv.org/abs/2608.26623" },
+    { "id": "arxiv-2608.27334", "kind": "paper", "url": "https://arxiv.org/abs/2608.27334" },
+    { "id": "github-bts-agentbench", "kind": "repo", "url": "https://github.com/kjy7567/BTS-AgentBench" },
+    { "id": "arxiv-2608.25489", "kind": "paper", "url": "https://arxiv.org/abs/2608.25489" },
+    { "id": "x-vinijajain-harness", "kind": "x", "url": "https://x.com/VinijaJain/status/2093580125791240255" },
+    { "id": "x-nicograssetto-wikiskill", "kind": "x", "url": "https://x.com/NicoGrassetto/status/2093608570235339206" },
+    { "id": "x-thsottiaux-codex", "kind": "x", "url": "https://x.com/thsottiaux/status/2093801758665715784" }
+  ]
+}
