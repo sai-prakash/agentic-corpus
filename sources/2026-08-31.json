@@ -1,0 +1,17 @@
+{
+  "date": "2026-08-31",
+  "items": [
+    { "id": "arxiv-2608.26218", "kind": "paper", "url": "https://arxiv.org/abs/2608.26218" },
+    { "id": "arxiv-2608.27299", "kind": "paper", "url": "https://arxiv.org/abs/2608.27299" },
+    { "id": "arxiv-2608.26295", "kind": "paper", "url": "https://arxiv.org/abs/2608.26295" },
+    { "id": "arxiv-2608.26197", "kind": "paper", "url": "https://arxiv.org/abs/2608.26197" },
+    { "id": "arxiv-2608.26480", "kind": "paper", "url": "https://arxiv.org/abs/2608.26480" },
+    { "id": "arxiv-2608.26225", "kind": "paper", "url": "https://arxiv.org/abs/2608.26225" },
+    { "id": "arxiv-2608.26696", "kind": "paper", "url": "https://arxiv.org/abs/2608.26696" },
+    { "id": "pillar-harness-privilege", "kind": "essay", "url": "https://www.pillar.security/blog/your-agent-harness-has-more-privilege-than-your-agent" },
+    { "id": "x-rohanpaul-yuj", "kind": "x", "url": "https://x.com/rohanpaul_ai/status/2094221866353545448" },
+    { "id": "x-mrniko-pillar", "kind": "x", "url": "https://x.com/_MrNiko/status/2093858394654560646" },
+    { "id": "x-sidjain-three", "kind": "x", "url": "https://x.com/SidJain_80/status/2094089437345132953" },
+    { "id": "x-gastronomy-context-root", "kind": "x", "url": "https://x.com/gastronomy/status/2093161525947121869" }
+  ]
+}

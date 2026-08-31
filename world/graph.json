@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-30",
+  "updated": "2026-08-31",
   "title": "Agentic corpus",
   "nodes": [
     { "id": "prompt-engineering", "type": "paradigm", "label": "Prompt engineering", "heat": 2 },
@@ -12,9 +12,10 @@
     { "id": "memory-graphs", "type": "method", "label": "Memory graphs", "heat": 5 },
     { "id": "skill-memory", "type": "method", "label": "Skill memory", "heat": 5 },
     { "id": "evals-gates", "type": "method", "label": "Evals & gates", "heat": 5 },
+    { "id": "instruction-privilege", "type": "method", "label": "Instruction privilege", "heat": 5 },
     { "id": "knowledge-graph", "type": "structure", "label": "Knowledge graph", "heat": 4 },
     { "id": "control-graph", "type": "structure", "label": "Control graph", "heat": 4 },
-    { "id": "context-graph", "type": "structure", "label": "Context graph", "heat": 4 },
+    { "id": "context-graph", "type": "structure", "label": "Context graph", "heat": 5 },
     { "id": "mcp", "type": "tool", "label": "MCP", "heat": 4 },
     { "id": "mhs", "type": "tool", "label": "Model Hardware Standard", "heat": 4 },
     { "id": "webllm", "type": "tool", "label": "WebLLM", "heat": 3 },
@@ -38,7 +39,14 @@
     { "id": "sara", "type": "paper", "label": "SARA", "heat": 4 },
     { "id": "agentjudgebench", "type": "paper", "label": "AgentJudgeBench", "heat": 4 },
     { "id": "bts-agentbench", "type": "paper", "label": "BTS-AgentBench", "heat": 4 },
-    { "id": "parametric-kg", "type": "paper", "label": "Parametric KG memory", "heat": 3 }
+    { "id": "parametric-kg", "type": "paper", "label": "Parametric KG memory", "heat": 3 },
+    { "id": "same-harness", "type": "paper", "label": "Same model, different harness", "heat": 5 },
+    { "id": "context-root", "type": "paper", "label": "Context Gets Root", "heat": 5 },
+    { "id": "memtoc", "type": "paper", "label": "MemToC", "heat": 5 },
+    { "id": "pred-harness", "type": "paper", "label": "Predictable harness", "heat": 4 },
+    { "id": "self-orch", "type": "paper", "label": "Zero-shot self-orchestration", "heat": 4 },
+    { "id": "agent-mesh", "type": "paper", "label": "Agent Mesh", "heat": 3 },
+    { "id": "five-primitives", "type": "paper", "label": "Five runtime primitives", "heat": 3 }
   ],
   "edges": [
     { "from": "prompt-engineering", "rel": "precedes", "to": "context-engineering", "source": "arxiv-2608.21156" },
@@ -103,6 +111,22 @@
     { "from": "agentjudgebench", "rel": "measures", "to": "evals-gates", "source": "arxiv-2608.26623" },
     { "from": "bts-agentbench", "rel": "feeds", "to": "evals-gates", "source": "arxiv-2608.27334" },
     { "from": "parametric-kg", "rel": "contrasts", "to": "memory-graphs", "source": "arxiv-2608.25489" },
-    { "from": "lab-graph", "rel": "should-teach", "to": "skill-memory", "source": "arxiv-2608.27454" }
+    { "from": "lab-graph", "rel": "should-teach", "to": "skill-memory", "source": "arxiv-2608.27454" },
+    { "from": "same-harness", "rel": "exemplifies", "to": "agent-harness", "source": "arxiv-2608.26218" },
+    { "from": "same-harness", "rel": "measures", "to": "evals-gates", "source": "arxiv-2608.26218" },
+    { "from": "same-harness", "rel": "uses", "to": "context-graph", "source": "arxiv-2608.26218" },
+    { "from": "context-root", "rel": "exemplifies", "to": "instruction-privilege", "source": "arxiv-2608.27299" },
+    { "from": "context-root", "rel": "attacks", "to": "agent-harness", "source": "arxiv-2608.27299" },
+    { "from": "instruction-privilege", "rel": "governs", "to": "agent-harness", "source": "arxiv-2608.27299" },
+    { "from": "instruction-privilege", "rel": "constrains", "to": "context-graph", "source": "arxiv-2608.27299" },
+    { "from": "sara", "rel": "exemplifies", "to": "instruction-privilege", "source": "arxiv-2608.27146" },
+    { "from": "memtoc", "rel": "exemplifies", "to": "memory-graphs", "source": "arxiv-2608.26295" },
+    { "from": "memtoc", "rel": "measures", "to": "evals-gates", "source": "arxiv-2608.26295" },
+    { "from": "pred-harness", "rel": "exemplifies", "to": "harness-evolution", "source": "arxiv-2608.26197" },
+    { "from": "pred-harness", "rel": "uses", "to": "evals-gates", "source": "arxiv-2608.26197" },
+    { "from": "self-orch", "rel": "exemplifies", "to": "agent-harness", "source": "arxiv-2608.26480" },
+    { "from": "agent-mesh", "rel": "feeds", "to": "evals-gates", "source": "arxiv-2608.26225" },
+    { "from": "five-primitives", "rel": "governs", "to": "agent-harness", "source": "arxiv-2608.26696" },
+    { "from": "lab-graph", "rel": "should-teach", "to": "instruction-privilege", "source": "arxiv-2608.27299" }
   ]
 }
