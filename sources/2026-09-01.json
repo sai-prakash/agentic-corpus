@@ -7,11 +7,11 @@
     { "id": "arxiv-2608.28241", "kind": "paper", "url": "https://arxiv.org/abs/2608.28241" },
     { "id": "arxiv-2608.27487", "kind": "paper", "url": "https://arxiv.org/abs/2608.27487" },
     { "id": "arxiv-2608.28264", "kind": "paper", "url": "https://arxiv.org/abs/2608.28264" },
-    { "id": "arxiv-2608.27984", "kind": "paper", "url": "https://arxiv.org/abs/2608.27984" },
     { "id": "github-openjiuwen", "kind": "repo", "url": "https://github.com/openJiuwen-ai/jiuwenswarm" },
+    { "id": "ibm-vldb-structure", "kind": "paper", "url": "https://research.ibm.com/publications/how-much-structure-should-agentic-graph-memory-build-for-text-retrieval" },
+    { "id": "github-graft", "kind": "repo", "url": "https://github.com/trailhq/Graft" },
+    { "id": "github-hermes-agent", "kind": "repo", "url": "https://github.com/NousResearch/hermes-agent/releases/tag/v2026.8.31" },
     { "id": "thenewstack-ard", "kind": "essay", "url": "https://thenewstack.io/ard-agent-discovery-specification/" },
-    { "id": "x-stretchcloud-ard", "kind": "x", "url": "https://x.com/stretchcloud/status/2094607675028128154" },
-    { "id": "x-secondmind-recovery", "kind": "x", "url": "https://x.com/Secondmindsys/status/2094080706544619893" },
-    { "id": "x-bibryam-memory", "kind": "x", "url": "https://x.com/bibryam/status/2094069255067009220" }
+    { "id": "x-yotg-layers", "kind": "x", "url": "https://x.com/TheYotg/status/2094370392282464493" }
   ]
 }

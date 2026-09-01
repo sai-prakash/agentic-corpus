@@ -21,9 +21,11 @@
     { "id": "ard", "type": "tool", "label": "ARD", "heat": 4 },
     { "id": "mhs", "type": "tool", "label": "Model Hardware Standard", "heat": 4 },
     { "id": "webllm", "type": "tool", "label": "WebLLM", "heat": 3 },
+    { "id": "graft", "type": "tool", "label": "Graft", "heat": 4 },
     { "id": "lab-graph", "type": "lab", "label": "Graph Engineering Lab", "heat": 4 },
     { "id": "atlas", "type": "lab", "label": "Aether Atlas", "heat": 3 },
     { "id": "kimi-harness", "type": "lab", "label": "Kimi K3 harness", "heat": 3 },
+    { "id": "hermes-agent", "type": "lab", "label": "Hermes Agent", "heat": 3 },
     { "id": "recuris", "type": "paper", "label": "Recuris", "heat": 5 },
     { "id": "starharness", "type": "paper", "label": "StarHarness", "heat": 5 },
     { "id": "survey-ge", "type": "paper", "label": "GE survey 2608.21156", "heat": 5 },
@@ -55,7 +57,8 @@
     { "id": "skillfeed", "type": "paper", "label": "SkillFeed", "heat": 4 },
     { "id": "gcpc", "type": "paper", "label": "GCPC", "heat": 4 },
     { "id": "doctor", "type": "paper", "label": "DoCtOR", "heat": 4 },
-    { "id": "k-gat", "type": "paper", "label": "K-GAT", "heat": 3 }
+    { "id": "k-gat", "type": "paper", "label": "K-GAT", "heat": 3 },
+    { "id": "ibm-structure", "type": "paper", "label": "Structure-boundary memory", "heat": 4 }
   ],
   "edges": [
     { "from": "prompt-engineering", "rel": "precedes", "to": "context-engineering", "source": "arxiv-2608.21156" },
@@ -152,6 +155,15 @@
     { "from": "k-gat", "rel": "uses", "to": "control-graph", "source": "arxiv-2608.27984" },
     { "from": "ard", "rel": "precedes", "to": "mcp", "source": "thenewstack-ard" },
     { "from": "ard", "rel": "feeds", "to": "agent-harness", "source": "x-stretchcloud-ard" },
-    { "from": "lab-graph", "rel": "should-teach", "to": "recoverable-harness", "source": "arxiv-2608.28363" }
+    { "from": "lab-graph", "rel": "should-teach", "to": "recoverable-harness", "source": "arxiv-2608.28363" },
+    { "from": "ibm-structure", "rel": "constrains", "to": "memory-graphs", "source": "ibm-vldb-structure" },
+    { "from": "ibm-structure", "rel": "constrains", "to": "graph-engineering", "source": "ibm-vldb-structure" },
+    { "from": "ibm-structure", "rel": "contrasts", "to": "knowledge-graph", "source": "ibm-vldb-structure" },
+    { "from": "graft", "rel": "exemplifies", "to": "context-graph", "source": "github-graft" },
+    { "from": "graft", "rel": "feeds", "to": "agent-harness", "source": "github-graft" },
+    { "from": "hermes-agent", "rel": "implements", "to": "agent-harness", "source": "github-hermes-agent" },
+    { "from": "hermes-agent", "rel": "uses", "to": "mcp", "source": "github-hermes-agent" },
+    { "from": "context-graph", "rel": "projects", "to": "memory-graphs", "source": "x-yotg-layers" },
+    { "from": "lab-graph", "rel": "should-teach", "to": "graft", "source": "github-graft" }
   ]
 }
