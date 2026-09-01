@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-31",
+  "updated": "2026-09-01",
   "title": "Agentic corpus",
   "nodes": [
     { "id": "prompt-engineering", "type": "paradigm", "label": "Prompt engineering", "heat": 2 },
@@ -13,10 +13,12 @@
     { "id": "skill-memory", "type": "method", "label": "Skill memory", "heat": 5 },
     { "id": "evals-gates", "type": "method", "label": "Evals & gates", "heat": 5 },
     { "id": "instruction-privilege", "type": "method", "label": "Instruction privilege", "heat": 5 },
+    { "id": "recoverable-harness", "type": "method", "label": "Recoverable harness", "heat": 5 },
     { "id": "knowledge-graph", "type": "structure", "label": "Knowledge graph", "heat": 4 },
     { "id": "control-graph", "type": "structure", "label": "Control graph", "heat": 4 },
     { "id": "context-graph", "type": "structure", "label": "Context graph", "heat": 5 },
     { "id": "mcp", "type": "tool", "label": "MCP", "heat": 4 },
+    { "id": "ard", "type": "tool", "label": "ARD", "heat": 4 },
     { "id": "mhs", "type": "tool", "label": "Model Hardware Standard", "heat": 4 },
     { "id": "webllm", "type": "tool", "label": "WebLLM", "heat": 3 },
     { "id": "lab-graph", "type": "lab", "label": "Graph Engineering Lab", "heat": 4 },
@@ -46,7 +48,14 @@
     { "id": "pred-harness", "type": "paper", "label": "Predictable harness", "heat": 4 },
     { "id": "self-orch", "type": "paper", "label": "Zero-shot self-orchestration", "heat": 4 },
     { "id": "agent-mesh", "type": "paper", "label": "Agent Mesh", "heat": 3 },
-    { "id": "five-primitives", "type": "paper", "label": "Five runtime primitives", "heat": 3 }
+    { "id": "five-primitives", "type": "paper", "label": "Five runtime primitives", "heat": 3 },
+    { "id": "evo-undo", "type": "paper", "label": "EvoUndo", "heat": 5 },
+    { "id": "logos", "type": "paper", "label": "Logos", "heat": 4 },
+    { "id": "openjiuwen", "type": "paper", "label": "openJiuwen", "heat": 4 },
+    { "id": "skillfeed", "type": "paper", "label": "SkillFeed", "heat": 4 },
+    { "id": "gcpc", "type": "paper", "label": "GCPC", "heat": 4 },
+    { "id": "doctor", "type": "paper", "label": "DoCtOR", "heat": 4 },
+    { "id": "k-gat", "type": "paper", "label": "K-GAT", "heat": 3 }
   ],
   "edges": [
     { "from": "prompt-engineering", "rel": "precedes", "to": "context-engineering", "source": "arxiv-2608.21156" },
@@ -127,6 +136,22 @@
     { "from": "self-orch", "rel": "exemplifies", "to": "agent-harness", "source": "arxiv-2608.26480" },
     { "from": "agent-mesh", "rel": "feeds", "to": "evals-gates", "source": "arxiv-2608.26225" },
     { "from": "five-primitives", "rel": "governs", "to": "agent-harness", "source": "arxiv-2608.26696" },
-    { "from": "lab-graph", "rel": "should-teach", "to": "instruction-privilege", "source": "arxiv-2608.27299" }
+    { "from": "lab-graph", "rel": "should-teach", "to": "instruction-privilege", "source": "arxiv-2608.27299" },
+    { "from": "evo-undo", "rel": "exemplifies", "to": "recoverable-harness", "source": "arxiv-2608.28363" },
+    { "from": "evo-undo", "rel": "constrains", "to": "harness-evolution", "source": "arxiv-2608.28363" },
+    { "from": "recoverable-harness", "rel": "governs", "to": "harness-evolution", "source": "arxiv-2608.28363" },
+    { "from": "evals-gates", "rel": "governs", "to": "recoverable-harness", "source": "arxiv-2608.28363" },
+    { "from": "logos", "rel": "exemplifies", "to": "recoverable-harness", "source": "arxiv-2608.28553" },
+    { "from": "logos", "rel": "exemplifies", "to": "agent-harness", "source": "arxiv-2608.28553" },
+    { "from": "openjiuwen", "rel": "exemplifies", "to": "agent-harness", "source": "arxiv-2608.27969" },
+    { "from": "openjiuwen", "rel": "exemplifies", "to": "harness-evolution", "source": "github-openjiuwen" },
+    { "from": "skillfeed", "rel": "exemplifies", "to": "skill-memory", "source": "arxiv-2608.28241" },
+    { "from": "gcpc", "rel": "measures", "to": "evals-gates", "source": "arxiv-2608.27487" },
+    { "from": "gcpc", "rel": "measures", "to": "skill-memory", "source": "arxiv-2608.27487" },
+    { "from": "doctor", "rel": "exemplifies", "to": "evals-gates", "source": "arxiv-2608.28264" },
+    { "from": "k-gat", "rel": "uses", "to": "control-graph", "source": "arxiv-2608.27984" },
+    { "from": "ard", "rel": "precedes", "to": "mcp", "source": "thenewstack-ard" },
+    { "from": "ard", "rel": "feeds", "to": "agent-harness", "source": "x-stretchcloud-ard" },
+    { "from": "lab-graph", "rel": "should-teach", "to": "recoverable-harness", "source": "arxiv-2608.28363" }
   ]
 }
