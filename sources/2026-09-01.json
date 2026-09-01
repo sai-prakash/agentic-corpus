@@ -1,0 +1,17 @@
+{
+  "date": "2026-09-01",
+  "items": [
+    { "id": "arxiv-2608.28553", "kind": "paper", "url": "https://arxiv.org/abs/2608.28553" },
+    { "id": "arxiv-2608.28363", "kind": "paper", "url": "https://arxiv.org/abs/2608.28363" },
+    { "id": "arxiv-2608.27969", "kind": "paper", "url": "https://arxiv.org/abs/2608.27969" },
+    { "id": "arxiv-2608.28241", "kind": "paper", "url": "https://arxiv.org/abs/2608.28241" },
+    { "id": "arxiv-2608.27487", "kind": "paper", "url": "https://arxiv.org/abs/2608.27487" },
+    { "id": "arxiv-2608.28264", "kind": "paper", "url": "https://arxiv.org/abs/2608.28264" },
+    { "id": "arxiv-2608.27984", "kind": "paper", "url": "https://arxiv.org/abs/2608.27984" },
+    { "id": "github-openjiuwen", "kind": "repo", "url": "https://github.com/openJiuwen-ai/jiuwenswarm" },
+    { "id": "thenewstack-ard", "kind": "essay", "url": "https://thenewstack.io/ard-agent-discovery-specification/" },
+    { "id": "x-stretchcloud-ard", "kind": "x", "url": "https://x.com/stretchcloud/status/2094607675028128154" },
+    { "id": "x-secondmind-recovery", "kind": "x", "url": "https://x.com/Secondmindsys/status/2094080706544619893" },
+    { "id": "x-bibryam-memory", "kind": "x", "url": "https://x.com/bibryam/status/2094069255067009220" }
+  ]
+}
