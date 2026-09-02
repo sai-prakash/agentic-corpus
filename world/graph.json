@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-01",
+  "updated": "2026-09-02",
   "title": "Agentic corpus",
   "nodes": [
     { "id": "prompt-engineering", "type": "paradigm", "label": "Prompt engineering", "heat": 2 },
@@ -58,7 +58,10 @@
     { "id": "gcpc", "type": "paper", "label": "GCPC", "heat": 4 },
     { "id": "doctor", "type": "paper", "label": "DoCtOR", "heat": 4 },
     { "id": "k-gat", "type": "paper", "label": "K-GAT", "heat": 3 },
-    { "id": "ibm-structure", "type": "paper", "label": "Structure-boundary memory", "heat": 4 }
+    { "id": "ibm-structure", "type": "paper", "label": "Structure-boundary memory", "heat": 4 },
+    { "id": "memoryfield", "type": "method", "label": "Memoryfield", "heat": 5 },
+    { "id": "mnist-pro", "type": "paper", "label": "MNIST-PRO", "heat": 4 },
+    { "id": "exg", "type": "paper", "label": "EXG", "heat": 4 }
   ],
   "edges": [
     { "from": "prompt-engineering", "rel": "precedes", "to": "context-engineering", "source": "arxiv-2608.21156" },
@@ -164,6 +167,18 @@
     { "from": "hermes-agent", "rel": "implements", "to": "agent-harness", "source": "github-hermes-agent" },
     { "from": "hermes-agent", "rel": "uses", "to": "mcp", "source": "github-hermes-agent" },
     { "from": "context-graph", "rel": "projects", "to": "memory-graphs", "source": "x-yotg-layers" },
-    { "from": "lab-graph", "rel": "should-teach", "to": "graft", "source": "github-graft" }
+    { "from": "lab-graph", "rel": "should-teach", "to": "graft", "source": "github-graft" },
+    { "from": "memoryfield", "rel": "contrasts", "to": "memory-graphs", "source": "calpaterson-memoryfields" },
+    { "from": "memoryfield", "rel": "feeds", "to": "agent-harness", "source": "github-memoryfield-spec" },
+    { "from": "memoryfield", "rel": "assembles", "to": "context-graph", "source": "calpaterson-memoryfields" },
+    { "from": "graft", "rel": "exemplifies", "to": "memoryfield", "source": "github-graft" },
+    { "from": "mnist-pro", "rel": "measures", "to": "agent-harness", "source": "arxiv-2608.31022" },
+    { "from": "mnist-pro", "rel": "contrasts", "to": "memory-graphs", "source": "arxiv-2608.31022" },
+    { "from": "exg", "rel": "exemplifies", "to": "memory-graphs", "source": "arxiv-2605.17721" },
+    { "from": "exg", "rel": "exemplifies", "to": "harness-evolution", "source": "agentpatterns-exg" },
+    { "from": "evals-gates", "rel": "governs", "to": "skill-memory", "source": "warp-docs-self-improve" },
+    { "from": "skill-memory", "rel": "improves", "to": "agent-harness", "source": "anthropic-warp-skills" },
+    { "from": "lab-graph", "rel": "should-teach", "to": "memoryfield", "source": "calpaterson-memoryfields" },
+    { "from": "ibm-structure", "rel": "constrains", "to": "memoryfield", "source": "ibm-vldb-structure" }
   ]
 }
