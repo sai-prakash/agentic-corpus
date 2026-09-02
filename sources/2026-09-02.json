@@ -1,0 +1,17 @@
+{
+  "date": "2026-09-02",
+  "items": [
+    { "id": "calpaterson-memoryfields", "kind": "essay", "url": "https://calpaterson.com/memoryfields.html" },
+    { "id": "github-memoryfield-spec", "kind": "repo", "url": "https://github.com/calpaterson/memoryfield-spec" },
+    { "id": "github-memoryfield-tool", "kind": "repo", "url": "https://github.com/calpaterson/memoryfield-tool" },
+    { "id": "github-memoryfield-skill", "kind": "repo", "url": "https://github.com/calpaterson/memoryfield-skill" },
+    { "id": "hn-memoryfields", "kind": "thread", "url": "https://news.ycombinator.com/item?id=49508317" },
+    { "id": "arxiv-2608.31022", "kind": "paper", "url": "https://arxiv.org/abs/2608.31022" },
+    { "id": "anthropic-warp-skills", "kind": "essay", "url": "https://claude.com/blog/how-warp-builds-self-improving-agents-on-claude" },
+    { "id": "warp-docs-self-improve", "kind": "essay", "url": "https://docs.warp.dev/guides/agent-workflows/build-a-self-improving-agent/" },
+    { "id": "arxiv-2605.17721", "kind": "paper", "url": "https://arxiv.org/abs/2605.17721" },
+    { "id": "agentpatterns-exg", "kind": "essay", "url": "https://agentpatterns.ai/patterns/agent-design/experience-graphs-self-evolving-agents/" },
+    { "id": "x-yibie-memoryfield", "kind": "x", "url": "https://x.com/yibie/status/2094969078192689410" },
+    { "id": "x-maxforai-ondrej", "kind": "x", "url": "https://x.com/MaxForAI/status/2094607306998841814" }
+  ]
+}
