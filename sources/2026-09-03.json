@@ -1,0 +1,14 @@
+{
+  "date": "2026-09-03",
+  "items": [
+    { "id": "arxiv-2609.01481", "kind": "paper", "url": "https://arxiv.org/abs/2609.01481" },
+    { "id": "github-harness-of-harness", "kind": "repo", "url": "https://github.com/Flesymeb/HarnessOfHarness" },
+    { "id": "hoh-project", "kind": "essay", "url": "https://flesymeb.github.io/HarnessOfHarness/" },
+    { "id": "arxiv-2609.00829", "kind": "paper", "url": "https://arxiv.org/abs/2609.00829" },
+    { "id": "arxiv-2608.28978", "kind": "paper", "url": "https://arxiv.org/abs/2608.28978" },
+    { "id": "github-selective-amnesia", "kind": "repo", "url": "https://github.com/skhanzad/Selective-Amnesia" },
+    { "id": "x-omarsar0-forgetting", "kind": "x", "url": "https://x.com/omarsar0/status/2094972586358927466" },
+    { "id": "x-engmaxxing-hoh", "kind": "x", "url": "https://x.com/engmaxxing/status/2095294435886301654" },
+    { "id": "x-fiftyone-hoh", "kind": "x", "url": "https://x.com/FiftyOne_50_/status/2095310937490170099" }
+  ]
+}
