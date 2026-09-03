@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-02",
+  "updated": "2026-09-03",
   "title": "Agentic corpus",
   "nodes": [
     { "id": "prompt-engineering", "type": "paradigm", "label": "Prompt engineering", "heat": 2 },
@@ -61,7 +61,10 @@
     { "id": "ibm-structure", "type": "paper", "label": "Structure-boundary memory", "heat": 4 },
     { "id": "memoryfield", "type": "method", "label": "Memoryfield", "heat": 5 },
     { "id": "mnist-pro", "type": "paper", "label": "MNIST-PRO", "heat": 4 },
-    { "id": "exg", "type": "paper", "label": "EXG", "heat": 4 }
+    { "id": "exg", "type": "paper", "label": "EXG", "heat": 4 },
+    { "id": "hoh", "type": "paper", "label": "Harness-of-Harness", "heat": 5 },
+    { "id": "harnessevolve", "type": "paper", "label": "HarnessEvolve", "heat": 5 },
+    { "id": "selective-forgetting", "type": "paper", "label": "Selective Forgetting", "heat": 5 }
   ],
   "edges": [
     { "from": "prompt-engineering", "rel": "precedes", "to": "context-engineering", "source": "arxiv-2608.21156" },
@@ -179,6 +182,15 @@
     { "from": "evals-gates", "rel": "governs", "to": "skill-memory", "source": "warp-docs-self-improve" },
     { "from": "skill-memory", "rel": "improves", "to": "agent-harness", "source": "anthropic-warp-skills" },
     { "from": "lab-graph", "rel": "should-teach", "to": "memoryfield", "source": "calpaterson-memoryfields" },
-    { "from": "ibm-structure", "rel": "constrains", "to": "memoryfield", "source": "ibm-vldb-structure" }
+    { "from": "ibm-structure", "rel": "constrains", "to": "memoryfield", "source": "ibm-vldb-structure" },
+    { "from": "hoh", "rel": "exemplifies", "to": "harness-evolution", "source": "arxiv-2609.01481" },
+    { "from": "hoh", "rel": "uses", "to": "agent-harness", "source": "github-harness-of-harness" },
+    { "from": "hoh", "rel": "uses", "to": "evals-gates", "source": "arxiv-2609.01481" },
+    { "from": "harnessevolve", "rel": "exemplifies", "to": "harness-evolution", "source": "arxiv-2609.00829" },
+    { "from": "harnessevolve", "rel": "uses", "to": "evals-gates", "source": "arxiv-2609.00829" },
+    { "from": "harnessevolve", "rel": "constrains", "to": "recoverable-harness", "source": "arxiv-2609.00829" },
+    { "from": "selective-forgetting", "rel": "contrasts", "to": "memory-graphs", "source": "arxiv-2608.28978" },
+    { "from": "selective-forgetting", "rel": "contrasts", "to": "memoryfield", "source": "x-omarsar0-forgetting" },
+    { "from": "lab-graph", "rel": "should-teach", "to": "selective-forgetting", "source": "arxiv-2608.28978" }
   ]
 }
