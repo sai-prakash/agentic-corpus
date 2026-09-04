@@ -1,0 +1,17 @@
+{
+  "date": "2026-09-04",
+  "items": [
+    { "id": "arxiv-2609.01437", "kind": "paper", "url": "https://arxiv.org/abs/2609.01437" },
+    { "id": "harnessdev-project", "kind": "essay", "url": "https://self-developing-agents.github.io/" },
+    { "id": "x-omarsar0-harnessdev", "kind": "x", "url": "https://x.com/omarsar0/status/2095170896407548190" },
+    { "id": "x-akhaliq-harnessdev", "kind": "x", "url": "https://x.com/_akhaliq/status/2095668039404728351" },
+    { "id": "arxiv-2609.01736", "kind": "paper", "url": "https://arxiv.org/abs/2609.01736" },
+    { "id": "arxiv-2609.00546", "kind": "paper", "url": "https://arxiv.org/abs/2609.00546" },
+    { "id": "github-enoch", "kind": "repo", "url": "https://github.com/our-ark/enoch" },
+    { "id": "x-omarsar0-persist", "kind": "x", "url": "https://x.com/omarsar0/status/2095300793561931948" },
+    { "id": "arxiv-2609.01693", "kind": "paper", "url": "https://arxiv.org/abs/2609.01693" },
+    { "id": "github-agent-interop-bench", "kind": "repo", "url": "https://github.com/ArpanKumarM/agent-interop-bench" },
+    { "id": "arxiv-2609.03787", "kind": "paper", "url": "https://arxiv.org/abs/2609.03787" },
+    { "id": "arxiv-2609.04128", "kind": "paper", "url": "https://arxiv.org/abs/2609.04128" }
+  ]
+}
