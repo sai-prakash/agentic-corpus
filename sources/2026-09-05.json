@@ -1,0 +1,17 @@
+{
+  "date": "2026-09-05",
+  "items": [
+    { "id": "arxiv-2609.04148", "kind": "paper", "url": "https://arxiv.org/abs/2609.04148" },
+    { "id": "x-cvusk-terminal", "kind": "x", "url": "https://x.com/cv_usk/status/2096005744122581016" },
+    { "id": "arxiv-2609.04167", "kind": "paper", "url": "https://arxiv.org/abs/2609.04167" },
+    { "id": "github-swe-gate", "kind": "repo", "url": "https://github.com/DeepSoftwareAnalytics/SWE-Gate" },
+    { "id": "x-dizhang-swegate", "kind": "x", "url": "https://x.com/di_zhang_fdu/status/2095880233488732609" },
+    { "id": "arxiv-2609.04094", "kind": "paper", "url": "https://arxiv.org/abs/2609.04094" },
+    { "id": "github-ibm-draco", "kind": "repo", "url": "https://github.com/IBM/draco" },
+    { "id": "arxiv-2609.02264", "kind": "paper", "url": "https://arxiv.org/abs/2609.02264" },
+    { "id": "x-omarsar0-codebook", "kind": "x", "url": "https://x.com/omarsar0/status/2096010460491649099" },
+    { "id": "arxiv-2609.04170", "kind": "paper", "url": "https://arxiv.org/abs/2609.04170" },
+    { "id": "github-foldcrumbs", "kind": "repo", "url": "https://github.com/vcnngr/foldcrumbs" },
+    { "id": "x-vingrosso-foldcrumbs", "kind": "x", "url": "https://x.com/v_ingrosso/status/2096043772706468298" }
+  ]
+}
