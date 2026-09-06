@@ -1,0 +1,17 @@
+{
+  "date": "2026-09-06",
+  "items": [
+    { "id": "arxiv-2609.01992", "kind": "paper", "url": "https://arxiv.org/abs/2609.01992" },
+    { "id": "arxiv-2609.02067", "kind": "paper", "url": "https://arxiv.org/abs/2609.02067" },
+    { "id": "arxiv-2608.27831", "kind": "paper", "url": "https://arxiv.org/abs/2608.27831" },
+    { "id": "github-realswe", "kind": "repo", "url": "https://github.com/gyuhyeong-x/RealSWE" },
+    { "id": "arxiv-2608.26730", "kind": "paper", "url": "https://arxiv.org/abs/2608.26730" },
+    { "id": "arxiv-2609.00006", "kind": "paper", "url": "https://arxiv.org/abs/2609.00006" },
+    { "id": "arxiv-2605.18747", "kind": "paper", "url": "https://arxiv.org/abs/2605.18747" },
+    { "id": "x-sumanth-code-harness", "kind": "x", "url": "https://x.com/Sumanth_077/status/2096236780303389017" },
+    { "id": "arxiv-2609.03236", "kind": "paper", "url": "https://arxiv.org/abs/2609.03236" },
+    { "id": "github-owasp-mcp-taxonomy", "kind": "repo", "url": "https://github.com/OWASP/MCP-Taxonomy" },
+    { "id": "x-liran-mcp-taxonomy", "kind": "x", "url": "https://x.com/liran_tal/status/2096312505907757265" },
+    { "id": "github-memharness", "kind": "repo", "url": "https://github.com/las7/memharness" }
+  ]
+}
