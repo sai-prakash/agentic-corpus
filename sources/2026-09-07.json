@@ -1,0 +1,14 @@
+{
+  "date": "2026-09-07",
+  "items": [
+    { "id": "arxiv-2609.03340", "kind": "paper", "url": "https://arxiv.org/abs/2609.03340" },
+    { "id": "arxiv-2609.00237", "kind": "paper", "url": "https://arxiv.org/abs/2609.00237" },
+    { "id": "github-gated-memory-routing", "kind": "repo", "url": "https://github.com/rajibrhasan/gated-memory-routing" },
+    { "id": "arxiv-2609.02094", "kind": "paper", "url": "https://arxiv.org/abs/2609.02094" },
+    { "id": "github-maskills", "kind": "repo", "url": "https://github.com/DaRL-GenAI/MASkills" },
+    { "id": "gitlab-orbit-blog", "kind": "post", "url": "https://about.gitlab.com/blog/introducing-gitlab-orbit/" },
+    { "id": "github-gitlab-orbit", "kind": "repo", "url": "https://github.com/gitlabhq/orbit-knowledge-graph" },
+    { "id": "x-ceointerview-orbit", "kind": "x", "url": "https://x.com/CEOinterview/status/2096780877628068224" },
+    { "id": "x-theo-agent-memory", "kind": "x", "url": "https://x.com/theo/status/2096741642254590204" }
+  ]
+}
