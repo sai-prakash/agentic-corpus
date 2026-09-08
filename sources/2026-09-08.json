@@ -2,16 +2,16 @@
   "date": "2026-09-08",
   "items": [
     { "id": "arxiv-2609.04280", "kind": "paper", "url": "https://arxiv.org/abs/2609.04280" },
-    { "id": "evoharness-site", "kind": "post", "url": "https://mas-orchestra.salesforceresearch.ai/evoharness/" },
-    { "id": "hf-evoharness-tools", "kind": "repo", "url": "https://huggingface.co/datasets/ZixuanKe/evovling_tools" },
     { "id": "arxiv-2609.05339", "kind": "paper", "url": "https://arxiv.org/abs/2609.05339" },
     { "id": "arxiv-2609.05019", "kind": "paper", "url": "https://arxiv.org/abs/2609.05019" },
     { "id": "arxiv-2609.04869", "kind": "paper", "url": "https://arxiv.org/abs/2609.04869" },
     { "id": "github-skill-evo4gui", "kind": "repo", "url": "https://github.com/LongtaoHu/Skill-Evo4GUI" },
     { "id": "arxiv-2609.00749", "kind": "paper", "url": "https://arxiv.org/abs/2609.00749" },
-    { "id": "x-yc-harnesses", "kind": "x", "url": "https://x.com/ycombinator/status/2096970626036855197" },
-    { "id": "x-ompatel-notion-mcp", "kind": "x", "url": "https://x.com/om_patel5/status/2097129187706376212" },
+    { "id": "arxiv-2609.05261", "kind": "paper", "url": "https://arxiv.org/abs/2609.05261" },
+    { "id": "arxiv-2609.05232", "kind": "paper", "url": "https://arxiv.org/abs/2609.05232" },
+    { "id": "github-substrate-aware", "kind": "repo", "url": "https://github.com/manu2/Context-Aware-Agent-Experiment" },
+    { "id": "arxiv-2609.05279", "kind": "paper", "url": "https://arxiv.org/abs/2609.05279" },
     { "id": "github-skillspector", "kind": "repo", "url": "https://github.com/NVIDIA/SkillSpector" },
-    { "id": "x-guifav-contextpipe", "kind": "x", "url": "https://x.com/guifav/status/2096527209808679070" }
+    { "id": "pillar-deadbugz", "kind": "post", "url": "https://www.pillar.security/blog/deadbugz-currently-active-mcp-supply-chain-campaign" }
   ]
 }
