@@ -1,0 +1,15 @@
+{
+  "date": "2026-09-09",
+  "items": [
+    { "id": "arxiv-2609.04518", "kind": "paper", "url": "https://arxiv.org/abs/2609.04518" },
+    { "id": "arxiv-2609.01836", "kind": "paper", "url": "https://arxiv.org/abs/2609.01836" },
+    { "id": "arxiv-2609.04894", "kind": "paper", "url": "https://arxiv.org/abs/2609.04894" },
+    { "id": "arxiv-2609.02786", "kind": "paper", "url": "https://arxiv.org/abs/2609.02786" },
+    { "id": "github-safeevolve", "kind": "repo", "url": "https://github.com/MaoPopovich/SafeEvolve" },
+    { "id": "arxiv-2609.04681", "kind": "paper", "url": "https://arxiv.org/abs/2609.04681" },
+    { "id": "vs-agent-skills", "kind": "post", "url": "https://devblogs.microsoft.com/visualstudio/agent-skills-in-visual-studio/" },
+    { "id": "x-dair-world-acting", "kind": "post", "url": "https://x.com/dair_ai/status/2097022152088445034" },
+    { "id": "x-omarsar-harness", "kind": "post", "url": "https://x.com/omarsar0/status/2097449131648197024" },
+    { "id": "x-marwan-vs-skills", "kind": "post", "url": "https://x.com/Marwan_3atef/status/2097469435443356014" }
+  ]
+}
