@@ -1,0 +1,17 @@
+{
+  "date": "2026-09-10",
+  "items": [
+    { "id": "arxiv-2609.08472", "kind": "paper", "url": "https://arxiv.org/abs/2609.08472" },
+    { "id": "arxiv-2609.09153", "kind": "paper", "url": "https://arxiv.org/abs/2609.09153" },
+    { "id": "arxiv-2609.09233", "kind": "paper", "url": "https://arxiv.org/abs/2609.09233" },
+    { "id": "arxiv-2609.07680", "kind": "paper", "url": "https://arxiv.org/abs/2609.07680" },
+    { "id": "github-faultline", "kind": "repo", "url": "https://github.com/Polpii/FaultLine" },
+    { "id": "arxiv-2609.09219", "kind": "paper", "url": "https://arxiv.org/abs/2609.09219" },
+    { "id": "arxiv-2609.06500", "kind": "paper", "url": "https://arxiv.org/abs/2609.06500" },
+    { "id": "arxiv-2609.08599", "kind": "paper", "url": "https://arxiv.org/abs/2609.08599" },
+    { "id": "arxiv-2609.07471", "kind": "paper", "url": "https://arxiv.org/abs/2609.07471" },
+    { "id": "github-agenvoy", "kind": "repo", "url": "https://github.com/agenvoy/Agenvoy" },
+    { "id": "x-stretchcloud-authority", "kind": "post", "url": "https://x.com/stretchcloud/status/2097094309975875684" },
+    { "id": "x-mardehaym-harness", "kind": "post", "url": "https://x.com/mardehaym/status/2097736766245499226" }
+  ]
+}
