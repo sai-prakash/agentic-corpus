@@ -1,0 +1,17 @@
+{
+  "date": "2026-09-11",
+  "items": [
+    { "id": "arxiv-2609.11060", "kind": "paper", "url": "https://arxiv.org/abs/2609.11060" },
+    { "id": "arxiv-2609.10263", "kind": "paper", "url": "https://arxiv.org/abs/2609.10263" },
+    { "id": "arxiv-2609.10413", "kind": "paper", "url": "https://arxiv.org/abs/2609.10413" },
+    { "id": "zenodo-fortunate-recall", "kind": "repo", "url": "https://doi.org/10.5281/zenodo.20067778" },
+    { "id": "arxiv-2609.08371", "kind": "paper", "url": "https://arxiv.org/abs/2609.08371" },
+    { "id": "arxiv-2609.07360", "kind": "paper", "url": "https://arxiv.org/abs/2609.07360" },
+    { "id": "github-harness-eval", "kind": "repo", "url": "https://github.com/redhat-community-ai-tools/harness-eval" },
+    { "id": "arxiv-2609.09646", "kind": "paper", "url": "https://arxiv.org/abs/2609.09646" },
+    { "id": "arxiv-2609.09218", "kind": "paper", "url": "https://arxiv.org/abs/2609.09218" },
+    { "id": "arxiv-2609.10239", "kind": "paper", "url": "https://arxiv.org/abs/2609.10239" },
+    { "id": "x-franklin-mcp-rag", "kind": "post", "url": "https://x.com/FranklinSolum/status/2098003961194148337" },
+    { "id": "x-kapner-harness-scan", "kind": "post", "url": "https://x.com/BenjaminKapner/status/2097894513175900498" }
+  ]
+}
