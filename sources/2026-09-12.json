@@ -1,0 +1,17 @@
+{
+  "date": "2026-09-12",
+  "items": [
+    { "id": "openai-agents-api", "kind": "post", "url": "https://openai.com/index/introducing-the-agents-api/" },
+    { "id": "openai-agents-docs", "kind": "post", "url": "https://developers.openai.com/api/docs/guides/agents-api/overview" },
+    { "id": "x-openaidevs-agents-api", "kind": "post", "url": "https://x.com/OpenAIDevs/status/2098130570048045453" },
+    { "id": "github-sol-pi", "kind": "repo", "url": "https://github.com/NVlabs/SoL-Pi" },
+    { "id": "nvlabs-sol-pi", "kind": "post", "url": "https://nvlabs.github.io/SoL-Pi/" },
+    { "id": "arxiv-2609.11677", "kind": "paper", "url": "https://arxiv.org/abs/2609.11677" },
+    { "id": "x-dair-ecdysis", "kind": "post", "url": "https://x.com/dair_ai/status/2098460821693341885" },
+    { "id": "arxiv-2609.11065", "kind": "paper", "url": "https://arxiv.org/abs/2609.11065" },
+    { "id": "arxiv-2609.11682", "kind": "paper", "url": "https://arxiv.org/abs/2609.11682" },
+    { "id": "arxiv-2609.04298", "kind": "paper", "url": "https://arxiv.org/abs/2609.04298" },
+    { "id": "arxiv-2609.11294", "kind": "paper", "url": "https://arxiv.org/abs/2609.11294" },
+    { "id": "github-pi", "kind": "repo", "url": "https://github.com/earendil-works/pi" }
+  ]
+}
