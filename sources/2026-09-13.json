@@ -1,0 +1,17 @@
+{
+  "date": "2026-09-13",
+  "items": [
+    { "id": "x-kevinwhinnery-harness-api", "kind": "post", "url": "https://x.com/kevinwhinnery/status/2098444890602455431" },
+    { "id": "x-hwchase17-harness", "kind": "post", "url": "https://x.com/hwchase17/status/2098866608785473858" },
+    { "id": "langchain-harness-blog", "kind": "post", "url": "https://www.langchain.com/blog/how-to-build-a-custom-agent-harness" },
+    { "id": "arxiv-2609.10922", "kind": "paper", "url": "https://arxiv.org/abs/2609.10922" },
+    { "id": "x-omarsar0-autorecsys", "kind": "post", "url": "https://x.com/omarsar0/status/2098426608793362916" },
+    { "id": "arxiv-2609.11515", "kind": "paper", "url": "https://arxiv.org/abs/2609.11515" },
+    { "id": "github-churnbench", "kind": "repo", "url": "https://github.com/vsingh45/churnbench" },
+    { "id": "arxiv-2609.10969", "kind": "paper", "url": "https://arxiv.org/abs/2609.10969" },
+    { "id": "arxiv-2609.11028", "kind": "paper", "url": "https://arxiv.org/abs/2609.11028" },
+    { "id": "arxiv-2609.10962", "kind": "paper", "url": "https://arxiv.org/abs/2609.10962" },
+    { "id": "github-mcp-probe", "kind": "repo", "url": "https://github.com/itguruhaseeb/mcp-probe" },
+    { "id": "arxiv-2609.10548", "kind": "paper", "url": "https://arxiv.org/abs/2609.10548" }
+  ]
+}
