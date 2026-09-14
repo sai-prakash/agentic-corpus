@@ -1,0 +1,17 @@
+{
+  "date": "2026-09-14",
+  "items": [
+    { "id": "x-gregisenberg-harness-wrappers", "kind": "post", "url": "https://x.com/gregisenberg/status/2099202686377742576" },
+    { "id": "x-addyosmani-hold-bar", "kind": "post", "url": "https://x.com/addyosmani/status/2098662421644853433" },
+    { "id": "x-bcherny-production-bar", "kind": "post", "url": "https://x.com/bcherny/status/2098217573276131577" },
+    { "id": "litellm-mcp-control", "kind": "post", "url": "https://docs.litellm.ai/docs/mcp_control" },
+    { "id": "litellm-skills", "kind": "post", "url": "https://docs.litellm.ai/docs/tutorials/claude_code_skills" },
+    { "id": "github-pawbreak", "kind": "repo", "url": "https://github.com/0xgetz/pawbreak" },
+    { "id": "github-agentrecall", "kind": "repo", "url": "https://github.com/Goldentrii/AgentRecall-X" },
+    { "id": "arxiv-2609.11709", "kind": "paper", "url": "https://arxiv.org/abs/2609.11709" },
+    { "id": "x-hooke-codex-bridge", "kind": "post", "url": "https://x.com/hooke_kk/status/2099318368960684042" },
+    { "id": "x-georgekurtz-agent-state", "kind": "post", "url": "https://x.com/George_Kurtz/status/2099263605900255575" },
+    { "id": "x-moto-six-layer", "kind": "post", "url": "https://x.com/_moto___/status/2098976630194545050" },
+    { "id": "x-omarsar0-learn-harness", "kind": "post", "url": "https://x.com/omarsar0/status/2098809969252450451" }
+  ]
+}
