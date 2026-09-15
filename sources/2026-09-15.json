@@ -1,0 +1,17 @@
+{
+  "date": "2026-09-15",
+  "items": [
+    { "id": "github-sep-2640", "kind": "repo", "url": "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/2640" },
+    { "id": "github-ext-skills", "kind": "repo", "url": "https://github.com/modelcontextprotocol/ext-skills" },
+    { "id": "x-dani-avila7-skills-mcp", "kind": "post", "url": "https://x.com/dani_avila7/status/2099325795822956575" },
+    { "id": "x-trycua-skills-mcp", "kind": "post", "url": "https://x.com/trycua/status/2099548485062172994" },
+    { "id": "arxiv-2609.11987", "kind": "paper", "url": "https://arxiv.org/abs/2609.11987" },
+    { "id": "arxiv-2609.12742", "kind": "paper", "url": "https://arxiv.org/abs/2609.12742" },
+    { "id": "arxiv-2609.12216", "kind": "paper", "url": "https://arxiv.org/abs/2609.12216" },
+    { "id": "arxiv-2609.12464", "kind": "paper", "url": "https://arxiv.org/abs/2609.12464" },
+    { "id": "arxiv-2609.12320", "kind": "paper", "url": "https://arxiv.org/abs/2609.12320" },
+    { "id": "arxiv-2609.12436", "kind": "paper", "url": "https://arxiv.org/abs/2609.12436" },
+    { "id": "x-timsneath-xcode-skills", "kind": "post", "url": "https://x.com/timsneath/status/2099655889796165972" },
+    { "id": "x-tonysimons-hermes-mcp", "kind": "post", "url": "https://x.com/tonysimons_/status/2099658035769590022" }
+  ]
+}
