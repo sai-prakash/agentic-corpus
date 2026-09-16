@@ -1,0 +1,15 @@
+{
+  "date": "2026-09-16",
+  "items": [
+    { "id": "x-trq212-mcp-cli", "kind": "post", "url": "https://x.com/trq212/status/2099958388230873165" },
+    { "id": "x-dotey-mcp-cli", "kind": "post", "url": "https://x.com/dotey/status/2100046089214709979" },
+    { "id": "arxiv-2609.14758", "kind": "paper", "url": "https://arxiv.org/abs/2609.14758" },
+    { "id": "arxiv-2609.14119", "kind": "paper", "url": "https://arxiv.org/abs/2609.14119" },
+    { "id": "arxiv-2609.15397", "kind": "paper", "url": "https://arxiv.org/abs/2609.15397" },
+    { "id": "github-mcp-annotation-census", "kind": "repo", "url": "https://github.com/flame-stream/mcp-annotation-census" },
+    { "id": "arxiv-2609.13321", "kind": "paper", "url": "https://arxiv.org/abs/2609.13321" },
+    { "id": "arxiv-2609.14780", "kind": "paper", "url": "https://arxiv.org/abs/2609.14780" },
+    { "id": "arxiv-2609.14976", "kind": "paper", "url": "https://arxiv.org/abs/2609.14976" },
+    { "id": "x-kisson-tool-200", "kind": "post", "url": "https://x.com/KissonL/status/2099996693949300748" }
+  ]
+}
