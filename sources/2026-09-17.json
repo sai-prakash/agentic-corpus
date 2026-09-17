@@ -1,0 +1,17 @@
+{
+  "date": "2026-09-17",
+  "items": [
+    { "id": "arxiv-2609.17274", "kind": "paper", "url": "https://arxiv.org/abs/2609.17274" },
+    { "id": "arxiv-2609.12001", "kind": "paper", "url": "https://arxiv.org/abs/2609.12001" },
+    { "id": "github-oats", "kind": "repo", "url": "https://github.com/pheo-ai/open-agent-trust-system" },
+    { "id": "arxiv-2609.16669", "kind": "paper", "url": "https://arxiv.org/abs/2609.16669" },
+    { "id": "arxiv-2609.16635", "kind": "paper", "url": "https://arxiv.org/abs/2609.16635" },
+    { "id": "arxiv-2609.13889", "kind": "paper", "url": "https://arxiv.org/abs/2609.13889" },
+    { "id": "github-pmpa", "kind": "repo", "url": "https://github.com/hsh754/PMPA" },
+    { "id": "arxiv-2609.19100", "kind": "paper", "url": "https://arxiv.org/abs/2609.19100" },
+    { "id": "arxiv-2609.19091", "kind": "paper", "url": "https://arxiv.org/abs/2609.19091" },
+    { "id": "arxiv-2609.14857", "kind": "paper", "url": "https://arxiv.org/abs/2609.14857" },
+    { "id": "x-rseroter-docs", "kind": "post", "url": "https://x.com/rseroter/status/2100320316610277517" },
+    { "id": "x-itsjustnikhil-harness-measure", "kind": "post", "url": "https://x.com/itsjustnikhil/status/2100105370194870416" }
+  ]
+}
