@@ -1,0 +1,15 @@
+{
+  "date": "2026-09-18",
+  "items": [
+    { "id": "arxiv-2609.18820", "kind": "paper", "url": "https://arxiv.org/abs/2609.18820" },
+    { "id": "arxiv-2609.18128", "kind": "paper", "url": "https://arxiv.org/abs/2609.18128" },
+    { "id": "arxiv-2609.18366", "kind": "paper", "url": "https://arxiv.org/abs/2609.18366" },
+    { "id": "arxiv-2609.17695", "kind": "paper", "url": "https://arxiv.org/abs/2609.17695" },
+    { "id": "arxiv-2609.18099", "kind": "paper", "url": "https://arxiv.org/abs/2609.18099" },
+    { "id": "arxiv-2609.19502", "kind": "paper", "url": "https://arxiv.org/abs/2609.19502" },
+    { "id": "arxiv-2609.16487", "kind": "paper", "url": "https://arxiv.org/abs/2609.16487" },
+    { "id": "x-teknium-hermes-pi", "kind": "post", "url": "https://x.com/Teknium/status/2100645382552428963" },
+    { "id": "x-tonysimons-workflows", "kind": "post", "url": "https://x.com/tonysimons_/status/2100730315173990543" },
+    { "id": "github-addyosmani-agent-skills", "kind": "repo", "url": "https://github.com/addyosmani/agent-skills" }
+  ]
+}
