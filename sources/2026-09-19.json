@@ -1,0 +1,14 @@
+{
+  "date": "2026-09-19",
+  "items": [
+    { "id": "arxiv-2609.20474", "kind": "paper", "url": "https://arxiv.org/abs/2609.20474" },
+    { "id": "arxiv-2609.20804", "kind": "paper", "url": "https://arxiv.org/abs/2609.20804" },
+    { "id": "arxiv-2609.20754", "kind": "paper", "url": "https://arxiv.org/abs/2609.20754" },
+    { "id": "github-microsoft-raft", "kind": "repo", "url": "https://github.com/microsoft/RAFT" },
+    { "id": "arxiv-2609.19897", "kind": "paper", "url": "https://arxiv.org/abs/2609.19897" },
+    { "id": "x-trq212-agents-md", "kind": "post", "url": "https://x.com/trq212/status/2101009392611278961" },
+    { "id": "x-trq212-mods", "kind": "post", "url": "https://x.com/trq212/status/2101009393731223817" },
+    { "id": "langchain-deep-life-sci", "kind": "post", "url": "https://www.langchain.com/blog/agent-harness-life-sciences" },
+    { "id": "github-langchain-deep-life-sci", "kind": "repo", "url": "https://github.com/langchain-samples/deep-life-sci" }
+  ]
+}
