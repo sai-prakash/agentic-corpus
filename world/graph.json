@@ -1,9 +1,10 @@
 {
-  "updated": "2026-09-19",
+  "updated": "2026-09-20",
   "title": "Agentic corpus",
   "nodes": [
     {"id": "prompt-engineering", "type": "paradigm", "label": "Prompt engineering", "heat": 2},
     {"id": "compositional-policy", "type": "method", "label": "Compositional policy", "heat": 5},
+    {"id": "authorization-laundering", "type": "method", "label": "Authorization laundering", "heat": 5},
     {"id": "cpv", "type": "paper", "label": "Compositional Policy Violations", "heat": 5},
     {"id": "contragent", "type": "paper", "label": "ContrAgent", "heat": 5},
     {"id": "chase", "type": "paper", "label": "CHASE / Bad Genius", "heat": 5},
@@ -30,7 +31,12 @@
     {"id": "coding-harness-study", "type": "paper", "label": "Coding harness study 2609.20804", "heat": 5},
     {"id": "raft", "type": "paper", "label": "RAFT stateful case RAG", "heat": 4},
     {"id": "trace-archives", "type": "paper", "label": "TRACE archive retrieval", "heat": 3},
-    {"id": "agents-md", "type": "tool", "label": "AGENTS.md / Claude Code mods", "heat": 3}
+    {"id": "agents-md", "type": "tool", "label": "AGENTS.md / Claude Code mods", "heat": 3},
+    {"id": "sol-pi", "type": "paper", "label": "SoL-Pi 2609.20519", "heat": 5},
+    {"id": "skillaa", "type": "paper", "label": "SkillAA", "heat": 4},
+    {"id": "vsl", "type": "paper", "label": "Verification-status laundering", "heat": 5},
+    {"id": "chronicle", "type": "paper", "label": "Chronicle cut-point replay", "heat": 4},
+    {"id": "wfm", "type": "paper", "label": "WFM wiki graph", "heat": 4}
   ],
   "edges": [
     {"from": "prompt-engineering", "rel": "precedes", "to": "context-engineering", "source": "arxiv-2608.21156"},
@@ -70,6 +76,20 @@
     {"from": "trace-archives", "rel": "uses", "to": "evals-gates", "source": "arxiv-2609.19897"},
     {"from": "agents-md", "rel": "exemplifies", "to": "skill-memory", "source": "x-trq212-agents-md"},
     {"from": "agents-md", "rel": "implements", "to": "agent-harness", "source": "x-trq212-mods"},
-    {"from": "lab-graph", "rel": "should-teach", "to": "harness-value", "source": "arxiv-2609.20474"}
+    {"from": "lab-graph", "rel": "should-teach", "to": "harness-value", "source": "arxiv-2609.20474"},
+    {"from": "sol-pi", "rel": "exemplifies", "to": "agent-harness", "source": "arxiv-2609.20519"},
+    {"from": "sol-pi", "rel": "exemplifies", "to": "harness-evolution", "source": "arxiv-2609.20519"},
+    {"from": "sol-pi", "rel": "constrains", "to": "evals-gates", "source": "arxiv-2609.20519"},
+    {"from": "skillaa", "rel": "exemplifies", "to": "skill-memory", "source": "arxiv-2609.20455"},
+    {"from": "skillaa", "rel": "uses", "to": "evals-gates", "source": "arxiv-2609.20455"},
+    {"from": "vsl", "rel": "exemplifies", "to": "authorization-laundering", "source": "arxiv-2609.20211"},
+    {"from": "vsl", "rel": "exemplifies", "to": "compositional-policy", "source": "arxiv-2609.20211"},
+    {"from": "vsl", "rel": "constrains", "to": "evals-gates", "source": "arxiv-2609.20211"},
+    {"from": "chronicle", "rel": "exemplifies", "to": "evals-gates", "source": "arxiv-2609.20625"},
+    {"from": "chronicle", "rel": "uses", "to": "agent-harness", "source": "arxiv-2609.20625"},
+    {"from": "wfm", "rel": "exemplifies", "to": "memory-graphs", "source": "arxiv-2609.18182"},
+    {"from": "wfm", "rel": "contrasts", "to": "knowledge-graph", "source": "arxiv-2609.18182"},
+    {"from": "lab-graph", "rel": "should-teach", "to": "chronicle", "source": "arxiv-2609.20625"},
+    {"from": "lab-graph", "rel": "should-teach", "to": "vsl", "source": "arxiv-2609.20211"}
   ]
 }
