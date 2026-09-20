@@ -1,0 +1,15 @@
+{
+  "date": "2026-09-20",
+  "items": [
+    { "id": "arxiv-2609.20519", "kind": "paper", "url": "https://arxiv.org/abs/2609.20519" },
+    { "id": "github-nvlabs-sol-pi", "kind": "repo", "url": "https://github.com/NVlabs/SoL-Pi" },
+    { "id": "arxiv-2609.20455", "kind": "paper", "url": "https://arxiv.org/abs/2609.20455" },
+    { "id": "arxiv-2609.20211", "kind": "paper", "url": "https://arxiv.org/abs/2609.20211" },
+    { "id": "arxiv-2609.20625", "kind": "paper", "url": "https://arxiv.org/abs/2609.20625" },
+    { "id": "github-theagentplane-chronicle", "kind": "repo", "url": "https://github.com/theagentplane/chronicle" },
+    { "id": "arxiv-2609.18182", "kind": "paper", "url": "https://arxiv.org/abs/2609.18182" },
+    { "id": "x-sulaiman-wfm", "kind": "post", "url": "https://x.com/sulaiman_svesal/status/2101358742419677459" },
+    { "id": "arxiv-2609.20301", "kind": "paper", "url": "https://arxiv.org/abs/2609.20301" },
+    { "id": "github-eunomia-agentsight", "kind": "repo", "url": "https://github.com/eunomia-bpf/agentsight" }
+  ]
+}
