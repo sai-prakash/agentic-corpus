@@ -1,0 +1,15 @@
+{
+  "date": "2026-09-21",
+  "items": [
+    { "id": "arxiv-2609.21081", "kind": "paper", "url": "https://arxiv.org/abs/2609.21081" },
+    { "id": "github-adithyan-loopjacking", "kind": "repo", "url": "https://github.com/adithyan-ak/loopjacking" },
+    { "id": "arxiv-2609.21423", "kind": "paper", "url": "https://arxiv.org/abs/2609.21423" },
+    { "id": "arxiv-2609.22086", "kind": "paper", "url": "https://arxiv.org/abs/2609.22086" },
+    { "id": "arxiv-2609.21940", "kind": "paper", "url": "https://arxiv.org/abs/2609.21940" },
+    { "id": "arxiv-2609.21267", "kind": "paper", "url": "https://arxiv.org/abs/2609.21267" },
+    { "id": "blog-langchain-jev", "kind": "article", "url": "https://blog.langchain.com/jev-as-a-judge-for-agent-evals" },
+    { "id": "github-danielgshea-jev", "kind": "repo", "url": "https://github.com/danielgshea/jev-as-a-judge" },
+    { "id": "x-langchain-jev", "kind": "post", "url": "https://x.com/LangChain/status/2101454284927959080" },
+    { "id": "x-hazem-grab", "kind": "post", "url": "https://x.com/hazemomier/status/2101618043717570912" }
+  ]
+}
