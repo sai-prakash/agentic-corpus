@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-20",
+  "updated": "2026-09-21",
   "title": "Agentic corpus",
   "nodes": [
     {"id": "prompt-engineering", "type": "paradigm", "label": "Prompt engineering", "heat": 2},
@@ -36,7 +36,13 @@
     {"id": "skillaa", "type": "paper", "label": "SkillAA", "heat": 4},
     {"id": "vsl", "type": "paper", "label": "Verification-status laundering", "heat": 5},
     {"id": "chronicle", "type": "paper", "label": "Chronicle cut-point replay", "heat": 4},
-    {"id": "wfm", "type": "paper", "label": "WFM wiki graph", "heat": 4}
+    {"id": "wfm", "type": "paper", "label": "WFM wiki graph", "heat": 4},
+    {"id": "loopjacking", "type": "paper", "label": "Loopjacking", "heat": 5},
+    {"id": "dense", "type": "paper", "label": "DENSE shortcut trees", "heat": 4},
+    {"id": "designer-rsi", "type": "paper", "label": "Designer-RSI", "heat": 4},
+    {"id": "autoviewmem", "type": "paper", "label": "AutoViewMem", "heat": 3},
+    {"id": "prod-bench", "type": "paper", "label": "Production adaptive bench", "heat": 3},
+    {"id": "jev", "type": "tool", "label": "Jev System One judge", "heat": 3}
   ],
   "edges": [
     {"from": "prompt-engineering", "rel": "precedes", "to": "context-engineering", "source": "arxiv-2608.21156"},
@@ -90,6 +96,17 @@
     {"from": "wfm", "rel": "exemplifies", "to": "memory-graphs", "source": "arxiv-2609.18182"},
     {"from": "wfm", "rel": "contrasts", "to": "knowledge-graph", "source": "arxiv-2609.18182"},
     {"from": "lab-graph", "rel": "should-teach", "to": "chronicle", "source": "arxiv-2609.20625"},
-    {"from": "lab-graph", "rel": "should-teach", "to": "vsl", "source": "arxiv-2609.20211"}
+    {"from": "lab-graph", "rel": "should-teach", "to": "vsl", "source": "arxiv-2609.20211"},
+    {"from": "loopjacking", "rel": "exemplifies", "to": "authorization-laundering", "source": "arxiv-2609.21081"},
+    {"from": "loopjacking", "rel": "constrains", "to": "runtime-consequence-control", "source": "arxiv-2609.21081"},
+    {"from": "loopjacking", "rel": "constrains", "to": "agent-harness", "source": "github-adithyan-loopjacking"},
+    {"from": "lab-graph", "rel": "should-teach", "to": "loopjacking", "source": "arxiv-2609.21081"},
+    {"from": "dense", "rel": "exemplifies", "to": "harness-evolution", "source": "arxiv-2609.21423"},
+    {"from": "dense", "rel": "uses", "to": "evals-gates", "source": "arxiv-2609.21423"},
+    {"from": "designer-rsi", "rel": "exemplifies", "to": "skill-memory", "source": "arxiv-2609.22086"},
+    {"from": "designer-rsi", "rel": "exemplifies", "to": "harness-evolution", "source": "arxiv-2609.22086"},
+    {"from": "autoviewmem", "rel": "exemplifies", "to": "memory-lifecycle", "source": "arxiv-2609.21940"},
+    {"from": "prod-bench", "rel": "exemplifies", "to": "evals-gates", "source": "arxiv-2609.21267"},
+    {"from": "jev", "rel": "exemplifies", "to": "evals-gates", "source": "x-langchain-jev"}
   ]
 }
