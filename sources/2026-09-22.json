@@ -1,0 +1,15 @@
+{
+  "date": "2026-09-22",
+  "items": [
+    { "id": "arxiv-2609.21749", "kind": "paper", "url": "https://arxiv.org/abs/2609.21749" },
+    { "id": "github-ruisun7-graphskillevo", "kind": "repo", "url": "https://github.com/ruisun7/GraphSkillEvo" },
+    { "id": "arxiv-2609.21533", "kind": "paper", "url": "https://arxiv.org/abs/2609.21533" },
+    { "id": "arxiv-2609.21527", "kind": "paper", "url": "https://arxiv.org/abs/2609.21527" },
+    { "id": "arxiv-2609.22000", "kind": "paper", "url": "https://arxiv.org/abs/2609.22000" },
+    { "id": "github-qwenlm-recreationworld", "kind": "repo", "url": "https://github.com/QwenLM/RecreationWorld" },
+    { "id": "arxiv-2609.22068", "kind": "paper", "url": "https://arxiv.org/abs/2609.22068" },
+    { "id": "github-harnessrouter", "kind": "repo", "url": "https://github.com/HarnessRouter/harnessrouter" },
+    { "id": "x-akshay-harnessrouter", "kind": "post", "url": "https://x.com/akshay_pachaar/status/2101937960925139417" },
+    { "id": "x-softwaredoug-opencode-memory", "kind": "post", "url": "https://x.com/softwaredoug/status/2102102644462366844" }
+  ]
+}
