@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-21",
+  "updated": "2026-09-22",
   "title": "Agentic corpus",
   "nodes": [
     {"id": "prompt-engineering", "type": "paradigm", "label": "Prompt engineering", "heat": 2},
@@ -42,7 +42,13 @@
     {"id": "designer-rsi", "type": "paper", "label": "Designer-RSI", "heat": 4},
     {"id": "autoviewmem", "type": "paper", "label": "AutoViewMem", "heat": 3},
     {"id": "prod-bench", "type": "paper", "label": "Production adaptive bench", "heat": 3},
-    {"id": "jev", "type": "tool", "label": "Jev System One judge", "heat": 3}
+    {"id": "jev", "type": "tool", "label": "Jev System One judge", "heat": 3},
+    {"id": "graphskillevo", "type": "paper", "label": "GraphSkillEvo", "heat": 4},
+    {"id": "mace", "type": "paper", "label": "MACE memory co-evolution", "heat": 4},
+    {"id": "openmas-gcom", "type": "paper", "label": "OpenMAS-GCom", "heat": 4},
+    {"id": "recreationworld", "type": "paper", "label": "RecreationWorld", "heat": 5},
+    {"id": "codemidas", "type": "paper", "label": "CodeMidas", "heat": 4},
+    {"id": "harnessrouter", "type": "tool", "label": "HarnessRouter / UHP", "heat": 3}
   ],
   "edges": [
     {"from": "prompt-engineering", "rel": "precedes", "to": "context-engineering", "source": "arxiv-2608.21156"},
@@ -107,6 +113,22 @@
     {"from": "designer-rsi", "rel": "exemplifies", "to": "harness-evolution", "source": "arxiv-2609.22086"},
     {"from": "autoviewmem", "rel": "exemplifies", "to": "memory-lifecycle", "source": "arxiv-2609.21940"},
     {"from": "prod-bench", "rel": "exemplifies", "to": "evals-gates", "source": "arxiv-2609.21267"},
-    {"from": "jev", "rel": "exemplifies", "to": "evals-gates", "source": "x-langchain-jev"}
+    {"from": "jev", "rel": "exemplifies", "to": "evals-gates", "source": "x-langchain-jev"},
+    {"from": "graphskillevo", "rel": "exemplifies", "to": "skill-memory", "source": "arxiv-2609.21749"},
+    {"from": "graphskillevo", "rel": "exemplifies", "to": "graph-engineering", "source": "arxiv-2609.21749"},
+    {"from": "graphskillevo", "rel": "exemplifies", "to": "harness-evolution", "source": "github-ruisun7-graphskillevo"},
+    {"from": "graphskillevo", "rel": "uses", "to": "evals-gates", "source": "arxiv-2609.21749"},
+    {"from": "mace", "rel": "exemplifies", "to": "memory-graphs", "source": "arxiv-2609.21533"},
+    {"from": "mace", "rel": "exemplifies", "to": "memory-lifecycle", "source": "arxiv-2609.21533"},
+    {"from": "openmas-gcom", "rel": "exemplifies", "to": "evals-gates", "source": "arxiv-2609.21527"},
+    {"from": "openmas-gcom", "rel": "constrains", "to": "graph-engineering", "source": "arxiv-2609.21527"},
+    {"from": "recreationworld", "rel": "exemplifies", "to": "agent-harness", "source": "arxiv-2609.22000"},
+    {"from": "recreationworld", "rel": "uses", "to": "evals-gates", "source": "github-qwenlm-recreationworld"},
+    {"from": "codemidas", "rel": "exemplifies", "to": "harness-evolution", "source": "arxiv-2609.22068"},
+    {"from": "codemidas", "rel": "uses", "to": "evals-gates", "source": "arxiv-2609.22068"},
+    {"from": "harnessrouter", "rel": "exemplifies", "to": "agent-harness", "source": "github-harnessrouter"},
+    {"from": "harnessrouter", "rel": "contrasts", "to": "mcp", "source": "x-akshay-harnessrouter"},
+    {"from": "lab-graph", "rel": "should-teach", "to": "graphskillevo", "source": "arxiv-2609.21749"},
+    {"from": "lab-graph", "rel": "should-teach", "to": "recreationworld", "source": "arxiv-2609.22000"}
   ]
 }
