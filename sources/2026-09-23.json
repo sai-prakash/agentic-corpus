@@ -1,0 +1,16 @@
+{
+  "date": "2026-09-23",
+  "items": [
+    { "id": "arxiv-2609.24972", "kind": "paper", "url": "https://arxiv.org/abs/2609.24972" },
+    { "id": "github-google-research-rrsi", "kind": "repo", "url": "https://github.com/google-research/rrsi" },
+    { "id": "arxiv-2609.24974", "kind": "paper", "url": "https://arxiv.org/abs/2609.24974" },
+    { "id": "arxiv-2609.24130", "kind": "paper", "url": "https://arxiv.org/abs/2609.24130" },
+    { "id": "arxiv-2609.26760", "kind": "paper", "url": "https://arxiv.org/abs/2609.26760" },
+    { "id": "arxiv-2609.26779", "kind": "paper", "url": "https://arxiv.org/abs/2609.26779" },
+    { "id": "arxiv-2609.24971", "kind": "paper", "url": "https://arxiv.org/abs/2609.24971" },
+    { "id": "github-mem0ai-dolphinbench", "kind": "repo", "url": "https://github.com/mem0ai/dolphinbench" },
+    { "id": "arxiv-2609.26457", "kind": "paper", "url": "https://arxiv.org/abs/2609.26457" },
+    { "id": "x-vigram-rrsi", "kind": "post", "url": "https://x.com/vigram_void/status/2102580039305089529" },
+    { "id": "x-arkyyang-selfheal", "kind": "post", "url": "https://x.com/arkyyang/status/2102388933162414272" }
+  ]
+}
