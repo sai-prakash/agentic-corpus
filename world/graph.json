@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-22",
+  "updated": "2026-09-23",
   "title": "Agentic corpus",
   "nodes": [
     {"id": "prompt-engineering", "type": "paradigm", "label": "Prompt engineering", "heat": 2},
@@ -48,7 +48,16 @@
     {"id": "openmas-gcom", "type": "paper", "label": "OpenMAS-GCom", "heat": 4},
     {"id": "recreationworld", "type": "paper", "label": "RecreationWorld", "heat": 5},
     {"id": "codemidas", "type": "paper", "label": "CodeMidas", "heat": 4},
-    {"id": "harnessrouter", "type": "tool", "label": "HarnessRouter / UHP", "heat": 3}
+    {"id": "harnessrouter", "type": "tool", "label": "HarnessRouter / UHP", "heat": 3},
+    {"id": "harness-distillation", "type": "method", "label": "Harness distillation", "heat": 5},
+    {"id": "recoverable-harness", "type": "method", "label": "Recoverable harness", "heat": 5},
+    {"id": "rrsi", "type": "paper", "label": "RRSI 2609.24972", "heat": 5},
+    {"id": "harness-zero", "type": "paper", "label": "Harness-Zero 2609.24974", "heat": 5},
+    {"id": "self-healing-harness", "type": "paper", "label": "Self-Healing Harness", "heat": 5},
+    {"id": "growing-harness", "type": "paper", "label": "Growing Harness 2609.26760", "heat": 5},
+    {"id": "cliffcompaction", "type": "paper", "label": "CliffCompaction", "heat": 4},
+    {"id": "dolphinbench", "type": "paper", "label": "DolphinBench", "heat": 4},
+    {"id": "aide2", "type": "paper", "label": "AIDE\u00b2 research RSI", "heat": 4}
   ],
   "edges": [
     {"from": "prompt-engineering", "rel": "precedes", "to": "context-engineering", "source": "arxiv-2608.21156"},
@@ -129,6 +138,28 @@
     {"from": "harnessrouter", "rel": "exemplifies", "to": "agent-harness", "source": "github-harnessrouter"},
     {"from": "harnessrouter", "rel": "contrasts", "to": "mcp", "source": "x-akshay-harnessrouter"},
     {"from": "lab-graph", "rel": "should-teach", "to": "graphskillevo", "source": "arxiv-2609.21749"},
-    {"from": "lab-graph", "rel": "should-teach", "to": "recreationworld", "source": "arxiv-2609.22000"}
+    {"from": "lab-graph", "rel": "should-teach", "to": "recreationworld", "source": "arxiv-2609.22000"},
+    {"from": "rrsi", "rel": "exemplifies", "to": "harness-evolution", "source": "arxiv-2609.24972"},
+    {"from": "rrsi", "rel": "constrains", "to": "evals-gates", "source": "github-google-research-rrsi"},
+    {"from": "rrsi", "rel": "constrains", "to": "agent-harness", "source": "arxiv-2609.24972"},
+    {"from": "harness-zero", "rel": "exemplifies", "to": "harness-distillation", "source": "arxiv-2609.24974"},
+    {"from": "harness-zero", "rel": "exemplifies", "to": "agent-harness", "source": "arxiv-2609.24974"},
+    {"from": "harness-zero", "rel": "contrasts", "to": "harnessrouter", "source": "arxiv-2609.24974"},
+    {"from": "self-healing-harness", "rel": "exemplifies", "to": "recoverable-harness", "source": "arxiv-2609.24130"},
+    {"from": "self-healing-harness", "rel": "constrains", "to": "evals-gates", "source": "arxiv-2609.24130"},
+    {"from": "self-healing-harness", "rel": "constrains", "to": "harness-evolution", "source": "x-arkyyang-selfheal"},
+    {"from": "growing-harness", "rel": "exemplifies", "to": "agent-harness", "source": "arxiv-2609.26760"},
+    {"from": "growing-harness", "rel": "exemplifies", "to": "harness-evolution", "source": "arxiv-2609.26760"},
+    {"from": "growing-harness", "rel": "exemplifies", "to": "harness-distillation", "source": "arxiv-2609.26760"},
+    {"from": "cliffcompaction", "rel": "exemplifies", "to": "agent-harness", "source": "arxiv-2609.26779"},
+    {"from": "cliffcompaction", "rel": "constrains", "to": "memory-lifecycle", "source": "arxiv-2609.26779"},
+    {"from": "cliffcompaction", "rel": "contrasts", "to": "coding-harness-study", "source": "arxiv-2609.26779"},
+    {"from": "dolphinbench", "rel": "exemplifies", "to": "memory-lifecycle", "source": "arxiv-2609.24971"},
+    {"from": "dolphinbench", "rel": "uses", "to": "evals-gates", "source": "github-mem0ai-dolphinbench"},
+    {"from": "aide2", "rel": "exemplifies", "to": "harness-evolution", "source": "arxiv-2609.26457"},
+    {"from": "aide2", "rel": "uses", "to": "evals-gates", "source": "arxiv-2609.26457"},
+    {"from": "harness-distillation", "rel": "constrains", "to": "agent-harness", "source": "arxiv-2609.24974"},
+    {"from": "lab-graph", "rel": "should-teach", "to": "rrsi", "source": "arxiv-2609.24972"},
+    {"from": "lab-graph", "rel": "should-teach", "to": "self-healing-harness", "source": "arxiv-2609.24130"}
   ]
 }
