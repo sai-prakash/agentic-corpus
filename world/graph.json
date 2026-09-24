@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-23",
+  "updated": "2026-09-24",
   "title": "Agentic corpus",
   "nodes": [
     {"id": "prompt-engineering", "type": "paradigm", "label": "Prompt engineering", "heat": 2},
@@ -57,7 +57,12 @@
     {"id": "growing-harness", "type": "paper", "label": "Growing Harness 2609.26760", "heat": 5},
     {"id": "cliffcompaction", "type": "paper", "label": "CliffCompaction", "heat": 4},
     {"id": "dolphinbench", "type": "paper", "label": "DolphinBench", "heat": 4},
-    {"id": "aide2", "type": "paper", "label": "AIDE\u00b2 research RSI", "heat": 4}
+    {"id": "aide2", "type": "paper", "label": "AIDE\u00b2 research RSI", "heat": 4},
+    {"id": "agensh", "type": "paper", "label": "Agensh 1024-agent org", "heat": 5},
+    {"id": "provenance-mem", "type": "paper", "label": "Execution provenance memory", "heat": 4},
+    {"id": "magic", "type": "paper", "label": "MAGIC mixed-granularity graphs", "heat": 4},
+    {"id": "akasicmem", "type": "paper", "label": "AkasicMEM governed memory", "heat": 4},
+    {"id": "reef", "type": "tool", "label": "Reef /reefine", "heat": 3}
   ],
   "edges": [
     {"from": "prompt-engineering", "rel": "precedes", "to": "context-engineering", "source": "arxiv-2608.21156"},
@@ -160,6 +165,23 @@
     {"from": "aide2", "rel": "uses", "to": "evals-gates", "source": "arxiv-2609.26457"},
     {"from": "harness-distillation", "rel": "constrains", "to": "agent-harness", "source": "arxiv-2609.24974"},
     {"from": "lab-graph", "rel": "should-teach", "to": "rrsi", "source": "arxiv-2609.24972"},
-    {"from": "lab-graph", "rel": "should-teach", "to": "self-healing-harness", "source": "arxiv-2609.24130"}
+    {"from": "lab-graph", "rel": "should-teach", "to": "self-healing-harness", "source": "arxiv-2609.24130"},
+    {"from": "agensh", "rel": "exemplifies", "to": "agent-harness", "source": "arxiv-2609.26781"},
+    {"from": "agensh", "rel": "exemplifies", "to": "graph-engineering", "source": "web-aka-agensh"},
+    {"from": "agensh", "rel": "constrains", "to": "evals-gates", "source": "arxiv-2609.26781"},
+    {"from": "agensh", "rel": "contrasts", "to": "openmas-gcom", "source": "x-tanguy-agensh-kill"},
+    {"from": "provenance-mem", "rel": "exemplifies", "to": "memory-graphs", "source": "arxiv-2609.25913"},
+    {"from": "provenance-mem", "rel": "uses", "to": "evals-gates", "source": "github-xiaoqi-graphmemory"},
+    {"from": "provenance-mem", "rel": "contrasts", "to": "knowledge-graph", "source": "arxiv-2609.25913"},
+    {"from": "provenance-mem", "rel": "constrains", "to": "graphecho", "source": "arxiv-2609.25913"},
+    {"from": "magic", "rel": "exemplifies", "to": "graph-engineering", "source": "arxiv-2609.26667"},
+    {"from": "magic", "rel": "exemplifies", "to": "harness-evolution", "source": "arxiv-2609.26667"},
+    {"from": "magic", "rel": "uses", "to": "evals-gates", "source": "arxiv-2609.26667"},
+    {"from": "akasicmem", "rel": "exemplifies", "to": "memory-lifecycle", "source": "arxiv-2609.25563"},
+    {"from": "akasicmem", "rel": "exemplifies", "to": "authorization-laundering", "source": "arxiv-2609.25563"},
+    {"from": "reef", "rel": "exemplifies", "to": "harness-evolution", "source": "x-hanzheng-reefine"},
+    {"from": "reef", "rel": "constrains", "to": "recoverable-harness", "source": "x-pliang-reef"},
+    {"from": "lab-graph", "rel": "should-teach", "to": "agensh", "source": "arxiv-2609.26781"},
+    {"from": "lab-graph", "rel": "should-teach", "to": "provenance-mem", "source": "github-xiaoqi-graphmemory"}
   ]
 }
