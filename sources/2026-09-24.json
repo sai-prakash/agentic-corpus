@@ -1,0 +1,17 @@
+{
+  "date": "2026-09-24",
+  "items": [
+    { "id": "arxiv-2609.26781", "kind": "paper", "url": "https://arxiv.org/abs/2609.26781" },
+    { "id": "web-aka-agensh", "kind": "page", "url": "https://aka.ms/Agensh" },
+    { "id": "arxiv-2609.25913", "kind": "paper", "url": "https://arxiv.org/abs/2609.25913" },
+    { "id": "github-xiaoqi-graphmemory", "kind": "repo", "url": "https://github.com/xiaoqi-7/GraphMemory" },
+    { "id": "arxiv-2609.26667", "kind": "paper", "url": "https://arxiv.org/abs/2609.26667" },
+    { "id": "arxiv-2609.25563", "kind": "paper", "url": "https://arxiv.org/abs/2609.25563" },
+    { "id": "x-hanzheng-reefine", "kind": "post", "url": "https://x.com/hanzheng_7/status/2102816970047377605" },
+    { "id": "x-pliang-reef", "kind": "post", "url": "https://x.com/pliang279/status/2102883114519351322" },
+    { "id": "x-ericzakariasson-harness", "kind": "post", "url": "https://x.com/ericzakariasson/status/2102853511637774551" },
+    { "id": "x-tanguy-agensh-kill", "kind": "post", "url": "https://x.com/Tanguyvbc/status/2102923900556570957" },
+    { "id": "x-fly51fly-agensh", "kind": "post", "url": "https://x.com/fly51fly/status/2102870799191613755" },
+    { "id": "x-claudeskills-skills-mcp", "kind": "post", "url": "https://x.com/claudeskills101/status/2102412683056410631" }
+  ]
+}
