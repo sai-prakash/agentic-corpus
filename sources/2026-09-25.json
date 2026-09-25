@@ -1,0 +1,17 @@
+{
+  "date": "2026-09-25",
+  "items": [
+    { "id": "arxiv-2609.27334", "kind": "paper", "url": "https://arxiv.org/abs/2609.27334" },
+    { "id": "arxiv-2609.27279", "kind": "paper", "url": "https://arxiv.org/abs/2609.27279" },
+    { "id": "github-ramonmeng-ensimem", "kind": "repo", "url": "https://github.com/RamonMeng/EnSIMem" },
+    { "id": "arxiv-2609.27298", "kind": "paper", "url": "https://arxiv.org/abs/2609.27298" },
+    { "id": "arxiv-2609.27276", "kind": "paper", "url": "https://arxiv.org/abs/2609.27276" },
+    { "id": "arxiv-2609.27067", "kind": "paper", "url": "https://arxiv.org/abs/2609.27067" },
+    { "id": "arxiv-2609.26891", "kind": "paper", "url": "https://arxiv.org/abs/2609.26891" },
+    { "id": "github-jaz-lang-jaz", "kind": "repo", "url": "https://github.com/jaz-lang/jaz" },
+    { "id": "github-jaz-lang-jaz-evals", "kind": "repo", "url": "https://github.com/jaz-lang/jaz-evals" },
+    { "id": "arxiv-2609.27612", "kind": "paper", "url": "https://arxiv.org/abs/2609.27612" },
+    { "id": "x-omarsar-harness-zero", "kind": "post", "url": "https://x.com/omarsar0/status/2103095360239636666" },
+    { "id": "x-bnjmn-marie-qwen-harness", "kind": "post", "url": "https://x.com/bnjmn_marie/status/2103295348454404123" }
+  ]
+}
