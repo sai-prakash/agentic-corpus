@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-24",
+  "updated": "2026-09-25",
   "title": "Agentic corpus",
   "nodes": [
     {"id": "prompt-engineering", "type": "paradigm", "label": "Prompt engineering", "heat": 2},
@@ -62,7 +62,14 @@
     {"id": "provenance-mem", "type": "paper", "label": "Execution provenance memory", "heat": 4},
     {"id": "magic", "type": "paper", "label": "MAGIC mixed-granularity graphs", "heat": 4},
     {"id": "akasicmem", "type": "paper", "label": "AkasicMEM governed memory", "heat": 4},
-    {"id": "reef", "type": "tool", "label": "Reef /reefine", "heat": 3}
+    {"id": "reef", "type": "tool", "label": "Reef /reefine", "heat": 3},
+    {"id": "read-time-memory", "type": "method", "label": "Read-time memory", "heat": 5},
+    {"id": "jitmem", "type": "paper", "label": "JitMem 2609.27334", "heat": 5},
+    {"id": "ensimem", "type": "paper", "label": "EnSIMem", "heat": 4},
+    {"id": "statecomp", "type": "paper", "label": "StateComp", "heat": 4},
+    {"id": "chipmem", "type": "paper", "label": "ChipMEM", "heat": 4},
+    {"id": "jaz", "type": "paper", "label": "JAZ harness-as-language", "heat": 5},
+    {"id": "regenharness", "type": "paper", "label": "RegenHarness", "heat": 3}
   ],
   "edges": [
     {"from": "prompt-engineering", "rel": "precedes", "to": "context-engineering", "source": "arxiv-2608.21156"},
@@ -182,6 +189,27 @@
     {"from": "reef", "rel": "exemplifies", "to": "harness-evolution", "source": "x-hanzheng-reefine"},
     {"from": "reef", "rel": "constrains", "to": "recoverable-harness", "source": "x-pliang-reef"},
     {"from": "lab-graph", "rel": "should-teach", "to": "agensh", "source": "arxiv-2609.26781"},
-    {"from": "lab-graph", "rel": "should-teach", "to": "provenance-mem", "source": "github-xiaoqi-graphmemory"}
+    {"from": "lab-graph", "rel": "should-teach", "to": "provenance-mem", "source": "github-xiaoqi-graphmemory"},
+    {"from": "read-time-memory", "rel": "constrains", "to": "memory-lifecycle", "source": "arxiv-2609.27334"},
+    {"from": "read-time-memory", "rel": "contrasts", "to": "skill-memory", "source": "arxiv-2609.27334"},
+    {"from": "jitmem", "rel": "exemplifies", "to": "read-time-memory", "source": "arxiv-2609.27334"},
+    {"from": "jitmem", "rel": "constrains", "to": "memory-lifecycle", "source": "arxiv-2609.27334"},
+    {"from": "ensimem", "rel": "exemplifies", "to": "memory-graphs", "source": "arxiv-2609.27279"},
+    {"from": "ensimem", "rel": "exemplifies", "to": "read-time-memory", "source": "github-ramonmeng-ensimem"},
+    {"from": "ensimem", "rel": "contrasts", "to": "knowledge-graph", "source": "arxiv-2609.27279"},
+    {"from": "statecomp", "rel": "exemplifies", "to": "memory-lifecycle", "source": "arxiv-2609.27298"},
+    {"from": "statecomp", "rel": "constrains", "to": "agent-harness", "source": "arxiv-2609.27298"},
+    {"from": "statecomp", "rel": "contrasts", "to": "cliffcompaction", "source": "arxiv-2609.27298"},
+    {"from": "chipmem", "rel": "exemplifies", "to": "skill-memory", "source": "arxiv-2609.27067"},
+    {"from": "chipmem", "rel": "constrains", "to": "memory-lifecycle", "source": "arxiv-2609.27067"},
+    {"from": "chipmem", "rel": "uses", "to": "evals-gates", "source": "arxiv-2609.27067"},
+    {"from": "jaz", "rel": "exemplifies", "to": "agent-harness", "source": "arxiv-2609.26891"},
+    {"from": "jaz", "rel": "contrasts", "to": "growing-harness", "source": "github-jaz-lang-jaz"},
+    {"from": "jaz", "rel": "contrasts", "to": "harness-zero", "source": "arxiv-2609.26891"},
+    {"from": "regenharness", "rel": "exemplifies", "to": "recoverable-harness", "source": "arxiv-2609.27612"},
+    {"from": "regenharness", "rel": "exemplifies", "to": "harness-evolution", "source": "arxiv-2609.27612"},
+    {"from": "regenharness", "rel": "constrains", "to": "evals-gates", "source": "arxiv-2609.27612"},
+    {"from": "lab-graph", "rel": "should-teach", "to": "jitmem", "source": "arxiv-2609.27334"},
+    {"from": "lab-graph", "rel": "should-teach", "to": "jaz", "source": "github-jaz-lang-jaz"}
   ]
 }
