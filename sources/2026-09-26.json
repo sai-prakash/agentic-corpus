@@ -1,0 +1,17 @@
+{
+  "date": "2026-09-26",
+  "items": [
+    { "id": "arxiv-2609.28586", "kind": "paper", "url": "https://arxiv.org/abs/2609.28586" },
+    { "id": "arxiv-2609.29144", "kind": "paper", "url": "https://arxiv.org/abs/2609.29144" },
+    { "id": "arxiv-2609.29545", "kind": "paper", "url": "https://arxiv.org/abs/2609.29545" },
+    { "id": "arxiv-2609.28003", "kind": "paper", "url": "https://arxiv.org/abs/2609.28003" },
+    { "id": "arxiv-2609.28693", "kind": "paper", "url": "https://arxiv.org/abs/2609.28693" },
+    { "id": "arxiv-2609.29735", "kind": "paper", "url": "https://arxiv.org/abs/2609.29735" },
+    { "id": "github-huzhou-c3m", "kind": "repo", "url": "https://github.com/HuzhouNLP/C3M" },
+    { "id": "arxiv-2609.29154", "kind": "paper", "url": "https://arxiv.org/abs/2609.29154" },
+    { "id": "arxiv-2609.30266", "kind": "paper", "url": "https://arxiv.org/abs/2609.30266" },
+    { "id": "arxiv-2609.30186", "kind": "paper", "url": "https://arxiv.org/abs/2609.30186" },
+    { "id": "x-areai51-harness-goodhart", "kind": "post", "url": "https://x.com/Areai51/status/2103164112037388317" },
+    { "id": "x-pamelafox-mcp-skills", "kind": "post", "url": "https://x.com/pamelafox/status/2103238770179100778" }
+  ]
+}
