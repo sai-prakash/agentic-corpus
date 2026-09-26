@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-25",
+  "updated": "2026-09-26",
   "title": "Agentic corpus",
   "nodes": [
     {"id": "prompt-engineering", "type": "paradigm", "label": "Prompt engineering", "heat": 2},
@@ -69,7 +69,15 @@
     {"id": "statecomp", "type": "paper", "label": "StateComp", "heat": 4},
     {"id": "chipmem", "type": "paper", "label": "ChipMEM", "heat": 4},
     {"id": "jaz", "type": "paper", "label": "JAZ harness-as-language", "heat": 5},
-    {"id": "regenharness", "type": "paper", "label": "RegenHarness", "heat": 3}
+    {"id": "regenharness", "type": "paper", "label": "RegenHarness", "heat": 3},
+    {"id": "aal", "type": "paper", "label": "Approval laundering", "heat": 5},
+    {"id": "scoped-orc", "type": "paper", "label": "Scope-matched memory", "heat": 5},
+    {"id": "errand", "type": "paper", "label": "ERRAND priced revalidation", "heat": 5},
+    {"id": "fresh", "type": "paper", "label": "FRESH failure graph", "heat": 4},
+    {"id": "skilder", "type": "paper", "label": "Skilder role-scoped skills", "heat": 4},
+    {"id": "c3m", "type": "paper", "label": "C3M multimodal memory", "heat": 4},
+    {"id": "trace-tamper", "type": "paper", "label": "Trace tampering", "heat": 5},
+    {"id": "skillpivot", "type": "paper", "label": "SkillPivot deviation skills", "heat": 4}
   ],
   "edges": [
     {"from": "prompt-engineering", "rel": "precedes", "to": "context-engineering", "source": "arxiv-2608.21156"},
@@ -210,6 +218,30 @@
     {"from": "regenharness", "rel": "exemplifies", "to": "harness-evolution", "source": "arxiv-2609.27612"},
     {"from": "regenharness", "rel": "constrains", "to": "evals-gates", "source": "arxiv-2609.27612"},
     {"from": "lab-graph", "rel": "should-teach", "to": "jitmem", "source": "arxiv-2609.27334"},
-    {"from": "lab-graph", "rel": "should-teach", "to": "jaz", "source": "github-jaz-lang-jaz"}
+    {"from": "lab-graph", "rel": "should-teach", "to": "jaz", "source": "github-jaz-lang-jaz"},
+    {"from": "aal", "rel": "exemplifies", "to": "authorization-laundering", "source": "arxiv-2609.28586"},
+    {"from": "aal", "rel": "constrains", "to": "evals-gates", "source": "arxiv-2609.28586"},
+    {"from": "aal", "rel": "constrains", "to": "mcp", "source": "arxiv-2609.28586"},
+    {"from": "aal", "rel": "constrains", "to": "agent-harness", "source": "arxiv-2609.28586"},
+    {"from": "scoped-orc", "rel": "exemplifies", "to": "memory-lifecycle", "source": "arxiv-2609.29144"},
+    {"from": "scoped-orc", "rel": "constrains", "to": "skill-memory", "source": "arxiv-2609.29144"},
+    {"from": "scoped-orc", "rel": "uses", "to": "evals-gates", "source": "arxiv-2609.29144"},
+    {"from": "errand", "rel": "exemplifies", "to": "memory-lifecycle", "source": "arxiv-2609.29545"},
+    {"from": "errand", "rel": "constrains", "to": "agent-harness", "source": "arxiv-2609.29545"},
+    {"from": "fresh", "rel": "exemplifies", "to": "memory-graphs", "source": "arxiv-2609.28003"},
+    {"from": "fresh", "rel": "constrains", "to": "evals-gates", "source": "arxiv-2609.28003"},
+    {"from": "fresh", "rel": "uses", "to": "agent-harness", "source": "arxiv-2609.28003"},
+    {"from": "skilder", "rel": "exemplifies", "to": "skill-memory", "source": "arxiv-2609.28693"},
+    {"from": "skilder", "rel": "constrains", "to": "mcp", "source": "arxiv-2609.28693"},
+    {"from": "skilder", "rel": "exemplifies", "to": "compositional-policy", "source": "arxiv-2609.28693"},
+    {"from": "c3m", "rel": "exemplifies", "to": "memory-graphs", "source": "arxiv-2609.29735"},
+    {"from": "c3m", "rel": "exemplifies", "to": "memory-lifecycle", "source": "github-huzhou-c3m"},
+    {"from": "trace-tamper", "rel": "constrains", "to": "recoverable-harness", "source": "arxiv-2609.30266"},
+    {"from": "trace-tamper", "rel": "constrains", "to": "agent-harness", "source": "arxiv-2609.30266"},
+    {"from": "trace-tamper", "rel": "constrains", "to": "evals-gates", "source": "arxiv-2609.30266"},
+    {"from": "skillpivot", "rel": "exemplifies", "to": "skill-memory", "source": "arxiv-2609.29154"},
+    {"from": "skillpivot", "rel": "exemplifies", "to": "harness-evolution", "source": "arxiv-2609.29154"},
+    {"from": "lab-graph", "rel": "should-teach", "to": "aal", "source": "arxiv-2609.28586"},
+    {"from": "lab-graph", "rel": "should-teach", "to": "scoped-orc", "source": "arxiv-2609.29144"}
   ]
 }
