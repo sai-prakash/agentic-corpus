@@ -1,0 +1,16 @@
+{
+  "date": "2026-09-27",
+  "items": [
+    { "id": "arxiv-2609.30123", "kind": "paper", "url": "https://arxiv.org/abs/2609.30123" },
+    { "id": "arxiv-2609.29875", "kind": "paper", "url": "https://arxiv.org/abs/2609.29875" },
+    { "id": "arxiv-2609.29921", "kind": "paper", "url": "https://arxiv.org/abs/2609.29921" },
+    { "id": "arxiv-2609.29543", "kind": "paper", "url": "https://arxiv.org/abs/2609.29543" },
+    { "id": "arxiv-2609.28919", "kind": "paper", "url": "https://arxiv.org/abs/2609.28919" },
+    { "id": "arxiv-2609.29454", "kind": "paper", "url": "https://arxiv.org/abs/2609.29454" },
+    { "id": "arxiv-2609.30186", "kind": "paper", "url": "https://arxiv.org/abs/2609.30186" },
+    { "id": "arxiv-2609.30137", "kind": "paper", "url": "https://arxiv.org/abs/2609.30137" },
+    { "id": "x-claudedevs-plugins", "kind": "post", "url": "https://x.com/ClaudeDevs/status/2103577007938228300" },
+    { "id": "web-claude-plugins", "kind": "web", "url": "https://claude.com/blog/build-plugins-for-claude" },
+    { "id": "x-gill-coding-harness", "kind": "post", "url": "https://x.com/gurtej__gill_/status/2103747422610735368" }
+  ]
+}
