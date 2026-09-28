@@ -1,0 +1,17 @@
+{
+  "date": "2026-09-28",
+  "items": [
+    { "id": "arxiv-2609.30967", "kind": "paper", "url": "https://arxiv.org/abs/2609.30967" },
+    { "id": "arxiv-2609.31076", "kind": "paper", "url": "https://arxiv.org/abs/2609.31076" },
+    { "id": "arxiv-2609.31301", "kind": "paper", "url": "https://arxiv.org/abs/2609.31301" },
+    { "id": "arxiv-2609.30725", "kind": "paper", "url": "https://arxiv.org/abs/2609.30725" },
+    { "id": "arxiv-2609.30861", "kind": "paper", "url": "https://arxiv.org/abs/2609.30861" },
+    { "id": "arxiv-2609.30471", "kind": "paper", "url": "https://arxiv.org/abs/2609.30471" },
+    { "id": "arxiv-2609.30328", "kind": "paper", "url": "https://arxiv.org/abs/2609.30328" },
+    { "id": "arxiv-2609.31430", "kind": "paper", "url": "https://arxiv.org/abs/2609.31430" },
+    { "id": "arxiv-2609.30558", "kind": "paper", "url": "https://arxiv.org/abs/2609.30558" },
+    { "id": "github-haw-ai-i-roundtrip", "kind": "repo", "url": "https://github.com/haw-ai-i/roundtrip" },
+    { "id": "x-omarsar0-agensh", "kind": "post", "url": "https://x.com/omarsar0/status/2104377054829613473" },
+    { "id": "x-petergyang-grok-bot", "kind": "post", "url": "https://x.com/petergyang/status/2104213287353356531" }
+  ]
+}
