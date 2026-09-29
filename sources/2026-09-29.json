@@ -1,0 +1,15 @@
+{
+  "date": "2026-09-29",
+  "items": [
+    { "id": "arxiv-2609.31590", "kind": "paper", "url": "https://arxiv.org/abs/2609.31590" },
+    { "id": "github-openagents-org-agentworld", "kind": "repo", "url": "https://github.com/openagents-org/agentworld" },
+    { "id": "arxiv-2609.31422", "kind": "paper", "url": "https://arxiv.org/abs/2609.31422" },
+    { "id": "arxiv-2609.26760", "kind": "paper", "url": "https://arxiv.org/abs/2609.26760" },
+    { "id": "arxiv-2609.31047", "kind": "paper", "url": "https://arxiv.org/abs/2609.31047" },
+    { "id": "arxiv-2609.31563", "kind": "paper", "url": "https://arxiv.org/abs/2609.31563" },
+    { "id": "x-iwashi86-mcp", "kind": "post", "url": "https://x.com/iwashi86/status/2103982958524739626" },
+    { "id": "x-0xjmori-harness", "kind": "post", "url": "https://x.com/0xjmori/status/2104192305146032271" },
+    { "id": "x-doodlestein-dsr", "kind": "post", "url": "https://x.com/doodlestein/status/2104745145966920041" },
+    { "id": "web-agentworld-io", "kind": "page", "url": "https://agentworld.io" }
+  ]
+}
