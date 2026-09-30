@@ -1,0 +1,17 @@
+{
+  "date": "2026-09-30",
+  "items": [
+    { "id": "arxiv-2609.33517", "kind": "paper", "url": "https://arxiv.org/abs/2609.33517" },
+    { "id": "github-xiong-wenjun-trace", "kind": "repo", "url": "https://github.com/xiong-wenjun/TRACE" },
+    { "id": "arxiv-2609.33439", "kind": "paper", "url": "https://arxiv.org/abs/2609.33439" },
+    { "id": "github-evermind-ai-raven", "kind": "repo", "url": "https://github.com/EverMind-AI/Raven" },
+    { "id": "web-raven-evermind", "kind": "page", "url": "https://raven.evermind.ai/" },
+    { "id": "arxiv-2609.33123", "kind": "paper", "url": "https://arxiv.org/abs/2609.33123" },
+    { "id": "arxiv-2609.34633", "kind": "paper", "url": "https://arxiv.org/abs/2609.34633" },
+    { "id": "arxiv-2609.35501", "kind": "paper", "url": "https://arxiv.org/abs/2609.35501" },
+    { "id": "arxiv-2609.35182", "kind": "paper", "url": "https://arxiv.org/abs/2609.35182" },
+    { "id": "x-mxstbr-mcp-events", "kind": "post", "url": "https://x.com/mxstbr/status/2105091392011948221" },
+    { "id": "web-manus-flex", "kind": "page", "url": "https://manus.im/blog/introducing-manus-flex" },
+    { "id": "x-trq212-latent", "kind": "post", "url": "https://x.com/trq212/status/2104983034152063339" }
+  ]
+}
