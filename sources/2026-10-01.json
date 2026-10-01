@@ -1,0 +1,17 @@
+{
+  "date": "2026-10-01",
+  "items": [
+    { "id": "arxiv-2609.37834", "kind": "paper", "url": "https://arxiv.org/abs/2609.37834" },
+    { "id": "arxiv-2609.37082", "kind": "paper", "url": "https://arxiv.org/abs/2609.37082" },
+    { "id": "github-bytedance-traverse", "kind": "repo", "url": "https://github.com/ByteDance-BandAI/Traverse" },
+    { "id": "hf-bytedance-traverse-autogen", "kind": "page", "url": "https://huggingface.co/datasets/ByteDance-BandAI/Traverse-AutoGen" },
+    { "id": "arxiv-2609.36556", "kind": "paper", "url": "https://arxiv.org/abs/2609.36556" },
+    { "id": "hf-maadbench-full", "kind": "page", "url": "https://huggingface.co/datasets/hww123/MAADBench-full" },
+    { "id": "arxiv-2609.37226", "kind": "paper", "url": "https://arxiv.org/abs/2609.37226" },
+    { "id": "arxiv-2609.37658", "kind": "paper", "url": "https://arxiv.org/abs/2609.37658" },
+    { "id": "x-kong-context-mesh", "kind": "post", "url": "https://x.com/kong/status/2105406105585127539" },
+    { "id": "web-kong-context-mesh", "kind": "page", "url": "https://developer.konghq.com/context-mesh/" },
+    { "id": "x-talirezun-capture", "kind": "post", "url": "https://x.com/talirezun/status/2104851195374313772" },
+    { "id": "x-visionaryxai-mcp-events", "kind": "post", "url": "https://x.com/VisionaryxAI/status/2105463500177080399" }
+  ]
+}
