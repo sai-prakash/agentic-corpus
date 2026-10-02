@@ -1,0 +1,17 @@
+{
+  "date": "2026-10-02",
+  "items": [
+    { "id": "arxiv-2609.40330", "kind": "paper", "url": "https://arxiv.org/abs/2609.40330" },
+    { "id": "arxiv-2609.39982", "kind": "paper", "url": "https://arxiv.org/abs/2609.39982" },
+    { "id": "web-mid-harness", "kind": "page", "url": "https://byungkwanlee.github.io/MidHarness-page/" },
+    { "id": "arxiv-2609.40169", "kind": "paper", "url": "https://arxiv.org/abs/2609.40169" },
+    { "id": "arxiv-2609.40303", "kind": "paper", "url": "https://arxiv.org/abs/2609.40303" },
+    { "id": "arxiv-2609.38349", "kind": "paper", "url": "https://arxiv.org/abs/2609.38349" },
+    { "id": "arxiv-2609.37725", "kind": "paper", "url": "https://arxiv.org/abs/2609.37725" },
+    { "id": "github-clm", "kind": "repo", "url": "https://github.com/facebookresearch/context-language-models" },
+    { "id": "x-stretchcloud-clm", "kind": "post", "url": "https://x.com/stretchcloud/status/2105744558797795750" },
+    { "id": "arxiv-2609.38761", "kind": "paper", "url": "https://arxiv.org/abs/2609.38761" },
+    { "id": "web-pi-no-mcp", "kind": "page", "url": "https://earendil.com/posts/you-said-no-mcp/" },
+    { "id": "x-gbbacoffee-pi", "kind": "post", "url": "https://x.com/gbbacoffee/status/2105838801109274814" }
+  ]
+}
