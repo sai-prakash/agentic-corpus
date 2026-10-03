@@ -1,0 +1,17 @@
+{
+  "date": "2026-10-03",
+  "items": [
+    { "id": "arxiv-2610.00917", "kind": "paper", "url": "https://arxiv.org/abs/2610.00917" },
+    { "id": "github-fit-harness", "kind": "repo", "url": "https://github.com/liyix/finding-the-right-fit" },
+    { "id": "arxiv-2610.02001", "kind": "paper", "url": "https://arxiv.org/abs/2610.02001" },
+    { "id": "github-mingbird", "kind": "repo", "url": "https://github.com/Mingbird/Mingbird-agent" },
+    { "id": "arxiv-2610.02036", "kind": "paper", "url": "https://arxiv.org/abs/2610.02036" },
+    { "id": "arxiv-2610.01618", "kind": "paper", "url": "https://arxiv.org/abs/2610.01618" },
+    { "id": "arxiv-2610.02070", "kind": "paper", "url": "https://arxiv.org/abs/2610.02070" },
+    { "id": "web-cmp-code", "kind": "repo", "url": "https://anonymous.4open.science/r/cmp-release-D0C3/" },
+    { "id": "arxiv-2609.38143", "kind": "paper", "url": "https://arxiv.org/abs/2609.38143" },
+    { "id": "arxiv-2609.40118", "kind": "paper", "url": "https://arxiv.org/abs/2609.40118" },
+    { "id": "x-guanlan-pi-runta", "kind": "post", "url": "https://x.com/guanlan/status/2106172621050298718" },
+    { "id": "x-runta-pi-mcp", "kind": "post", "url": "https://x.com/runta/status/2106188940436988194" }
+  ]
+}
