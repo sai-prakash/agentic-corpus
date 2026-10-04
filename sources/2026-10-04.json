@@ -1,0 +1,17 @@
+{
+  "date": "2026-10-04",
+  "items": [
+    { "id": "arxiv-2610.00906", "kind": "paper", "url": "https://arxiv.org/abs/2610.00906" },
+    { "id": "web-activesaddler", "kind": "repo", "url": "https://autosaddler-projectpage.github.io/activesaddler/" },
+    { "id": "x-shadowfetch-activesaddler", "kind": "post", "url": "https://x.com/Shadowfetch/status/2106554619891470650" },
+    { "id": "arxiv-2610.02142", "kind": "paper", "url": "https://arxiv.org/abs/2610.02142" },
+    { "id": "arxiv-2610.02002", "kind": "paper", "url": "https://arxiv.org/abs/2610.02002" },
+    { "id": "github-mem-plus-plus", "kind": "repo", "url": "https://github.com/AIDAChip-Inc/mem-plus-plus" },
+    { "id": "arxiv-2610.01235", "kind": "paper", "url": "https://arxiv.org/abs/2610.01235" },
+    { "id": "arxiv-2610.01026", "kind": "paper", "url": "https://arxiv.org/abs/2610.01026" },
+    { "id": "web-flowright", "kind": "repo", "url": "https://xhguo7.github.io/FloWright/" },
+    { "id": "arxiv-2610.01766", "kind": "paper", "url": "https://arxiv.org/abs/2610.01766" },
+    { "id": "github-videoevolve", "kind": "repo", "url": "https://github.com/bingjunluo/VideoEvolve" },
+    { "id": "x-matt-feroz-handoff", "kind": "post", "url": "https://x.com/matt_feroz/status/2106093392031809580" }
+  ]
+}
