@@ -1,0 +1,17 @@
+{
+  "date": "2026-10-05",
+  "items": [
+    { "id": "arxiv-2609.35738", "kind": "paper", "url": "https://arxiv.org/abs/2609.35738" },
+    { "id": "x-saiitoshii-harness-learn", "kind": "post", "url": "https://x.com/saiitoshii/status/2106919271226015773" },
+    { "id": "arxiv-2610.02200", "kind": "paper", "url": "https://arxiv.org/abs/2610.02200" },
+    { "id": "github-vista", "kind": "repo", "url": "https://github.com/joshhhhhan/VISTA" },
+    { "id": "x-joshhan-vista", "kind": "post", "url": "https://x.com/JoshHanHi/status/2106536875586404707" },
+    { "id": "arxiv-2610.01833", "kind": "paper", "url": "https://arxiv.org/abs/2610.01833" },
+    { "id": "arxiv-2610.01506", "kind": "paper", "url": "https://arxiv.org/abs/2610.01506" },
+    { "id": "arxiv-2610.00372", "kind": "paper", "url": "https://arxiv.org/abs/2610.00372" },
+    { "id": "arxiv-2609.00006", "kind": "paper", "url": "https://arxiv.org/abs/2609.00006" },
+    { "id": "x-undefinedki-anatomy", "kind": "post", "url": "https://x.com/undefinedKi/status/2106479644354474463" },
+    { "id": "web-tigergraph-agent-lost", "kind": "post", "url": "https://medium.com/@harshvardhansingh0171/i-built-an-ai-agent-to-beat-graphrag-it-lost-and-that-was-the-point-31f91db06c6f" },
+    { "id": "github-agentic-graphrag-tigergraph", "kind": "repo", "url": "https://github.com/harshvardhan0303/agentic-graphrag-tigergraph" }
+  ]
+}
