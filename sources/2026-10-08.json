@@ -1,0 +1,17 @@
+{
+  "date": "2026-10-08",
+  "items": [
+    { "id": "arxiv-2610.08722", "kind": "paper", "url": "https://arxiv.org/abs/2610.08722" },
+    { "id": "arxiv-2609.33517", "kind": "paper", "url": "https://arxiv.org/abs/2609.33517" },
+    { "id": "arxiv-2610.08432", "kind": "paper", "url": "https://arxiv.org/abs/2610.08432" },
+    { "id": "arxiv-2610.05039", "kind": "paper", "url": "https://arxiv.org/abs/2610.05039" },
+    { "id": "arxiv-2610.08364", "kind": "paper", "url": "https://arxiv.org/abs/2610.08364" },
+    { "id": "github-aisi-transect", "kind": "repo", "url": "https://github.com/AI-Safety-Institute/transect" },
+    { "id": "arxiv-2610.08586", "kind": "paper", "url": "https://arxiv.org/abs/2610.08586" },
+    { "id": "arxiv-2610.08662", "kind": "paper", "url": "https://arxiv.org/abs/2610.08662" },
+    { "id": "arxiv-2610.08775", "kind": "paper", "url": "https://arxiv.org/abs/2610.08775" },
+    { "id": "arxiv-2610.05923", "kind": "paper", "url": "https://arxiv.org/abs/2610.05923" },
+    { "id": "x-marcus-vera", "kind": "post", "url": "https://x.com/AIWith_Marcus/status/2107860198505283765" },
+    { "id": "retool-agent-harness", "kind": "product", "url": "https://retool.com/blog/introducing-agent-harness" }
+  ]
+}
