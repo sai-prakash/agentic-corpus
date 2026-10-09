@@ -1,0 +1,17 @@
+{
+  "date": "2026-10-09",
+  "items": [
+    { "id": "arxiv-2610.10062", "kind": "paper", "url": "https://arxiv.org/abs/2610.10062" },
+    { "id": "arxiv-2610.02142", "kind": "paper", "url": "https://arxiv.org/abs/2610.02142" },
+    { "id": "arxiv-2610.10088", "kind": "paper", "url": "https://arxiv.org/abs/2610.10088" },
+    { "id": "arxiv-2610.09832", "kind": "paper", "url": "https://arxiv.org/abs/2610.09832" },
+    { "id": "arxiv-2610.10071", "kind": "paper", "url": "https://arxiv.org/abs/2610.10071" },
+    { "id": "github-ouan6-hgp", "kind": "repo", "url": "https://github.com/Ouan6/HGP-.git" },
+    { "id": "arxiv-2610.09360", "kind": "paper", "url": "https://arxiv.org/abs/2610.09360" },
+    { "id": "topographrag-bench", "kind": "repo", "url": "https://richardlrc.github.io/TopoGraphRAG-Bench/" },
+    { "id": "arxiv-2609.38353", "kind": "paper", "url": "https://arxiv.org/abs/2609.38353" },
+    { "id": "arxiv-2610.07832", "kind": "paper", "url": "https://arxiv.org/abs/2610.07832" },
+    { "id": "arxiv-2610.06563", "kind": "paper", "url": "https://arxiv.org/abs/2610.06563" },
+    { "id": "arxiv-2610.09944", "kind": "paper", "url": "https://arxiv.org/abs/2610.09944" }
+  ]
+}
