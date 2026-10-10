@@ -1,0 +1,11 @@
+{
+  "date": "2026-10-10",
+  "items": [
+    { "id": "arxiv-2610.11566", "kind": "paper", "url": "https://arxiv.org/abs/2610.11566" },
+    { "id": "ioedr-project", "kind": "repo", "url": "https://ioedr-project.github.io/" },
+    { "id": "arxiv-2610.12124", "kind": "paper", "url": "https://arxiv.org/abs/2610.12124" },
+    { "id": "arxiv-2610.11732", "kind": "paper", "url": "https://arxiv.org/abs/2610.11732" },
+    { "id": "mcp-2026-07-28", "kind": "spec", "url": "https://blog.modelcontextprotocol.io/posts/2026-07-28/" },
+    { "id": "x-mcp-stateless", "kind": "post", "url": "https://x.com/ZhihaoJu77910/status/2108739535127589103" }
+  ]
+}
