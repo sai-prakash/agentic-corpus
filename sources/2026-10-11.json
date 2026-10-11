@@ -1,0 +1,12 @@
+{
+  "date": "2026-10-11",
+  "items": [
+    { "id": "arxiv-2610.05300", "kind": "paper", "url": "https://arxiv.org/abs/2610.05300" },
+    { "id": "x-mesh-harness", "kind": "post", "url": "https://x.com/DerekHJH9/status/2108870657492537696" },
+    { "id": "arxiv-2610.05382", "kind": "paper", "url": "https://arxiv.org/abs/2610.05382" },
+    { "id": "x-harness-search", "kind": "post", "url": "https://x.com/HEI/status/2108409541943591299" },
+    { "id": "github-flexible-graphrag", "kind": "repo", "url": "https://github.com/stevereiner/flexible-graphrag" },
+    { "id": "arxiv-2610.09360", "kind": "paper", "url": "https://arxiv.org/abs/2610.09360" },
+    { "id": "arxiv-2610.05039", "kind": "paper", "url": "https://arxiv.org/abs/2610.05039" }
+  ]
+}
