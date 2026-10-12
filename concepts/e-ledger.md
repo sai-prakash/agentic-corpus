@@ -1,0 +1,11 @@
+# E-Ledger
+
+**Definition.** An agent harness for partially observable, policy-constrained workflows is a code-gated executor plus a persistent world ledger of verified hidden rules and evidence-backed dynamic state, not a free-form tool dispatcher or prompt wrapper.
+
+**Contrast.** Tool selection or trajectory reflection is not enough when actions have hidden side effects and must obey organizational policy. E-Ledger (2610.11552, Yisen Gao et al., submitted 8 Oct) inserts a code approval layer that checks every proposed action against policy before execution, and maintains a world ledger of static verified hidden rules alongside dynamic task state. WorldAbduct (same paper) evolves the harness by diagnosing trajectories across four complementary views (state consistency, world-observation gap, policy-gate correctness, goal judgment), hypothesizing latent rules, and verifying them through targeted abductive interactions before integrating them into the ledger. On the enterprise benchmark World of Workflows, E-Ledger with WorldAbduct improves safe task completion 5–15 percentage points over the strongest evolution baseline across four LLM backbones (STCR 65.0–80.0, PSR 95.0–100.0); results carry to ScienceWorld (71.7% success, 75.5 score) and DiscoveryWorld (93.8% success, 0.88 procedural score, 22.7 steps vs ReAct 62.0). Second source is the official code repository HKUST-KnowComp/E-LEDGER-WorldAbduct. Pair with harness-evolution (outer loop) and agent-harness (runtime control); the durable part is the verified ledger + pre-execution code gate under partial observability. A policy-gate that can be bypassed without detection, or rules that fail to transfer to a held-out task family, is the falsifier.
+
+**Heat.** 4. Updated 2026-10-12.
+
+Sources: 2610.11552 https://arxiv.org/abs/2610.11552; https://github.com/HKUST-KnowComp/E-LEDGER-WorldAbduct.
+
+Publish angle: freeze the task executor and the environment. Arm A is a ReAct-style or trajectory-patch harness. Arm B adds a code policy gate and a world ledger, then runs one round of multi-view diagnosis plus abductive verification on a toy partially-observable workflow. Report safe completion rate and undetected policy violations. Falsifier: if ledger rules do not transfer or the gate can be silently bypassed, the persistent structure added no safety value.

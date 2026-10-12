@@ -1,0 +1,11 @@
+{
+  "date": "2026-10-12",
+  "items": [
+    { "id": "arxiv-2610.11552", "kind": "paper", "url": "https://arxiv.org/abs/2610.11552" },
+    { "id": "github-e-ledger", "kind": "repo", "url": "https://github.com/HKUST-KnowComp/E-LEDGER-WorldAbduct" },
+    { "id": "github-phone-harness", "kind": "repo", "url": "https://github.com/ShawnPana/phone-harness" },
+    { "id": "x-phone-harness", "kind": "post", "url": "https://x.com/AverageAiBro/status/2109464823922827364" },
+    { "id": "github-flexible-graphrag", "kind": "repo", "url": "https://github.com/stevereiner/flexible-graphrag" },
+    { "id": "x-flexible-graphrag", "kind": "post", "url": "https://x.com/stevereiner/status/2109463121177788776" }
+  ]
+}

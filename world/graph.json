@@ -1,6 +1,6 @@
 {
   "nodes": [
-    {"id": "agent-harness", "type": "paradigm", "label": "Agent harness", "heat": 5, "updated": "2026-10-11"},
+    {"id": "agent-harness", "type": "paradigm", "label": "Agent harness", "heat": 5, "updated": "2026-10-12"},
     {"id": "harness-evolution", "type": "method", "label": "Harness evolution", "heat": 5, "updated": "2026-09-29"},
     {"id": "mesh-harness", "type": "method", "label": "MESH-Harness", "heat": 4, "updated": "2026-10-11"},
     {"id": "harness-search", "type": "method", "label": "Harness-Search", "heat": 4, "updated": "2026-10-11"},
@@ -9,7 +9,9 @@
     {"id": "context-graph", "type": "structure", "label": "Context graph", "heat": 4, "updated": "2026-10-01"},
     {"id": "memory-lifecycle", "type": "method", "label": "Memory lifecycle", "heat": 4, "updated": "2026-10-10"},
     {"id": "graph-engineering", "type": "paradigm", "label": "Graph engineering", "heat": 4, "updated": "2026-09-15"},
-    {"id": "evals-gates", "type": "method", "label": "Evals gates", "heat": 4, "updated": "2026-09-20"}
+    {"id": "evals-gates", "type": "method", "label": "Evals gates", "heat": 4, "updated": "2026-09-20"},
+    {"id": "e-ledger", "type": "structure", "label": "E-Ledger", "heat": 4, "updated": "2026-10-12"},
+    {"id": "world-abduct", "type": "method", "label": "WorldAbduct", "heat": 4, "updated": "2026-10-12"}
   ],
   "edges": [
     {"from": "mesh-harness", "to": "agent-harness", "rel": "specializes", "source": "arxiv-2610.05300"},
@@ -19,6 +21,9 @@
     {"from": "harness-search", "to": "memory-lifecycle", "rel": "pairs-with", "source": "arxiv-2610.05382"},
     {"from": "structured-harness", "to": "agent-harness", "rel": "specializes", "source": "arxiv-2610.11566"},
     {"from": "causal-improvement-graph", "to": "harness-evolution", "rel": "externalizes", "source": "arxiv-2610.05039"},
-    {"from": "context-graph", "to": "graph-engineering", "rel": "implements", "source": "arxiv-2609.40118"}
+    {"from": "context-graph", "to": "graph-engineering", "rel": "implements", "source": "arxiv-2609.40118"},
+    {"from": "e-ledger", "to": "agent-harness", "rel": "specializes", "source": "arxiv-2610.11552"},
+    {"from": "world-abduct", "to": "e-ledger", "rel": "evolves", "source": "arxiv-2610.11552"},
+    {"from": "world-abduct", "to": "harness-evolution", "rel": "extends", "source": "arxiv-2610.11552"}
   ]
 }
