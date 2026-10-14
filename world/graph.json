@@ -11,7 +11,8 @@
     {"id": "graph-engineering", "type": "paradigm", "label": "Graph engineering", "heat": 4, "updated": "2026-09-15"},
     {"id": "evals-gates", "type": "method", "label": "Evals gates", "heat": 4, "updated": "2026-09-20"},
     {"id": "e-ledger", "type": "structure", "label": "E-Ledger", "heat": 4, "updated": "2026-10-12"},
-    {"id": "world-abduct", "type": "method", "label": "WorldAbduct", "heat": 4, "updated": "2026-10-12"}
+    {"id": "world-abduct", "type": "method", "label": "WorldAbduct", "heat": 4, "updated": "2026-10-12"},
+    {"id": "reharness", "type": "method", "label": "ReHarness", "heat": 4, "updated": "2026-10-14"}
   ],
   "edges": [
     {"from": "mesh-harness", "to": "agent-harness", "rel": "specializes", "source": "arxiv-2610.05300"},
@@ -24,6 +25,8 @@
     {"from": "context-graph", "to": "graph-engineering", "rel": "implements", "source": "arxiv-2609.40118"},
     {"from": "e-ledger", "to": "agent-harness", "rel": "specializes", "source": "arxiv-2610.11552"},
     {"from": "world-abduct", "to": "e-ledger", "rel": "evolves", "source": "arxiv-2610.11552"},
-    {"from": "world-abduct", "to": "harness-evolution", "rel": "extends", "source": "arxiv-2610.11552"}
+    {"from": "world-abduct", "to": "harness-evolution", "rel": "extends", "source": "arxiv-2610.11552"},
+    {"from": "reharness", "to": "harness-evolution", "rel": "extends", "source": "arxiv-2610.12668"},
+    {"from": "reharness", "to": "agent-harness", "rel": "specializes", "source": "arxiv-2610.12668"}
   ]
 }

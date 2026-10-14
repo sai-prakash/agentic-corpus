@@ -1,0 +1,8 @@
+{
+  "date": "2026-10-14",
+  "items": [
+    { "id": "arxiv-2610.12668", "kind": "paper", "url": "https://arxiv.org/abs/2610.12668" },
+    { "id": "x-dair-reharness", "kind": "post", "url": "https://x.com/dair_ai/status/2110017231778373722" },
+    { "id": "vercel-skills-cli", "kind": "repo", "url": "https://github.com/vercel-labs/skills" }
+  ]
+}
