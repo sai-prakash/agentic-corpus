@@ -1,0 +1,11 @@
+{
+  "date": "2026-10-15",
+  "items": [
+    { "id": "arxiv-2610.18616", "kind": "paper", "url": "https://arxiv.org/abs/2610.18616" },
+    { "id": "github-dkgi", "kind": "repo", "url": "https://github.com/leopoldwhite/DKGI" },
+    { "id": "arxiv-2610.19386", "kind": "paper", "url": "https://arxiv.org/abs/2610.19386" },
+    { "id": "arxiv-2610.17719", "kind": "paper", "url": "https://arxiv.org/abs/2610.17719" },
+    { "id": "arxiv-2610.19836", "kind": "paper", "url": "https://arxiv.org/abs/2610.19836" },
+    { "id": "x-falkordb-graphrag", "kind": "post", "url": "https://x.com/falkordb/status/2110552341732806936" }
+  ]
+}
