@@ -1,0 +1,11 @@
+{
+  "date": "2026-10-16",
+  "items": [
+    { "id": "x-harvey-context-graph", "kind": "post", "url": "https://x.com/nikogrupen/status/2110773803592937733" },
+    { "id": "arxiv-2609.20804", "kind": "paper", "url": "https://arxiv.org/abs/2609.20804" },
+    { "id": "arxiv-2610.19386", "kind": "paper", "url": "https://arxiv.org/abs/2610.19386" },
+    { "id": "arxiv-2610.19836", "kind": "paper", "url": "https://arxiv.org/abs/2610.19836" },
+    { "id": "arxiv-2610.18616", "kind": "paper", "url": "https://arxiv.org/abs/2610.18616" },
+    { "id": "github-dkgi", "kind": "repo", "url": "https://github.com/leopoldwhite/DKGI" }
+  ]
+}
