@@ -1,0 +1,10 @@
+{
+  "date": "2026-10-17",
+  "items": [
+    { "id": "arxiv-2610.18813", "kind": "paper", "url": "https://arxiv.org/abs/2610.18813" },
+    { "id": "github-harness-rsi", "kind": "repo", "url": "https://github.com/zgcagi/Harness-RSI" },
+    { "id": "arxiv-2610.20902", "kind": "paper", "url": "https://arxiv.org/abs/2610.20902" },
+    { "id": "arxiv-2610.22017", "kind": "paper", "url": "https://arxiv.org/abs/2610.22017" },
+    { "id": "x-huggingpapers-harness", "kind": "post", "url": "https://x.com/HuggingPapers/status/2111068370355331551" }
+  ]
+}
