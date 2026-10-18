@@ -1,0 +1,9 @@
+{
+  "date": "2026-10-18",
+  "items": [
+    { "id": "arxiv-2610.22196", "kind": "paper", "url": "https://arxiv.org/abs/2610.22196" },
+    { "id": "github-hy-memory", "kind": "repo", "url": "https://github.com/Tencent-Hunyuan/Hy-Memory" },
+    { "id": "github-pilotdeck", "kind": "repo", "url": "https://github.com/OpenBMB/PilotDeck" },
+    { "id": "x-pilotdeck-announce", "kind": "post", "url": "https://x.com/OpenBMB/status/2110364065822646570" }
+  ]
+}
