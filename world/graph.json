@@ -1,7 +1,8 @@
 {
   "nodes": [
-    {"id": "agent-harness", "type": "paradigm", "label": "Agent harness", "heat": 5, "updated": "2026-10-18"},
-    {"id": "harness-evolution", "type": "method", "label": "Harness evolution", "heat": 5, "updated": "2026-10-17"},
+    {"id": "agent-harness", "type": "paradigm", "label": "Agent harness", "heat": 5, "updated": "2026-10-19"},
+    {"id": "harness-evolution", "type": "method", "label": "Harness evolution", "heat": 5, "updated": "2026-10-19"},
+    {"id": "harness2", "type": "method", "label": "Harness² recursive harnessing", "heat": 5, "updated": "2026-10-19"},
     {"id": "mesh-harness", "type": "method", "label": "MESH-Harness", "heat": 4, "updated": "2026-10-11"},
     {"id": "harness-search", "type": "method", "label": "Harness-Search", "heat": 4, "updated": "2026-10-11"},
     {"id": "causal-improvement-graph", "type": "structure", "label": "Causal improvement graph", "heat": 4, "updated": "2026-10-07"},
@@ -30,6 +31,8 @@
     {"from": "reharness", "to": "harness-evolution", "rel": "extends", "source": "arxiv-2610.12668"},
     {"from": "reharness", "to": "agent-harness", "rel": "specializes", "source": "arxiv-2610.12668"},
     {"from": "dkgi-harness", "to": "agent-harness", "rel": "specializes", "source": "arxiv-2610.18616"},
-    {"from": "dkgi-harness", "to": "graph-engineering", "rel": "implements", "source": "arxiv-2610.18616"}
+    {"from": "dkgi-harness", "to": "graph-engineering", "rel": "implements", "source": "arxiv-2610.18616"},
+    {"from": "harness2", "to": "harness-evolution", "rel": "extends", "source": "arxiv-2610.14224"},
+    {"from": "harness2", "to": "agent-harness", "rel": "specializes", "source": "arxiv-2610.14224"}
   ]
 }

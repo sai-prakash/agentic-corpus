@@ -1,0 +1,13 @@
+{
+  "date": "2026-10-19",
+  "items": [
+    { "id": "arxiv-2610.14224", "kind": "paper", "url": "https://arxiv.org/abs/2610.14224" },
+    { "id": "github-harness2", "kind": "repo", "url": "https://github.com/google-research/harness2" },
+    { "id": "site-harness2", "kind": "site", "url": "https://harness2.github.io/" },
+    { "id": "arxiv-2610.07832", "kind": "paper", "url": "https://arxiv.org/abs/2610.07832" },
+    { "id": "arxiv-2609.37226", "kind": "paper", "url": "https://arxiv.org/abs/2609.37226" },
+    { "id": "x-harness2-hotpick", "kind": "post", "url": "https://x.com/xiaoke949/status/2112001085288165820" },
+    { "id": "x-harness2-detail", "kind": "post", "url": "https://x.com/xiaoke949/status/2112001249046389060" },
+    { "id": "marktechpost-harness2", "kind": "article", "url": "https://www.marktechpost.com/2026/10/18/google-harness2-recursive-agent-harnessing-framework/" }
+  ]
+}
