@@ -1,0 +1,13 @@
+{
+  "date": "2026-10-20",
+  "items": [
+    { "id": "arxiv-2610.22869", "kind": "paper", "url": "https://arxiv.org/abs/2610.22869" },
+    { "id": "github-ms-eval", "kind": "repo", "url": "https://github.com/LINs-lab/MS-Eval" },
+    { "id": "arxiv-2610.10263", "kind": "paper", "url": "https://arxiv.org/abs/2610.10263" },
+    { "id": "arxiv-2610.23559", "kind": "paper", "url": "https://arxiv.org/abs/2610.23559" },
+    { "id": "github-scope", "kind": "repo", "url": "https://github.com/microsoft/scope" },
+    { "id": "site-scope", "kind": "site", "url": "https://microsoft.github.io/scope/" },
+    { "id": "github-flexible-graphrag", "kind": "repo", "url": "https://github.com/stevereiner/flexible-graphrag" },
+    { "id": "blog-scope", "kind": "article", "url": "https://opensource.microsoft.com/blog/2026/10/19/introducing-scope-open-source-evaluation-for-ai-coding-agents/" }
+  ]
+}
