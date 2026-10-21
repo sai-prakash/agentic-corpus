@@ -1,0 +1,14 @@
+{
+  "date": "2026-10-21",
+  "items": [
+    { "id": "arxiv-2610.18813", "kind": "paper", "url": "https://arxiv.org/abs/2610.18813" },
+    { "id": "github-harness-rsi", "kind": "repo", "url": "https://github.com/zgcagi/Harness-RSI" },
+    { "id": "site-harness-rsi", "kind": "site", "url": "https://zgcagi.github.io/Harness-RSI/" },
+    { "id": "arxiv-2610.26671", "kind": "paper", "url": "https://arxiv.org/abs/2610.26671" },
+    { "id": "arxiv-2610.19386", "kind": "paper", "url": "https://arxiv.org/abs/2610.19386" },
+    { "id": "arxiv-2610.24007", "kind": "paper", "url": "https://arxiv.org/abs/2610.24007" },
+    { "id": "product-neo4j-context-engine", "kind": "product", "url": "https://neo4j.com/product/context-engine/" },
+    { "id": "blog-falkordb-agent-memory", "kind": "article", "url": "https://www.falkordb.com/blog/agent-memory-for-long-running-agents/" },
+    { "id": "x-skills-mcp-rag-memory", "kind": "post", "url": "https://x.com/MaryamMiradi/status/2112621356986601919" }
+  ]
+}
