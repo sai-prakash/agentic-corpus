@@ -1,0 +1,12 @@
+{
+  "date": "2026-10-22",
+  "items": [
+    { "id": "github-agentgateway", "kind": "repo", "url": "https://github.com/agentgateway/agentgateway" },
+    { "id": "site-agentgateway", "kind": "site", "url": "https://agentgateway.dev" },
+    { "id": "coverage-archestack-agentgateway", "kind": "article", "url": "https://archestack.com/best-of-ai/projects/agentgateway/" },
+    { "id": "arxiv-2610.28380", "kind": "paper", "url": "https://arxiv.org/abs/2610.28380" },
+    { "id": "arxiv-2610.27435", "kind": "paper", "url": "https://arxiv.org/abs/2610.27435" },
+    { "id": "arxiv-2610.26770", "kind": "paper", "url": "https://arxiv.org/abs/2610.26770" },
+    { "id": "x-skills-mcp-rag-memory", "kind": "post", "url": "https://x.com/MaryamMiradi/status/2112621356986601919" }
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "nodes": [
-    {"id": "agent-harness", "type": "paradigm", "label": "Agent harness", "heat": 5, "updated": "2026-10-21"},
-    {"id": "harness-evolution", "type": "method", "label": "Harness evolution", "heat": 5, "updated": "2026-10-21"},
+    {"id": "agent-harness", "type": "paradigm", "label": "Agent harness", "heat": 5, "updated": "2026-10-22"},
+    {"id": "harness-evolution", "type": "method", "label": "Harness evolution", "heat": 5, "updated": "2026-10-22"},
     {"id": "harness2", "type": "method", "label": "Harness² recursive harnessing", "heat": 5, "updated": "2026-10-19"},
     {"id": "mesh-harness", "type": "method", "label": "MESH-Harness", "heat": 4, "updated": "2026-10-11"},
     {"id": "harness-search", "type": "method", "label": "Harness-Search", "heat": 4, "updated": "2026-10-11"},
@@ -18,7 +18,8 @@
     {"id": "ms-eval", "type": "method", "label": "MS-Eval", "heat": 4, "updated": "2026-10-20"},
     {"id": "scope", "type": "method", "label": "Scope", "heat": 4, "updated": "2026-10-20"},
     {"id": "self-evolving-harness", "type": "method", "label": "Self-Evolving Agent Harness", "heat": 4, "updated": "2026-10-21"},
-    {"id": "neo4j-context-engine", "type": "structure", "label": "Neo4j Context Engine", "heat": 4, "updated": "2026-10-21"}
+    {"id": "neo4j-context-engine", "type": "structure", "label": "Neo4j Context Engine", "heat": 4, "updated": "2026-10-21"},
+    {"id": "agent-gateway", "type": "structure", "label": "Agent gateway", "heat": 4, "updated": "2026-10-22"}
   ],
   "edges": [
     {"from": "mesh-harness", "to": "agent-harness", "rel": "specializes", "source": "arxiv-2610.05300"},
@@ -46,6 +47,8 @@
     {"from": "self-evolving-harness", "to": "agent-harness", "rel": "specializes", "source": "github-harness-rsi"},
     {"from": "neo4j-context-engine", "to": "context-graph", "rel": "implements", "source": "product-neo4j-context-engine"},
     {"from": "neo4j-context-engine", "to": "graph-engineering", "rel": "implements", "source": "product-neo4j-context-engine"},
-    {"from": "neo4j-context-engine", "to": "memory-lifecycle", "rel": "pairs-with", "source": "product-neo4j-context-engine"}
+    {"from": "neo4j-context-engine", "to": "memory-lifecycle", "rel": "pairs-with", "source": "product-neo4j-context-engine"},
+    {"from": "agent-gateway", "to": "agent-harness", "rel": "specializes", "source": "github-agentgateway"},
+    {"from": "agent-gateway", "to": "evals-gates", "rel": "pairs-with", "source": "coverage-archestack-agentgateway"}
   ]
 }
