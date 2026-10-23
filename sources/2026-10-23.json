@@ -1,0 +1,16 @@
+{
+  "date": "2026-10-23",
+  "items": [
+    { "id": "anthropic-agent-skills-aaif", "kind": "article", "url": "https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation" },
+    { "id": "aaif-blog-agent-skills", "kind": "article", "url": "https://aaif.io/blog/agent-skills-sharing-team-expertise-across-ai-agents" },
+    { "id": "github-agentskills", "kind": "repo", "url": "https://github.com/agentskills/agentskills" },
+    { "id": "x-claudedevs-agent-skills", "kind": "post", "url": "https://x.com/ClaudeDevs/status/2113328526413996100" },
+    { "id": "arxiv-2610.28380", "kind": "paper", "url": "https://arxiv.org/abs/2610.28380" },
+    { "id": "arxiv-2610.27435", "kind": "paper", "url": "https://arxiv.org/abs/2610.27435" },
+    { "id": "arxiv-2610.26770", "kind": "paper", "url": "https://arxiv.org/abs/2610.26770" },
+    { "id": "arxiv-2610.28815", "kind": "paper", "url": "https://arxiv.org/abs/2610.28815" },
+    { "id": "arxiv-2610.23559", "kind": "paper", "url": "https://arxiv.org/abs/2610.23559" },
+    { "id": "neo4j-agentic-graphrag", "kind": "article", "url": "https://neo4j.com/blog/agentic-ai/agentic-graphrag/" },
+    { "id": "x-oo-harness-rohan", "kind": "post", "url": "https://x.com/rohanpaul_ai/status/2113118164586582416" }
+  ]
+}
