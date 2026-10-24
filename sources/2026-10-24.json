@@ -1,0 +1,14 @@
+{
+  "date": "2026-10-24",
+  "items": [
+    { "id": "anthropic-fold-subagents", "kind": "article", "url": "https://claude.com/resources/articles/building-agents-when-to-fold-subagents-into-your-main-agent-loop" },
+    { "id": "github-single-agent-loop-kit", "kind": "repo", "url": "https://github.com/anthropics/single-agent-loop-kit" },
+    { "id": "arxiv-2610.31427", "kind": "paper", "url": "https://arxiv.org/abs/2610.31427" },
+    { "id": "arxiv-2610.29995", "kind": "paper", "url": "https://arxiv.org/abs/2610.29995" },
+    { "id": "arxiv-2610.29458", "kind": "paper", "url": "https://arxiv.org/abs/2610.29458" },
+    { "id": "learnharness", "kind": "repo", "url": "https://learnharness.ai/" },
+    { "id": "github-krusch-context-mcp", "kind": "repo", "url": "https://github.com/kruschdev/krusch-context-mcp" },
+    { "id": "x-fold-subagents-xudong", "kind": "post", "url": "https://x.com/Xudong07452910/status/2113800139005460534" },
+    { "id": "x-learnharness-amos", "kind": "post", "url": "https://x.com/amosblomqvist/status/2113757368433393755" }
+  ]
+}

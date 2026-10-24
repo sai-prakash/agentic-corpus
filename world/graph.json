@@ -1,7 +1,7 @@
 {
   "nodes": [
-    {"id": "agent-harness", "type": "paradigm", "label": "Agent harness", "heat": 5, "updated": "2026-10-23"},
-    {"id": "harness-evolution", "type": "method", "label": "Harness evolution", "heat": 5, "updated": "2026-10-23"},
+    {"id": "agent-harness", "type": "paradigm", "label": "Agent harness", "heat": 5, "updated": "2026-10-24"},
+    {"id": "harness-evolution", "type": "method", "label": "Harness evolution", "heat": 5, "updated": "2026-10-24"},
     {"id": "harness2", "type": "method", "label": "Harness² recursive harnessing", "heat": 5, "updated": "2026-10-19"},
     {"id": "mesh-harness", "type": "method", "label": "MESH-Harness", "heat": 4, "updated": "2026-10-11"},
     {"id": "harness-search", "type": "method", "label": "Harness-Search", "heat": 4, "updated": "2026-10-11"},
@@ -20,7 +20,8 @@
     {"id": "self-evolving-harness", "type": "method", "label": "Self-Evolving Agent Harness", "heat": 4, "updated": "2026-10-21"},
     {"id": "neo4j-context-engine", "type": "structure", "label": "Neo4j Context Engine", "heat": 4, "updated": "2026-10-23"},
     {"id": "agent-gateway", "type": "structure", "label": "Agent gateway", "heat": 4, "updated": "2026-10-22"},
-    {"id": "agent-skills", "type": "structure", "label": "Agent Skills standard", "heat": 5, "updated": "2026-10-23"}
+    {"id": "agent-skills", "type": "structure", "label": "Agent Skills standard", "heat": 5, "updated": "2026-10-24"},
+    {"id": "skills-over-subagents", "type": "method", "label": "Skills over subagents", "heat": 5, "updated": "2026-10-24"}
   ],
   "edges": [
     {"from": "mesh-harness", "to": "agent-harness", "rel": "specializes", "source": "arxiv-2610.05300"},
@@ -52,6 +53,9 @@
     {"from": "agent-gateway", "to": "agent-harness", "rel": "specializes", "source": "github-agentgateway"},
     {"from": "agent-gateway", "to": "evals-gates", "rel": "pairs-with", "source": "coverage-archestack-agentgateway"},
     {"from": "agent-skills", "to": "agent-harness", "rel": "implements", "source": "anthropic-agent-skills-aaif"},
-    {"from": "agent-skills", "to": "agent-gateway", "rel": "pairs-with", "source": "aaif-blog-agent-skills"}
+    {"from": "agent-skills", "to": "agent-gateway", "rel": "pairs-with", "source": "aaif-blog-agent-skills"},
+    {"from": "skills-over-subagents", "to": "agent-skills", "rel": "implements", "source": "anthropic-fold-subagents"},
+    {"from": "skills-over-subagents", "to": "agent-harness", "rel": "specializes", "source": "anthropic-fold-subagents"},
+    {"from": "skills-over-subagents", "to": "evals-gates", "rel": "pairs-with", "source": "github-single-agent-loop-kit"}
   ]
 }
