@@ -1,0 +1,12 @@
+{
+  "date": "2026-10-25",
+  "items": [
+    { "id": "arxiv-2610.30755", "kind": "paper", "url": "https://arxiv.org/abs/2610.30755" },
+    { "id": "x-raw-rag-omarsar0", "kind": "post", "url": "https://x.com/omarsar0/status/2113635562578178147" },
+    { "id": "arxiv-2610.31376", "kind": "paper", "url": "https://arxiv.org/abs/2610.31376" },
+    { "id": "x-petri-harness-deeponailabs", "kind": "post", "url": "https://x.com/deeponailabs/status/2114155630248579461" },
+    { "id": "arxiv-2610.30728", "kind": "paper", "url": "https://arxiv.org/abs/2610.30728" },
+    { "id": "arxiv-2610.31307", "kind": "paper", "url": "https://arxiv.org/abs/2610.31307" },
+    { "id": "arxiv-2610.30485", "kind": "paper", "url": "https://arxiv.org/abs/2610.30485" }
+  ]
+}

@@ -1,6 +1,6 @@
 {
   "nodes": [
-    {"id": "agent-harness", "type": "paradigm", "label": "Agent harness", "heat": 5, "updated": "2026-10-24"},
+    {"id": "agent-harness", "type": "paradigm", "label": "Agent harness", "heat": 5, "updated": "2026-10-25"},
     {"id": "harness-evolution", "type": "method", "label": "Harness evolution", "heat": 5, "updated": "2026-10-24"},
     {"id": "harness2", "type": "method", "label": "Harness² recursive harnessing", "heat": 5, "updated": "2026-10-19"},
     {"id": "mesh-harness", "type": "method", "label": "MESH-Harness", "heat": 4, "updated": "2026-10-11"},
@@ -8,7 +8,7 @@
     {"id": "causal-improvement-graph", "type": "structure", "label": "Causal improvement graph", "heat": 4, "updated": "2026-10-07"},
     {"id": "structured-harness", "type": "structure", "label": "Structured harness", "heat": 4, "updated": "2026-10-10"},
     {"id": "context-graph", "type": "structure", "label": "Context graph", "heat": 4, "updated": "2026-10-23"},
-    {"id": "memory-lifecycle", "type": "method", "label": "Memory lifecycle", "heat": 4, "updated": "2026-10-21"},
+    {"id": "memory-lifecycle", "type": "method", "label": "Memory lifecycle", "heat": 4, "updated": "2026-10-25"},
     {"id": "graph-engineering", "type": "paradigm", "label": "Graph engineering", "heat": 4, "updated": "2026-10-21"},
     {"id": "evals-gates", "type": "method", "label": "Evals gates", "heat": 4, "updated": "2026-10-20"},
     {"id": "e-ledger", "type": "structure", "label": "E-Ledger", "heat": 4, "updated": "2026-10-12"},
@@ -21,7 +21,11 @@
     {"id": "neo4j-context-engine", "type": "structure", "label": "Neo4j Context Engine", "heat": 4, "updated": "2026-10-23"},
     {"id": "agent-gateway", "type": "structure", "label": "Agent gateway", "heat": 4, "updated": "2026-10-22"},
     {"id": "agent-skills", "type": "structure", "label": "Agent Skills standard", "heat": 5, "updated": "2026-10-24"},
-    {"id": "skills-over-subagents", "type": "method", "label": "Skills over subagents", "heat": 5, "updated": "2026-10-24"}
+    {"id": "skills-over-subagents", "type": "method", "label": "Skills over subagents", "heat": 5, "updated": "2026-10-24"},
+    {"id": "raw-rag-baseline", "type": "method", "label": "Raw-RAG baseline", "heat": 5, "updated": "2026-10-25"},
+    {"id": "certified-execution-harness", "type": "method", "label": "Certified execution harness", "heat": 4, "updated": "2026-10-25"},
+    {"id": "federated-graphrag", "type": "method", "label": "Federated GraphRAG", "heat": 4, "updated": "2026-10-25"},
+    {"id": "subgoal-memory-graph", "type": "structure", "label": "Subgoal-aware memory graph", "heat": 4, "updated": "2026-10-25"}
   ],
   "edges": [
     {"from": "mesh-harness", "to": "agent-harness", "rel": "specializes", "source": "arxiv-2610.05300"},
@@ -56,6 +60,14 @@
     {"from": "agent-skills", "to": "agent-gateway", "rel": "pairs-with", "source": "aaif-blog-agent-skills"},
     {"from": "skills-over-subagents", "to": "agent-skills", "rel": "implements", "source": "anthropic-fold-subagents"},
     {"from": "skills-over-subagents", "to": "agent-harness", "rel": "specializes", "source": "anthropic-fold-subagents"},
-    {"from": "skills-over-subagents", "to": "evals-gates", "rel": "pairs-with", "source": "github-single-agent-loop-kit"}
+    {"from": "skills-over-subagents", "to": "evals-gates", "rel": "pairs-with", "source": "github-single-agent-loop-kit"},
+    {"from": "raw-rag-baseline", "to": "memory-lifecycle", "rel": "contrasts", "source": "arxiv-2610.30755"},
+    {"from": "raw-rag-baseline", "to": "agent-harness", "rel": "pairs-with", "source": "x-raw-rag-omarsar0"},
+    {"from": "certified-execution-harness", "to": "agent-harness", "rel": "specializes", "source": "arxiv-2610.31376"},
+    {"from": "certified-execution-harness", "to": "evals-gates", "rel": "pairs-with", "source": "x-petri-harness-deeponailabs"},
+    {"from": "federated-graphrag", "to": "context-graph", "rel": "implements", "source": "arxiv-2610.30728"},
+    {"from": "federated-graphrag", "to": "graph-engineering", "rel": "implements", "source": "arxiv-2610.30728"},
+    {"from": "subgoal-memory-graph", "to": "memory-lifecycle", "rel": "implements", "source": "arxiv-2610.31307"},
+    {"from": "subgoal-memory-graph", "to": "agent-harness", "rel": "pairs-with", "source": "arxiv-2610.31307"}
   ]
 }
