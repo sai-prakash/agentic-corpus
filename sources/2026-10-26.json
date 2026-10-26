@@ -1,0 +1,12 @@
+{
+  "date": "2026-10-26",
+  "items": [
+    { "id": "arxiv-2609.26781", "kind": "paper", "url": "https://arxiv.org/abs/2609.26781" },
+    { "id": "github-agensh", "kind": "repo", "url": "https://github.com/microsoft/Agensh" },
+    { "id": "x-agensh-marktechpost", "kind": "post", "url": "https://x.com/Marktechpost/status/2114200105108586623" },
+    { "id": "arxiv-2610.27435", "kind": "paper", "url": "https://arxiv.org/abs/2610.27435" },
+    { "id": "x-rise-ruhan", "kind": "post", "url": "https://x.com/iu_ruhan/status/2114311997257089168" },
+    { "id": "arxiv-2610.28380", "kind": "paper", "url": "https://arxiv.org/abs/2610.28380" },
+    { "id": "arxiv-2610.27406", "kind": "paper", "url": "https://arxiv.org/abs/2610.27406" }
+  ]
+}
