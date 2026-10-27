@@ -1,0 +1,11 @@
+{
+  "date": "2026-10-27",
+  "items": [
+    { "id": "arxiv-2610.32752", "kind": "paper", "url": "https://arxiv.org/abs/2610.32752" },
+    { "id": "x-actionrag-arnaud", "kind": "post", "url": "https://x.com/arnaudmercier/status/2114636985738395973" },
+    { "id": "arxiv-2610.32813", "kind": "paper", "url": "https://arxiv.org/abs/2610.32813" },
+    { "id": "x-harnessmm-aiquanting", "kind": "post", "url": "https://x.com/AIQuanting/status/2114763162239336717" },
+    { "id": "blog-sarvam-knowledge-fabric", "kind": "blog", "url": "https://www.sarvam.ai/blogs/knowledge-fabric-enterprise-agents" },
+    { "id": "x-katelyn-multiagent", "kind": "post", "url": "https://x.com/katelyn_lesse/status/2114542280535318557" }
+  ]
+}
