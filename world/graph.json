@@ -1,14 +1,14 @@
 {
   "nodes": [
-    {"id": "agent-harness", "type": "paradigm", "label": "Agent harness", "heat": 5, "updated": "2026-10-27"},
-    {"id": "harness-evolution", "type": "method", "label": "Harness evolution", "heat": 5, "updated": "2026-10-27"},
+    {"id": "agent-harness", "type": "paradigm", "label": "Agent harness", "heat": 5, "updated": "2026-10-28"},
+    {"id": "harness-evolution", "type": "method", "label": "Harness evolution", "heat": 5, "updated": "2026-10-28"},
     {"id": "harness2", "type": "method", "label": "Harness² recursive harnessing", "heat": 5, "updated": "2026-10-19"},
     {"id": "mesh-harness", "type": "method", "label": "MESH-Harness", "heat": 4, "updated": "2026-10-11"},
     {"id": "harness-search", "type": "method", "label": "Harness-Search", "heat": 4, "updated": "2026-10-11"},
     {"id": "causal-improvement-graph", "type": "structure", "label": "Causal improvement graph", "heat": 4, "updated": "2026-10-07"},
     {"id": "structured-harness", "type": "structure", "label": "Structured harness", "heat": 4, "updated": "2026-10-10"},
     {"id": "context-graph", "type": "structure", "label": "Context graph", "heat": 4, "updated": "2026-10-23"},
-    {"id": "memory-lifecycle", "type": "method", "label": "Memory lifecycle", "heat": 4, "updated": "2026-10-27"},
+    {"id": "memory-lifecycle", "type": "method", "label": "Memory lifecycle", "heat": 4, "updated": "2026-10-28"},
     {"id": "graph-engineering", "type": "paradigm", "label": "Graph engineering", "heat": 4, "updated": "2026-10-21"},
     {"id": "evals-gates", "type": "method", "label": "Evals gates", "heat": 4, "updated": "2026-10-20"},
     {"id": "e-ledger", "type": "structure", "label": "E-Ledger", "heat": 4, "updated": "2026-10-12"},
@@ -32,7 +32,11 @@
     {"id": "anti-persistence", "type": "method", "label": "Anti-Persistence", "heat": 4, "updated": "2026-10-26"},
     {"id": "action-rag", "type": "method", "label": "ActionRAG", "heat": 4, "updated": "2026-10-27"},
     {"id": "harness-mm", "type": "method", "label": "HarnessMM", "heat": 4, "updated": "2026-10-27"},
-    {"id": "knowledge-fabric", "type": "structure", "label": "Knowledge fabric", "heat": 4, "updated": "2026-10-27"}
+    {"id": "knowledge-fabric", "type": "structure", "label": "Knowledge fabric", "heat": 4, "updated": "2026-10-27"},
+    {"id": "harness-scaling", "type": "method", "label": "Harness Scaling", "heat": 4, "updated": "2026-10-28"},
+    {"id": "harnessadapt-rl", "type": "method", "label": "HarnessAdapt-RL", "heat": 4, "updated": "2026-10-28"},
+    {"id": "agent-memory-as-recommendation", "type": "method", "label": "Agent memory as recommendation", "heat": 4, "updated": "2026-10-28"},
+    {"id": "rsiv-harness", "type": "method", "label": "RSIV-Harness", "heat": 4, "updated": "2026-10-28"}
   ],
   "edges": [
     {"from": "mesh-harness", "to": "agent-harness", "rel": "specializes", "source": "arxiv-2610.05300"},
@@ -90,6 +94,15 @@
     {"from": "harness-mm", "to": "agent-harness", "rel": "specializes", "source": "arxiv-2610.32813"},
     {"from": "knowledge-fabric", "to": "context-graph", "rel": "implements", "source": "blog-sarvam-knowledge-fabric"},
     {"from": "knowledge-fabric", "to": "graph-engineering", "rel": "implements", "source": "blog-sarvam-knowledge-fabric"},
-    {"from": "knowledge-fabric", "to": "memory-lifecycle", "rel": "pairs-with", "source": "blog-sarvam-knowledge-fabric"}
+    {"from": "knowledge-fabric", "to": "memory-lifecycle", "rel": "pairs-with", "source": "blog-sarvam-knowledge-fabric"},
+    {"from": "harness-scaling", "to": "agent-harness", "rel": "specializes", "source": "arxiv-2610.29458"},
+    {"from": "harness-scaling", "to": "harness-evolution", "rel": "extends", "source": "arxiv-2610.29458"},
+    {"from": "harnessadapt-rl", "to": "harness-evolution", "rel": "extends", "source": "arxiv-2610.28069"},
+    {"from": "harnessadapt-rl", "to": "agent-harness", "rel": "specializes", "source": "arxiv-2610.28069"},
+    {"from": "harnessadapt-rl", "to": "agent-skills", "rel": "pairs-with", "source": "github-harnessadapt-rl"},
+    {"from": "agent-memory-as-recommendation", "to": "memory-lifecycle", "rel": "implements", "source": "arxiv-2610.34673"},
+    {"from": "agent-memory-as-recommendation", "to": "raw-rag-baseline", "rel": "contrasts", "source": "arxiv-2610.34673"},
+    {"from": "rsiv-harness", "to": "harness-evolution", "rel": "extends", "source": "arxiv-2610.35316"},
+    {"from": "rsiv-harness", "to": "agent-harness", "rel": "specializes", "source": "arxiv-2610.35316"}
   ]
 }

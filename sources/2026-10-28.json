@@ -1,0 +1,13 @@
+{
+  "date": "2026-10-28",
+  "items": [
+    { "id": "arxiv-2610.29458", "kind": "paper", "url": "https://arxiv.org/abs/2610.29458" },
+    { "id": "x-harness-scaling-charry", "kind": "post", "url": "https://x.com/CharryLee426/status/2114934215611392220" },
+    { "id": "arxiv-2610.28069", "kind": "paper", "url": "https://arxiv.org/abs/2610.28069" },
+    { "id": "github-harnessadapt-rl", "kind": "repo", "url": "https://github.com/lingxiaotang/HarnessAdapt-RL" },
+    { "id": "arxiv-2610.34673", "kind": "paper", "url": "https://arxiv.org/abs/2610.34673" },
+    { "id": "arxiv-2610.35316", "kind": "paper", "url": "https://arxiv.org/abs/2610.35316" },
+    { "id": "web-apple-pages-mcp", "kind": "blog", "url": "https://www.theverge.com/tech/1019373/apple-pages-keynote-numbers-ai-chatbot-update" },
+    { "id": "x-apple-mcp-fengshou", "kind": "post", "url": "https://x.com/ai_fengshou/status/2115263531469930642" }
+  ]
+}
