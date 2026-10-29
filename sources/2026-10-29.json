@@ -1,0 +1,11 @@
+{
+  "date": "2026-10-29",
+  "items": [
+    { "id": "arxiv-2610.37237", "kind": "paper", "url": "https://arxiv.org/abs/2610.37237" },
+    { "id": "arxiv-2610.37242", "kind": "paper", "url": "https://arxiv.org/abs/2610.37242" },
+    { "id": "arxiv-2610.34425", "kind": "paper", "url": "https://arxiv.org/abs/2610.34425" },
+    { "id": "github-ctxagent", "kind": "repo", "url": "https://github.com/MatthiasHBusch/CTXAgent" },
+    { "id": "x-hindsight-kb-mcp", "kind": "post", "url": "https://x.com/Vectorizeio/status/2115266062757281984" },
+    { "id": "web-hindsight-kb-mcp", "kind": "blog", "url": "https://hindsight.vectorize.io/blog/2026/08/26/knowledge-base-mcp-tools" }
+  ]
+}

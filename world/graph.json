@@ -1,15 +1,15 @@
 {
   "nodes": [
-    {"id": "agent-harness", "type": "paradigm", "label": "Agent harness", "heat": 5, "updated": "2026-10-28"},
+    {"id": "agent-harness", "type": "paradigm", "label": "Agent harness", "heat": 5, "updated": "2026-10-29"},
     {"id": "harness-evolution", "type": "method", "label": "Harness evolution", "heat": 5, "updated": "2026-10-28"},
     {"id": "harness2", "type": "method", "label": "Harness² recursive harnessing", "heat": 5, "updated": "2026-10-19"},
     {"id": "mesh-harness", "type": "method", "label": "MESH-Harness", "heat": 4, "updated": "2026-10-11"},
     {"id": "harness-search", "type": "method", "label": "Harness-Search", "heat": 4, "updated": "2026-10-11"},
     {"id": "causal-improvement-graph", "type": "structure", "label": "Causal improvement graph", "heat": 4, "updated": "2026-10-07"},
     {"id": "structured-harness", "type": "structure", "label": "Structured harness", "heat": 4, "updated": "2026-10-10"},
-    {"id": "context-graph", "type": "structure", "label": "Context graph", "heat": 4, "updated": "2026-10-23"},
-    {"id": "memory-lifecycle", "type": "method", "label": "Memory lifecycle", "heat": 4, "updated": "2026-10-28"},
-    {"id": "graph-engineering", "type": "paradigm", "label": "Graph engineering", "heat": 4, "updated": "2026-10-21"},
+    {"id": "context-graph", "type": "structure", "label": "Context graph", "heat": 4, "updated": "2026-10-29"},
+    {"id": "memory-lifecycle", "type": "method", "label": "Memory lifecycle", "heat": 4, "updated": "2026-10-29"},
+    {"id": "graph-engineering", "type": "paradigm", "label": "Graph engineering", "heat": 4, "updated": "2026-10-29"},
     {"id": "evals-gates", "type": "method", "label": "Evals gates", "heat": 4, "updated": "2026-10-20"},
     {"id": "e-ledger", "type": "structure", "label": "E-Ledger", "heat": 4, "updated": "2026-10-12"},
     {"id": "world-abduct", "type": "method", "label": "WorldAbduct", "heat": 4, "updated": "2026-10-12"},
@@ -36,7 +36,11 @@
     {"id": "harness-scaling", "type": "method", "label": "Harness Scaling", "heat": 4, "updated": "2026-10-28"},
     {"id": "harnessadapt-rl", "type": "method", "label": "HarnessAdapt-RL", "heat": 4, "updated": "2026-10-28"},
     {"id": "agent-memory-as-recommendation", "type": "method", "label": "Agent memory as recommendation", "heat": 4, "updated": "2026-10-28"},
-    {"id": "rsiv-harness", "type": "method", "label": "RSIV-Harness", "heat": 4, "updated": "2026-10-28"}
+    {"id": "rsiv-harness", "type": "method", "label": "RSIV-Harness", "heat": 4, "updated": "2026-10-28"},
+    {"id": "graphrag-prov", "type": "method", "label": "GraphRAGProv how-provenance", "heat": 4, "updated": "2026-10-29"},
+    {"id": "process-aware-kg", "type": "structure", "label": "Process-aware knowledge graph", "heat": 4, "updated": "2026-10-29"},
+    {"id": "ctxagent", "type": "method", "label": "CTXAgent self-controlled context", "heat": 4, "updated": "2026-10-29"},
+    {"id": "hindsight-kb-mcp", "type": "structure", "label": "Hindsight knowledge-base MCP", "heat": 3, "updated": "2026-10-29"}
   ],
   "edges": [
     {"from": "mesh-harness", "to": "agent-harness", "rel": "specializes", "source": "arxiv-2610.05300"},
@@ -103,6 +107,16 @@
     {"from": "agent-memory-as-recommendation", "to": "memory-lifecycle", "rel": "implements", "source": "arxiv-2610.34673"},
     {"from": "agent-memory-as-recommendation", "to": "raw-rag-baseline", "rel": "contrasts", "source": "arxiv-2610.34673"},
     {"from": "rsiv-harness", "to": "harness-evolution", "rel": "extends", "source": "arxiv-2610.35316"},
-    {"from": "rsiv-harness", "to": "agent-harness", "rel": "specializes", "source": "arxiv-2610.35316"}
+    {"from": "rsiv-harness", "to": "agent-harness", "rel": "specializes", "source": "arxiv-2610.35316"},
+    {"from": "graphrag-prov", "to": "context-graph", "rel": "implements", "source": "arxiv-2610.37237"},
+    {"from": "graphrag-prov", "to": "graph-engineering", "rel": "implements", "source": "arxiv-2610.37237"},
+    {"from": "graphrag-prov", "to": "evals-gates", "rel": "pairs-with", "source": "arxiv-2610.37237"},
+    {"from": "process-aware-kg", "to": "graph-engineering", "rel": "implements", "source": "arxiv-2610.37242"},
+    {"from": "process-aware-kg", "to": "agent-harness", "rel": "pairs-with", "source": "arxiv-2610.37242"},
+    {"from": "ctxagent", "to": "agent-harness", "rel": "specializes", "source": "arxiv-2610.34425"},
+    {"from": "ctxagent", "to": "memory-lifecycle", "rel": "implements", "source": "arxiv-2610.34425"},
+    {"from": "ctxagent", "to": "agent-harness", "rel": "pairs-with", "source": "github-ctxagent"},
+    {"from": "hindsight-kb-mcp", "to": "memory-lifecycle", "rel": "implements", "source": "x-hindsight-kb-mcp"},
+    {"from": "hindsight-kb-mcp", "to": "agent-harness", "rel": "pairs-with", "source": "web-hindsight-kb-mcp"}
   ]
 }
