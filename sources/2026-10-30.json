@@ -1,0 +1,13 @@
+{
+  "date": "2026-10-30",
+  "items": [
+    { "id": "blog-ms-copilot-harness", "kind": "blog", "url": "https://blogs.microsoft.com/blog/2026/10/28/introducing-the-microsoft-copilot-harness-unlocking-the-potential-of-truly-multi-model-agentic-work/" },
+    { "id": "blog-foundry-copilot-harness", "kind": "blog", "url": "https://devblogs.microsoft.com/foundry/microsoft-copilot-harness-in-foundry/" },
+    { "id": "github-copilot-sdk", "kind": "repo", "url": "https://github.com/github/copilot-sdk" },
+    { "id": "blog-openwiki-memory", "kind": "blog", "url": "https://www.langchain.com/blog/building-agent-memory-openwiki-graphs" },
+    { "id": "github-openwiki", "kind": "repo", "url": "https://github.com/langchain-ai/openwiki" },
+    { "id": "arxiv-2610.35616", "kind": "paper", "url": "https://arxiv.org/abs/2610.35616" },
+    { "id": "github-hse", "kind": "repo", "url": "https://github.com/jungao1106/SKILL_EVO" },
+    { "id": "x-ms-copilot-harness", "kind": "post", "url": "https://x.com/Xudong07452910/status/2115977486060114010" }
+  ]
+}
