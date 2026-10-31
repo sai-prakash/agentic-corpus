@@ -8,9 +8,9 @@
     {"id": "causal-improvement-graph", "type": "structure", "label": "Causal improvement graph", "heat": 4, "updated": "2026-10-07"},
     {"id": "structured-harness", "type": "structure", "label": "Structured harness", "heat": 4, "updated": "2026-10-10"},
     {"id": "context-graph", "type": "structure", "label": "Context graph", "heat": 4, "updated": "2026-10-30"},
-    {"id": "memory-lifecycle", "type": "method", "label": "Memory lifecycle", "heat": 4, "updated": "2026-10-30"},
+    {"id": "memory-lifecycle", "type": "method", "label": "Memory lifecycle", "heat": 4, "updated": "2026-10-31"},
     {"id": "graph-engineering", "type": "paradigm", "label": "Graph engineering", "heat": 4, "updated": "2026-10-29"},
-    {"id": "evals-gates", "type": "method", "label": "Evals gates", "heat": 4, "updated": "2026-10-30"},
+    {"id": "evals-gates", "type": "method", "label": "Evals gates", "heat": 4, "updated": "2026-10-31"},
     {"id": "e-ledger", "type": "structure", "label": "E-Ledger", "heat": 4, "updated": "2026-10-12"},
     {"id": "world-abduct", "type": "method", "label": "WorldAbduct", "heat": 4, "updated": "2026-10-12"},
     {"id": "reharness", "type": "method", "label": "ReHarness", "heat": 4, "updated": "2026-10-14"},
@@ -43,7 +43,10 @@
     {"id": "hindsight-kb-mcp", "type": "structure", "label": "Hindsight knowledge-base MCP", "heat": 3, "updated": "2026-10-29"},
     {"id": "ms-copilot-harness", "type": "structure", "label": "Microsoft Copilot harness", "heat": 5, "updated": "2026-10-30"},
     {"id": "openwiki-evidence-graph", "type": "method", "label": "OpenWiki evidence-graph memory", "heat": 4, "updated": "2026-10-30"},
-    {"id": "hierarchical-skill-evolution", "type": "method", "label": "Hierarchical Skill Evolution", "heat": 4, "updated": "2026-10-30"}
+    {"id": "hierarchical-skill-evolution", "type": "method", "label": "Hierarchical Skill Evolution", "heat": 4, "updated": "2026-10-30"},
+    {"id": "firme-registry-memory", "type": "structure", "label": "FIRME registry-anchored memory", "heat": 4, "updated": "2026-10-31"},
+    {"id": "fog-evidence-retrieval", "type": "method", "label": "FoG evidence-coverage training", "heat": 4, "updated": "2026-10-31"},
+    {"id": "embrace-browser-risk", "type": "method", "label": "EMBRACE embedded-browser risk", "heat": 4, "updated": "2026-10-31"}
   ],
   "edges": [
     {"from": "mesh-harness", "to": "agent-harness", "rel": "specializes", "source": "arxiv-2610.05300"},
@@ -129,6 +132,15 @@
     {"from": "openwiki-evidence-graph", "to": "agent-harness", "rel": "pairs-with", "source": "github-openwiki"},
     {"from": "hierarchical-skill-evolution", "to": "agent-skills", "rel": "specializes", "source": "arxiv-2610.35616"},
     {"from": "hierarchical-skill-evolution", "to": "harness-evolution", "rel": "extends", "source": "arxiv-2610.35616"},
-    {"from": "hierarchical-skill-evolution", "to": "agent-harness", "rel": "pairs-with", "source": "github-hse"}
+    {"from": "hierarchical-skill-evolution", "to": "agent-harness", "rel": "pairs-with", "source": "github-hse"},
+    {"from": "firme-registry-memory", "to": "memory-lifecycle", "rel": "implements", "source": "arxiv-2610.40482"},
+    {"from": "firme-registry-memory", "to": "context-graph", "rel": "implements", "source": "arxiv-2610.40482"},
+    {"from": "firme-registry-memory", "to": "graph-engineering", "rel": "implements", "source": "arxiv-2610.40482"},
+    {"from": "fog-evidence-retrieval", "to": "evals-gates", "rel": "specializes", "source": "arxiv-2610.37405"},
+    {"from": "fog-evidence-retrieval", "to": "graph-engineering", "rel": "implements", "source": "arxiv-2610.37405"},
+    {"from": "fog-evidence-retrieval", "to": "memory-lifecycle", "rel": "pairs-with", "source": "arxiv-2610.37405"},
+    {"from": "embrace-browser-risk", "to": "agent-harness", "rel": "pairs-with", "source": "blog-embrace-forever"},
+    {"from": "embrace-browser-risk", "to": "evals-gates", "rel": "pairs-with", "source": "web-embrace-coverage"},
+    {"from": "embrace-browser-risk", "to": "agent-harness", "rel": "contrasts", "source": "x-embrace-discussion"}
   ]
 }

@@ -1,0 +1,10 @@
+{
+  "date": "2026-10-31",
+  "items": [
+    { "id": "arxiv-2610.40482", "kind": "paper", "url": "https://arxiv.org/abs/2610.40482" },
+    { "id": "arxiv-2610.37405", "kind": "paper", "url": "https://arxiv.org/abs/2610.37405" },
+    { "id": "blog-embrace-forever", "kind": "blog", "url": "https://forever.security/blog/embrace-hacking-5-ai-assistants-embedded-browsers/" },
+    { "id": "web-embrace-coverage", "kind": "web", "url": "https://dailysecurityreview.com/cyber-security/embrace-flaws-in-cursor-codex-vs-code-allow-file-theft/" },
+    { "id": "x-embrace-discussion", "kind": "post", "url": "https://x.com/omurice_brand/status/2116072420704694435" }
+  ]
+}
