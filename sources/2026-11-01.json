@@ -1,0 +1,14 @@
+{
+  "date": "2026-11-01",
+  "items": [
+    { "id": "arxiv-2610.39884", "kind": "paper", "url": "https://arxiv.org/abs/2610.39884" },
+    { "id": "arxiv-2610.40444", "kind": "paper", "url": "https://arxiv.org/abs/2610.40444" },
+    { "id": "arxiv-2610.17633", "kind": "paper", "url": "https://arxiv.org/abs/2610.17633" },
+    { "id": "arxiv-2610.39790", "kind": "paper", "url": "https://arxiv.org/abs/2610.39790" },
+    { "id": "blog-databricks-memcurrent", "kind": "blog", "url": "https://www.databricks.com/blog/memcurrent-designing-persistent-memory-production-agents" },
+    { "id": "x-databricks-agent-memory", "kind": "post", "url": "https://x.com/databricks/status/2116170816899498060" },
+    { "id": "arxiv-2610.40545", "kind": "paper", "url": "https://arxiv.org/abs/2610.40545" },
+    { "id": "arxiv-2610.39813", "kind": "paper", "url": "https://arxiv.org/abs/2610.39813" },
+    { "id": "arxiv-2610.40556", "kind": "paper", "url": "https://arxiv.org/abs/2610.40556" }
+  ]
+}
