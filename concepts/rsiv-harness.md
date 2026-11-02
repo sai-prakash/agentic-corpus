@@ -1,13 +1,17 @@
-# RSIV-Harness
+# RSIV-Harness (Recursive Self-Improvement Harness)
 
-**Definition.** Recursive self-improvement applied to an agent harness for open-domain conversational text-to-visualization: model weights stay fixed; the harness is revised from the agent's own failure traces under a four-layer stability framework (anchor and memory checks; refine or restore).
+**Slug:** rsiv-harness  
+**Heat:** 4  
+**Updated:** 2026-11-02
 
-**Contrast.** The harness revises itself from experience while the model stays frozen. Static predefined harnesses leave recurring failures unaddressed; the four-layer checks prevent unbounded or unstable revisions.
+Keeps model weights fixed and revises the surrounding harness from the agent's own failure traces, gated by a four-layer framework of anchor and memory checks. Demonstrated on open-domain conversational text-to-visualization.
 
-**Evidence.** arXiv:2610.35316 (submitted 26 Oct 2026): on ODAC-Vis (640 tasks covering open-domain discovery, ambiguity, multi-turn refinement and executable charts) a single round improves all six metrics, with +28.02 points executability and +34.01 points chart structure relative to the seed harness.
+## Triple / contrast
+Harness revision from failure traces (with rollback) is not weight update or unconstrained code mutation.  
+The harness improves while the model stays frozen; checks prevent regression.
 
-**Heat.** 4. Updated 2026-10-28.
+## Sources
+- arXiv:2610.35316 (submitted 26 Oct 2026) — RSIV-Harness + ODAC-Vis benchmark; +28 executability, +34 chart structure after one round
 
-Sources: https://arxiv.org/abs/2610.35316.
-
-Publish angle: take a simple text-to-chart harness, collect failure traces on a small open-domain task set, propose harness revisions, accept only those that pass an anchor/memory check, and measure executability and structure scores before versus after one RSI round.
+## Shipable lab (6 h)
+Take a small set of failing visualization or tool-use traces. Write a proposer that suggests one harness change (prompt, tool schema, or recovery hook). Add a simple regression check against a held-out success set. Measure whether the change lifts the failing cases without breaking the successes.

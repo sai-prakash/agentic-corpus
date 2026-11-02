@@ -1,1 +1,23 @@
-PLACEHOLDER_AGAIN
+{
+  "nodes": [
+    { "id": "agent-harness", "label": "Agent harness", "heat": 5, "updated": "2026-11-02" },
+    { "id": "memory-lifecycle", "label": "Memory lifecycle", "heat": 5, "updated": "2026-11-02" },
+    { "id": "harness-evolution", "label": "Harness evolution", "heat": 4, "updated": "2026-11-02" },
+    { "id": "mcp", "label": "MCP", "heat": 4, "updated": "2026-11-02" },
+    { "id": "complementary-curation-memory", "label": "Complementary curation memory", "heat": 5, "updated": "2026-11-01" },
+    { "id": "prefix-executability", "label": "Prefix executability", "heat": 4, "updated": "2026-11-01" },
+    { "id": "dsh-superagent", "label": "dsh-superagent", "heat": 4, "updated": "2026-11-02" },
+    { "id": "lore-shared-memory", "label": "Lore shared memory", "heat": 4, "updated": "2026-11-02" },
+    { "id": "recap-context-graph", "label": "ReCAP context graph", "heat": 4, "updated": "2026-11-02" },
+    { "id": "rsiv-harness", "label": "RSIV-Harness", "heat": 4, "updated": "2026-11-02" }
+  ],
+  "edges": [
+    { "source": "dsh-superagent", "target": "agent-harness", "source_id": "gh-dsh-superagent" },
+    { "source": "lore-shared-memory", "target": "memory-lifecycle", "source_id": "gh-lore" },
+    { "source": "lore-shared-memory", "target": "mcp", "source_id": "blog-notion-lore" },
+    { "source": "recap-context-graph", "target": "memory-lifecycle", "source_id": "ms-recap" },
+    { "source": "rsiv-harness", "target": "harness-evolution", "source_id": "arxiv-2610.35316" },
+    { "source": "complementary-curation-memory", "target": "memory-lifecycle", "source_id": "arxiv-2610.39790" },
+    { "source": "prefix-executability", "target": "agent-harness", "source_id": "arxiv-2610.40444" }
+  ]
+}

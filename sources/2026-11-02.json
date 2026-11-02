@@ -1,0 +1,11 @@
+{
+  "date": "2026-11-02",
+  "items": [
+    { "id": "gh-dsh-superagent", "kind": "repo", "url": "https://github.com/deepseek-ai/dsh-superagent-prototype" },
+    { "id": "gh-lore", "kind": "repo", "url": "https://github.com/makenotion/lore" },
+    { "id": "blog-notion-lore", "kind": "blog", "url": "https://www.notion.com/blog/building-shared-memory-for-ai-agents-in-notion" },
+    { "id": "ms-recap", "kind": "paper", "url": "https://www.microsoft.com/en-us/research/publication/persistent-context-graphs-for-efficient-memory-compaction-in-llm-agents/" },
+    { "id": "arxiv-2610.35316", "kind": "paper", "url": "https://arxiv.org/abs/2610.35316" },
+    { "id": "x-lore-recirc", "kind": "post", "url": "https://x.com/vishalsingh2972/status/2117057522398081364" }
+  ]
+}
