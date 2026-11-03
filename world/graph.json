@@ -1,15 +1,18 @@
 {
   "nodes": [
-    { "id": "agent-harness", "label": "Agent harness", "heat": 5, "updated": "2026-11-02" },
-    { "id": "memory-lifecycle", "label": "Memory lifecycle", "heat": 5, "updated": "2026-11-02" },
+    { "id": "agent-harness", "label": "Agent harness", "heat": 5, "updated": "2026-11-03" },
+    { "id": "memory-lifecycle", "label": "Memory lifecycle", "heat": 5, "updated": "2026-11-03" },
     { "id": "harness-evolution", "label": "Harness evolution", "heat": 4, "updated": "2026-11-02" },
-    { "id": "mcp", "label": "MCP", "heat": 4, "updated": "2026-11-02" },
+    { "id": "mcp", "label": "MCP", "heat": 4, "updated": "2026-11-03" },
     { "id": "complementary-curation-memory", "label": "Complementary curation memory", "heat": 5, "updated": "2026-11-01" },
     { "id": "prefix-executability", "label": "Prefix executability", "heat": 4, "updated": "2026-11-01" },
     { "id": "dsh-superagent", "label": "dsh-superagent", "heat": 4, "updated": "2026-11-02" },
     { "id": "lore-shared-memory", "label": "Lore shared memory", "heat": 4, "updated": "2026-11-02" },
     { "id": "recap-context-graph", "label": "ReCAP context graph", "heat": 4, "updated": "2026-11-02" },
-    { "id": "rsiv-harness", "label": "RSIV-Harness", "heat": 4, "updated": "2026-11-02" }
+    { "id": "rsiv-harness", "label": "RSIV-Harness", "heat": 4, "updated": "2026-11-02" },
+    { "id": "gitlab-orbit", "label": "GitLab Orbit", "heat": 4, "updated": "2026-11-03" },
+    { "id": "knowledge-compilation", "label": "Knowledge compilation", "heat": 4, "updated": "2026-11-03" },
+    { "id": "github-dreaming", "label": "GitHub Dreaming", "heat": 4, "updated": "2026-11-03" }
   ],
   "edges": [
     { "source": "dsh-superagent", "target": "agent-harness", "source_id": "gh-dsh-superagent" },
@@ -18,6 +21,10 @@
     { "source": "recap-context-graph", "target": "memory-lifecycle", "source_id": "ms-recap" },
     { "source": "rsiv-harness", "target": "harness-evolution", "source_id": "arxiv-2610.35316" },
     { "source": "complementary-curation-memory", "target": "memory-lifecycle", "source_id": "arxiv-2610.39790" },
-    { "source": "prefix-executability", "target": "agent-harness", "source_id": "arxiv-2610.40444" }
+    { "source": "prefix-executability", "target": "agent-harness", "source_id": "arxiv-2610.40444" },
+    { "source": "gitlab-orbit", "target": "memory-lifecycle", "source_id": "gitlab-orbit-ga" },
+    { "source": "gitlab-orbit", "target": "mcp", "source_id": "gitlab-orbit-docs" },
+    { "source": "knowledge-compilation", "target": "agent-harness", "source_id": "arxiv-2610.41172" },
+    { "source": "github-dreaming", "target": "memory-lifecycle", "source_id": "gh-intelligence" }
   ]
 }

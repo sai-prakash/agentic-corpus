@@ -1,0 +1,12 @@
+{
+  "date": "2026-11-03",
+  "items": [
+    { "id": "gitlab-orbit-ga", "kind": "blog", "url": "https://about.gitlab.com/blog/gitlab-orbit-ga/" },
+    { "id": "gitlab-orbit-docs", "kind": "docs", "url": "https://docs.gitlab.com/orbit/" },
+    { "id": "gh-orbit", "kind": "repo", "url": "https://github.com/gitlabhq/orbit-knowledge-graph" },
+    { "id": "arxiv-2610.41172", "kind": "paper", "url": "https://arxiv.org/abs/2610.41172" },
+    { "id": "gh-ragflow", "kind": "repo", "url": "https://github.com/infiniflow/ragflow" },
+    { "id": "gh-intelligence", "kind": "blog", "url": "https://github.blog/changelog/2026-10-28-github-intelligence-puts-your-code-context-and-history-to-work/" },
+    { "id": "x-orbit-devops", "kind": "post", "url": "https://x.com/devopsdotcom/status/2117293269679821247" }
+  ]
+}
