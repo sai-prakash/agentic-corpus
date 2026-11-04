@@ -1,7 +1,7 @@
 {
   "nodes": [
-    { "id": "agent-harness", "label": "Agent harness", "heat": 5, "updated": "2026-11-03" },
-    { "id": "memory-lifecycle", "label": "Memory lifecycle", "heat": 5, "updated": "2026-11-03" },
+    { "id": "agent-harness", "label": "Agent harness", "heat": 5, "updated": "2026-11-04" },
+    { "id": "memory-lifecycle", "label": "Memory lifecycle", "heat": 5, "updated": "2026-11-04" },
     { "id": "harness-evolution", "label": "Harness evolution", "heat": 4, "updated": "2026-11-02" },
     { "id": "mcp", "label": "MCP", "heat": 4, "updated": "2026-11-03" },
     { "id": "complementary-curation-memory", "label": "Complementary curation memory", "heat": 5, "updated": "2026-11-01" },
@@ -12,7 +12,10 @@
     { "id": "rsiv-harness", "label": "RSIV-Harness", "heat": 4, "updated": "2026-11-02" },
     { "id": "gitlab-orbit", "label": "GitLab Orbit", "heat": 4, "updated": "2026-11-03" },
     { "id": "knowledge-compilation", "label": "Knowledge compilation", "heat": 4, "updated": "2026-11-03" },
-    { "id": "github-dreaming", "label": "GitHub Dreaming", "heat": 4, "updated": "2026-11-03" }
+    { "id": "github-dreaming", "label": "GitHub Dreaming", "heat": 4, "updated": "2026-11-03" },
+    { "id": "paretosaddler", "label": "ParetoSaddler", "heat": 5, "updated": "2026-11-04" },
+    { "id": "raw-rag-memory", "label": "Raw-RAG memory", "heat": 4, "updated": "2026-11-04" },
+    { "id": "starnet-harness", "label": "StarNet harness", "heat": 4, "updated": "2026-11-04" }
   ],
   "edges": [
     { "source": "dsh-superagent", "target": "agent-harness", "source_id": "gh-dsh-superagent" },
@@ -25,6 +28,10 @@
     { "source": "gitlab-orbit", "target": "memory-lifecycle", "source_id": "gitlab-orbit-ga" },
     { "source": "gitlab-orbit", "target": "mcp", "source_id": "gitlab-orbit-docs" },
     { "source": "knowledge-compilation", "target": "agent-harness", "source_id": "arxiv-2610.41172" },
-    { "source": "github-dreaming", "target": "memory-lifecycle", "source_id": "gh-intelligence" }
+    { "source": "github-dreaming", "target": "memory-lifecycle", "source_id": "gh-intelligence" },
+    { "source": "paretosaddler", "target": "agent-harness", "source_id": "arxiv-2611.02079" },
+    { "source": "paretosaddler", "target": "harness-evolution", "source_id": "x-omarsar0-pareto" },
+    { "source": "raw-rag-memory", "target": "memory-lifecycle", "source_id": "arxiv-2610.30755" },
+    { "source": "starnet-harness", "target": "agent-harness", "source_id": "gh-starnet" }
   ]
 }

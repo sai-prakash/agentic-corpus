@@ -1,0 +1,12 @@
+{
+  "date": "2026-11-04",
+  "items": [
+    { "id": "arxiv-2611.02079", "kind": "paper", "url": "https://arxiv.org/abs/2611.02079" },
+    { "id": "x-omarsar0-pareto", "kind": "post", "url": "https://x.com/omarsar0/status/2117738094069944347" },
+    { "id": "arxiv-2610.30755", "kind": "paper", "url": "https://arxiv.org/abs/2610.30755" },
+    { "id": "gh-raw-rag", "kind": "repo", "url": "https://github.com/Litmeb/RAW-RAG" },
+    { "id": "gh-starnet", "kind": "repo", "url": "https://github.com/androoAGI/starnet" },
+    { "id": "arxiv-2611.01415", "kind": "paper", "url": "https://arxiv.org/abs/2611.01415" },
+    { "id": "arxiv-2611.03434", "kind": "paper", "url": "https://arxiv.org/abs/2611.03434" }
+  ]
+}
