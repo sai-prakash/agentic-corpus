@@ -1,0 +1,11 @@
+{
+  "date": "2026-11-05",
+  "items": [
+    { "id": "arxiv-2611.04277", "kind": "paper", "url": "https://arxiv.org/abs/2611.04277" },
+    { "id": "gh-harness-s", "kind": "repo", "url": "https://github.com/DeepExperience/Harness-S" },
+    { "id": "arxiv-2611.02216", "kind": "paper", "url": "https://arxiv.org/abs/2611.02216" },
+    { "id": "arxiv-2610.40917", "kind": "paper", "url": "https://arxiv.org/abs/2610.40917" },
+    { "id": "x-damkina7-audit", "kind": "post", "url": "https://x.com/damkina7/status/2117723668721578025" },
+    { "id": "arxiv-2609.00006", "kind": "paper", "url": "https://arxiv.org/abs/2609.00006" }
+  ]
+}

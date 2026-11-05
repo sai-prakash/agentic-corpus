@@ -1,8 +1,8 @@
 {
   "nodes": [
-    { "id": "agent-harness", "label": "Agent harness", "heat": 5, "updated": "2026-11-04" },
-    { "id": "memory-lifecycle", "label": "Memory lifecycle", "heat": 5, "updated": "2026-11-04" },
-    { "id": "harness-evolution", "label": "Harness evolution", "heat": 4, "updated": "2026-11-02" },
+    { "id": "agent-harness", "label": "Agent harness", "heat": 5, "updated": "2026-11-05" },
+    { "id": "memory-lifecycle", "label": "Memory lifecycle", "heat": 5, "updated": "2026-11-05" },
+    { "id": "harness-evolution", "label": "Harness evolution", "heat": 4, "updated": "2026-11-05" },
     { "id": "mcp", "label": "MCP", "heat": 4, "updated": "2026-11-03" },
     { "id": "complementary-curation-memory", "label": "Complementary curation memory", "heat": 5, "updated": "2026-11-01" },
     { "id": "prefix-executability", "label": "Prefix executability", "heat": 4, "updated": "2026-11-01" },
@@ -15,7 +15,10 @@
     { "id": "github-dreaming", "label": "GitHub Dreaming", "heat": 4, "updated": "2026-11-03" },
     { "id": "paretosaddler", "label": "ParetoSaddler", "heat": 5, "updated": "2026-11-04" },
     { "id": "raw-rag-memory", "label": "Raw-RAG memory", "heat": 4, "updated": "2026-11-04" },
-    { "id": "starnet-harness", "label": "StarNet harness", "heat": 4, "updated": "2026-11-04" }
+    { "id": "starnet-harness", "label": "StarNet harness", "heat": 4, "updated": "2026-11-04" },
+    { "id": "harness-s", "label": "Harness-S", "heat": 4, "updated": "2026-11-05" },
+    { "id": "agent-sleep", "label": "Agent sleep", "heat": 4, "updated": "2026-11-05" },
+    { "id": "portable-harness-spec", "label": "Portable harness spec", "heat": 4, "updated": "2026-11-05" }
   ],
   "edges": [
     { "source": "dsh-superagent", "target": "agent-harness", "source_id": "gh-dsh-superagent" },
@@ -32,6 +35,10 @@
     { "source": "paretosaddler", "target": "agent-harness", "source_id": "arxiv-2611.02079" },
     { "source": "paretosaddler", "target": "harness-evolution", "source_id": "x-omarsar0-pareto" },
     { "source": "raw-rag-memory", "target": "memory-lifecycle", "source_id": "arxiv-2610.30755" },
-    { "source": "starnet-harness", "target": "agent-harness", "source_id": "gh-starnet" }
+    { "source": "starnet-harness", "target": "agent-harness", "source_id": "gh-starnet" },
+    { "source": "harness-s", "target": "agent-harness", "source_id": "arxiv-2611.04277" },
+    { "source": "harness-s", "target": "harness-evolution", "source_id": "gh-harness-s" },
+    { "source": "agent-sleep", "target": "memory-lifecycle", "source_id": "arxiv-2611.02216" },
+    { "source": "portable-harness-spec", "target": "agent-harness", "source_id": "arxiv-2610.40917" }
   ]
 }
