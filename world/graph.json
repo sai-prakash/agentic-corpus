@@ -1,8 +1,8 @@
 {
   "nodes": [
-    { "id": "agent-harness", "label": "Agent harness", "heat": 5, "updated": "2026-11-05" },
-    { "id": "memory-lifecycle", "label": "Memory lifecycle", "heat": 5, "updated": "2026-11-05" },
-    { "id": "harness-evolution", "label": "Harness evolution", "heat": 4, "updated": "2026-11-05" },
+    { "id": "agent-harness", "label": "Agent harness", "heat": 5, "updated": "2026-11-06" },
+    { "id": "memory-lifecycle", "label": "Memory lifecycle", "heat": 5, "updated": "2026-11-06" },
+    { "id": "harness-evolution", "label": "Harness evolution", "heat": 4, "updated": "2026-11-06" },
     { "id": "mcp", "label": "MCP", "heat": 4, "updated": "2026-11-03" },
     { "id": "complementary-curation-memory", "label": "Complementary curation memory", "heat": 5, "updated": "2026-11-01" },
     { "id": "prefix-executability", "label": "Prefix executability", "heat": 4, "updated": "2026-11-01" },
@@ -18,7 +18,11 @@
     { "id": "starnet-harness", "label": "StarNet harness", "heat": 4, "updated": "2026-11-04" },
     { "id": "harness-s", "label": "Harness-S", "heat": 4, "updated": "2026-11-05" },
     { "id": "agent-sleep", "label": "Agent sleep", "heat": 4, "updated": "2026-11-05" },
-    { "id": "portable-harness-spec", "label": "Portable harness spec", "heat": 4, "updated": "2026-11-05" }
+    { "id": "portable-harness-spec", "label": "Portable harness spec", "heat": 4, "updated": "2026-11-05" },
+    { "id": "graph-mediated-systems", "label": "Graph-mediated systems", "heat": 4, "updated": "2026-11-06" },
+    { "id": "arcrag", "label": "ArcRAG", "heat": 4, "updated": "2026-11-06" },
+    { "id": "harnessgrad", "label": "HarnessGrad", "heat": 4, "updated": "2026-11-06" },
+    { "id": "harness-awareness", "label": "Harness awareness", "heat": 4, "updated": "2026-11-06" }
   ],
   "edges": [
     { "source": "dsh-superagent", "target": "agent-harness", "source_id": "gh-dsh-superagent" },
@@ -39,6 +43,11 @@
     { "source": "harness-s", "target": "agent-harness", "source_id": "arxiv-2611.04277" },
     { "source": "harness-s", "target": "harness-evolution", "source_id": "gh-harness-s" },
     { "source": "agent-sleep", "target": "memory-lifecycle", "source_id": "arxiv-2611.02216" },
-    { "source": "portable-harness-spec", "target": "agent-harness", "source_id": "arxiv-2610.40917" }
+    { "source": "portable-harness-spec", "target": "agent-harness", "source_id": "arxiv-2610.40917" },
+    { "source": "graph-mediated-systems", "target": "memory-lifecycle", "source_id": "arxiv-2611.05953" },
+    { "source": "graph-mediated-systems", "target": "agent-harness", "source_id": "x-yotg-graph-mediated" },
+    { "source": "arcrag", "target": "memory-lifecycle", "source_id": "arxiv-2611.06481" },
+    { "source": "harnessgrad", "target": "harness-evolution", "source_id": "x-zxlzr-harnessgrad" },
+    { "source": "harness-awareness", "target": "agent-harness", "source_id": "arxiv-2611.05391" }
   ]
 }

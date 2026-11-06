@@ -1,0 +1,50 @@
+[
+  {
+    "id": "arxiv-2611.05953",
+    "type": "paper",
+    "title": "Graph-Mediated Large Language Model Systems in the Agentic Era: Reasoning, Knowledge, Retrieval, Execution, and Coordination",
+    "url": "https://arxiv.org/abs/2611.05953",
+    "date": "2026-11-04",
+    "authors": ["Haihui Liu", "Yang Chen", "Zice Qiu", "Yun Zhang", "Jialun Zhong", "Wenhua Wang", "Yanzeng Li", "Tian Wang"]
+  },
+  {
+    "id": "x-yotg-graph-mediated",
+    "type": "post",
+    "title": "Graph-Mediated LLM Systems discussion",
+    "url": "https://x.com/TheYotg/status/2118303352953979338",
+    "date": "2026-11-05",
+    "authors": ["The Year of the Graph"]
+  },
+  {
+    "id": "arxiv-2611.06481",
+    "type": "paper",
+    "title": "ArcRAG: Agentic Compositional Retrieval over Knowledge Graphs",
+    "url": "https://arxiv.org/abs/2611.06481",
+    "date": "2026-11-04",
+    "authors": ["Jyotin Goel", "Abhinav Arun", "Tejas Prakash Agarwal", "Bhaskarjit Sarmah", "Stefano Pasquali"]
+  },
+  {
+    "id": "x-zxlzr-harnessgrad",
+    "type": "post",
+    "title": "HarnessGrad: Harness as A Continual Learner",
+    "url": "https://x.com/zxlzr/status/2118388700124156016",
+    "date": "2026-11-05",
+    "authors": ["Ningyu Zhang"]
+  },
+  {
+    "id": "arxiv-2611.05391",
+    "type": "paper",
+    "title": "Agent Harness Awareness: Turning Verified Telemetry into Operational Control for Tool-Using Agents",
+    "url": "https://arxiv.org/abs/2611.05391",
+    "date": "2026-09-13",
+    "authors": ["Manu Agrawal", "Shrey Nagpal"]
+  },
+  {
+    "id": "x-newstongue-awareness",
+    "type": "post",
+    "title": "Agent Harness Awareness summary",
+    "url": "https://x.com/NewsTongueX/status/2118292421561741499",
+    "date": "2026-11-05",
+    "authors": ["NewsTongue"]
+  }
+]
