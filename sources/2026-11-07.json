@@ -1,0 +1,34 @@
+[
+  {
+    "id": "arxiv-2611.08433",
+    "type": "paper",
+    "title": "MedGraph: Maintaining Patient State with Graph Memory for Long-Term Medical Dialogue",
+    "url": "https://arxiv.org/abs/2611.08433",
+    "date": "2026-11-05",
+    "authors": ["Donghua Zhang", "Zizheng Wang", "Ze Dong", "Yiding Feng", "Siyu Qian"]
+  },
+  {
+    "id": "arxiv-2611.07759",
+    "type": "paper",
+    "title": "ReConMem: A Graph-Based Dual Memory System for Repository-Oriented Conversations",
+    "url": "https://arxiv.org/abs/2611.07759",
+    "date": "2026-11-05",
+    "authors": ["Zhishuo Yang", "Li Zhang", "Yang Liu", "Donghao Yang", "Fang Liu"]
+  },
+  {
+    "id": "blog-anthropic-memory",
+    "type": "post",
+    "title": "The components of agent memory",
+    "url": "https://www.anthropic.com/research/components-of-agent-memory",
+    "date": "2026-11-06",
+    "authors": ["Lance Martin"]
+  },
+  {
+    "id": "x-anthropic-memory",
+    "type": "post",
+    "title": "Anthropic agent memory dreaming announcement",
+    "url": "https://x.com/AnthropicAI/status/2118814753154064501",
+    "date": "2026-11-06",
+    "authors": ["Anthropic"]
+  }
+]

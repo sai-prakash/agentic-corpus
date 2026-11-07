@@ -1,8 +1,8 @@
 {
   "nodes": [
-    { "id": "agent-harness", "label": "Agent harness", "heat": 5, "updated": "2026-11-06" },
-    { "id": "memory-lifecycle", "label": "Memory lifecycle", "heat": 5, "updated": "2026-11-06" },
-    { "id": "harness-evolution", "label": "Harness evolution", "heat": 4, "updated": "2026-11-06" },
+    { "id": "agent-harness", "label": "Agent harness", "heat": 5, "updated": "2026-11-07" },
+    { "id": "memory-lifecycle", "label": "Memory lifecycle", "heat": 5, "updated": "2026-11-07" },
+    { "id": "harness-evolution", "label": "Harness evolution", "heat": 4, "updated": "2026-11-07" },
     { "id": "mcp", "label": "MCP", "heat": 4, "updated": "2026-11-03" },
     { "id": "complementary-curation-memory", "label": "Complementary curation memory", "heat": 5, "updated": "2026-11-01" },
     { "id": "prefix-executability", "label": "Prefix executability", "heat": 4, "updated": "2026-11-01" },
@@ -22,7 +22,10 @@
     { "id": "graph-mediated-systems", "label": "Graph-mediated systems", "heat": 4, "updated": "2026-11-06" },
     { "id": "arcrag", "label": "ArcRAG", "heat": 4, "updated": "2026-11-06" },
     { "id": "harnessgrad", "label": "HarnessGrad", "heat": 4, "updated": "2026-11-06" },
-    { "id": "harness-awareness", "label": "Harness awareness", "heat": 4, "updated": "2026-11-06" }
+    { "id": "harness-awareness", "label": "Harness awareness", "heat": 4, "updated": "2026-11-06" },
+    { "id": "medgraph", "label": "MedGraph", "heat": 4, "updated": "2026-11-07" },
+    { "id": "reconmem", "label": "ReConMem", "heat": 4, "updated": "2026-11-07" },
+    { "id": "agent-memory-dreaming", "label": "Agent memory dreaming", "heat": 5, "updated": "2026-11-07" }
   ],
   "edges": [
     { "source": "dsh-superagent", "target": "agent-harness", "source_id": "gh-dsh-superagent" },
@@ -48,6 +51,9 @@
     { "source": "graph-mediated-systems", "target": "agent-harness", "source_id": "x-yotg-graph-mediated" },
     { "source": "arcrag", "target": "memory-lifecycle", "source_id": "arxiv-2611.06481" },
     { "source": "harnessgrad", "target": "harness-evolution", "source_id": "x-zxlzr-harnessgrad" },
-    { "source": "harness-awareness", "target": "agent-harness", "source_id": "arxiv-2611.05391" }
+    { "source": "harness-awareness", "target": "agent-harness", "source_id": "arxiv-2611.05391" },
+    { "source": "medgraph", "target": "memory-lifecycle", "source_id": "arxiv-2611.08433" },
+    { "source": "reconmem", "target": "memory-lifecycle", "source_id": "arxiv-2611.07759" },
+    { "source": "agent-memory-dreaming", "target": "memory-lifecycle", "source_id": "blog-anthropic-memory" }
   ]
 }
