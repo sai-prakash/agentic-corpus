@@ -1,0 +1,34 @@
+[
+  {
+    "id": "arxiv-2611.07689",
+    "type": "paper",
+    "title": "MCPHallu: Benchmarking Reasoning, Execution, and Memory Hallucinations in MCP Agents",
+    "url": "https://arxiv.org/abs/2611.07689",
+    "date": "2026-11-05",
+    "authors": ["Yizhen Jiang", "Haowei Guo", "Tianyi Bai", "Zengjie Hu", "Lu Ma", "Zhengyang Zhao", "Haoze Sun", "Peng Pei", "Wentao Zhang"]
+  },
+  {
+    "id": "arxiv-2611.07631",
+    "type": "paper",
+    "title": "MEMOIR: A Training-Free Memory Lifecycle for Long-Horizon LLM Agents",
+    "url": "https://arxiv.org/abs/2611.07631",
+    "date": "2026-11-05",
+    "authors": ["Mayank Anand", "Subham Raj", "Aman Vaibhav Jha", "Sriparna Saha"]
+  },
+  {
+    "id": "agentswatch-mcphallu",
+    "type": "post",
+    "title": "MCPHallu: agents keep calling tools on impossible goals and call it done",
+    "url": "https://agentswatch.dev/daily/2026-11-06/items/mcphallu-hallucination-subtypes/",
+    "date": "2026-11-06",
+    "authors": ["Agents Watch"]
+  },
+  {
+    "id": "aiweekly-memoir",
+    "type": "post",
+    "title": "MEMOIR adds 11.92pt evidence recall to LLM agent memory",
+    "url": "https://aiweekly.co/alerts/memoir-adds-1192pt-evidence-recall-to-llm-agent-memory",
+    "date": "2026-11-06",
+    "authors": ["AI Weekly"]
+  }
+]
