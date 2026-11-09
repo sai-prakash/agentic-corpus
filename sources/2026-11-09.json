@@ -1,0 +1,42 @@
+[
+  {
+    "id": "arxiv-2611.07461",
+    "type": "paper",
+    "title": "The Last Mile to the Real World: Agent-Native Primitives as Reusable Building Blocks for Solving Real-World Tasks",
+    "url": "https://arxiv.org/abs/2611.07461",
+    "date": "2026-11-05",
+    "authors": ["Haibo Jin", "Peng Kuang", "Xiaopeng Yuan", "Lucheng Fu", "Jerry Wang", "Xucheng Yu", "Yaoning Yu", "Dehao Wu", "Runguo Li", "Colin Su", "Jingxuan Sun", "Xuyang Liu", "Haojing Luo", "Haohan Wang"]
+  },
+  {
+    "id": "x-haohanwang-heelo",
+    "type": "post",
+    "title": "After half a year of baking, we are releasing our grand paper: The Last Mile to the Real World",
+    "url": "https://x.com/HaohanWang/status/2118801180642193551",
+    "date": "2026-11-06",
+    "authors": ["Haohan Wang"]
+  },
+  {
+    "id": "arxiv-2611.07595",
+    "type": "paper",
+    "title": "Evolver: Turning Agent Exploration into Evolving Capabilities",
+    "url": "https://arxiv.org/abs/2611.07595",
+    "date": "2026-11-05",
+    "authors": ["Haoyang Zhang", "Qumeng Sun", "Xiao Zhang", "Xiang Liu", "Zhidong Fan", "Junjie Wang"]
+  },
+  {
+    "id": "x-omarsar0-evolver",
+    "type": "post",
+    "title": "Impressive way to reuse agent trajectories to evolve agent harnesses",
+    "url": "https://x.com/omarsar0/status/2119473781689421855",
+    "date": "2026-11-08",
+    "authors": ["elvis"]
+  },
+  {
+    "id": "gh-evolver",
+    "type": "repo",
+    "title": "EvoMap/evolver",
+    "url": "https://github.com/EvoMap/evolver",
+    "date": "2026-11-08",
+    "authors": ["EvoMap"]
+  }
+]

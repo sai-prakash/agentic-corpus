@@ -1,9 +1,9 @@
 {
   "nodes": [
-    { "id": "agent-harness", "label": "Agent harness", "heat": 5, "updated": "2026-11-08" },
-    { "id": "memory-lifecycle", "label": "Memory lifecycle", "heat": 5, "updated": "2026-11-08" },
-    { "id": "harness-evolution", "label": "Harness evolution", "heat": 4, "updated": "2026-11-07" },
-    { "id": "mcp", "label": "MCP", "heat": 4, "updated": "2026-11-08" },
+    { "id": "agent-harness", "label": "Agent harness", "heat": 5, "updated": "2026-11-09" },
+    { "id": "memory-lifecycle", "label": "Memory lifecycle", "heat": 5, "updated": "2026-11-09" },
+    { "id": "harness-evolution", "label": "Harness evolution", "heat": 4, "updated": "2026-11-09" },
+    { "id": "mcp", "label": "MCP", "heat": 4, "updated": "2026-11-09" },
     { "id": "complementary-curation-memory", "label": "Complementary curation memory", "heat": 5, "updated": "2026-11-01" },
     { "id": "prefix-executability", "label": "Prefix executability", "heat": 4, "updated": "2026-11-01" },
     { "id": "dsh-superagent", "label": "dsh-superagent", "heat": 4, "updated": "2026-11-02" },
@@ -27,7 +27,9 @@
     { "id": "reconmem", "label": "ReConMem", "heat": 4, "updated": "2026-11-07" },
     { "id": "agent-memory-dreaming", "label": "Agent memory dreaming", "heat": 5, "updated": "2026-11-07" },
     { "id": "mcphallu", "label": "MCPHallu", "heat": 4, "updated": "2026-11-08" },
-    { "id": "memoir", "label": "MEMOIR", "heat": 4, "updated": "2026-11-08" }
+    { "id": "memoir", "label": "MEMOIR", "heat": 4, "updated": "2026-11-08" },
+    { "id": "heelo", "label": "HEELO", "heat": 4, "updated": "2026-11-09" },
+    { "id": "evolver", "label": "Evolver", "heat": 4, "updated": "2026-11-09" }
   ],
   "edges": [
     { "source": "dsh-superagent", "target": "agent-harness", "source_id": "gh-dsh-superagent" },
@@ -58,6 +60,8 @@
     { "source": "reconmem", "target": "memory-lifecycle", "source_id": "arxiv-2611.07759" },
     { "source": "agent-memory-dreaming", "target": "memory-lifecycle", "source_id": "blog-anthropic-memory" },
     { "source": "mcphallu", "target": "mcp", "source_id": "arxiv-2611.07689" },
-    { "source": "memoir", "target": "memory-lifecycle", "source_id": "arxiv-2611.07631" }
+    { "source": "memoir", "target": "memory-lifecycle", "source_id": "arxiv-2611.07631" },
+    { "source": "heelo", "target": "agent-harness", "source_id": "arxiv-2611.07461" },
+    { "source": "evolver", "target": "harness-evolution", "source_id": "arxiv-2611.07595" }
   ]
 }
