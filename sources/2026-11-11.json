@@ -1,0 +1,74 @@
+[
+  {
+    "id": "arxiv-2611.12122",
+    "type": "paper",
+    "title": "System Optimizations for Cost-Efficient Agent Harnesses",
+    "url": "https://arxiv.org/abs/2611.12122",
+    "date": "2026-11-09",
+    "authors": ["Jongseok Park", "Jiaxiang Yu", "Eric Zhou", "Tony Hong", "Sunga Kim", "Yusuf Afifi", "Ian Wong", "Ion Stoica", "Alvin Cheung"]
+  },
+  {
+    "id": "x-arkyyang-agency",
+    "type": "post",
+    "title": "System Optimizations for Cost-Efficient Agent Harnesses — plain-language takeaways",
+    "url": "https://x.com/arkyyang/status/2120169941374750765",
+    "date": "2026-11-10",
+    "authors": ["Arky Yang"]
+  },
+  {
+    "id": "arxiv-2611.12068",
+    "type": "paper",
+    "title": "MIRIX-2.0: Multi-Agent Memory System",
+    "url": "https://arxiv.org/abs/2611.12068",
+    "date": "2026-11-09",
+    "authors": ["Wei-Chieh Huang", "Weizhi Zhang", "Jiayan Nan", "Peng Xia", "Yu Wang"]
+  },
+  {
+    "id": "x-yuwang-mirix2",
+    "type": "post",
+    "title": "MIRIX-2.0 is out: one system for both factual and procedural memory",
+    "url": "https://x.com/__YuWang__/status/2120034285977587922",
+    "date": "2026-11-10",
+    "authors": ["Yu Wang"]
+  },
+  {
+    "id": "gh-mirix",
+    "type": "repo",
+    "title": "Mirix-AI/MIRIX",
+    "url": "https://github.com/Mirix-AI/MIRIX",
+    "date": "2026-11-10",
+    "authors": ["Mirix-AI"]
+  },
+  {
+    "id": "arxiv-2611.12552",
+    "type": "paper",
+    "title": "SciMARS: Multi-Agent Recursive Self-Improvement for Closed-Loop Scientific Discovery",
+    "url": "https://arxiv.org/abs/2611.12552",
+    "date": "2026-11-09",
+    "authors": ["Weimin Wu", "Han Liu"]
+  },
+  {
+    "id": "gh-scimars",
+    "type": "repo",
+    "title": "WeiminWu2000/SciMARS",
+    "url": "https://github.com/WeiminWu2000/SciMARS",
+    "date": "2026-11-09",
+    "authors": ["Weimin Wu"]
+  },
+  {
+    "id": "arxiv-2611.05036",
+    "type": "paper",
+    "title": "ToolSpace: Scaling Tool-Centric Environment Synthesis for Long-Horizon Agents",
+    "url": "https://arxiv.org/abs/2611.05036",
+    "date": "2026-11-03",
+    "authors": ["Guanting Dong", "Zhichao Sun", "Xinyu Yang"]
+  },
+  {
+    "id": "site-toolspace",
+    "type": "post",
+    "title": "ToolSpace project site",
+    "url": "https://toolspace-agent.github.io/",
+    "date": "2026-11-04",
+    "authors": ["Guanting Dong et al."]
+  }
+]
