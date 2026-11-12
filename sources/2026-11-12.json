@@ -1,0 +1,74 @@
+[
+  {
+    "id": "arxiv-2611.13946",
+    "type": "paper",
+    "title": "TreeAgent: Structure-Aware Memory Agent for Processing Long Hierarchical Data",
+    "url": "https://arxiv.org/abs/2611.13946",
+    "date": "2026-11-10",
+    "authors": ["Wei Gu", "Weiwei Qi", "Jiajun Tang", "Tianhang Zheng", "Bo Chen", "Zhibo Zhang", "Jinfei Liu", "Kui Ren"]
+  },
+  {
+    "id": "gh-treeagent",
+    "type": "repo",
+    "title": "ZJU-LLM-Safety/TreeAgent",
+    "url": "https://github.com/ZJU-LLM-Safety/TreeAgent",
+    "date": "2026-11-10",
+    "authors": ["ZJU-LLM-Safety"]
+  },
+  {
+    "id": "arxiv-2611.12856",
+    "type": "paper",
+    "title": "WorkflowArena: Benchmarking Executable Workflow Orchestration in LLM-Based Multi-Agent Systems",
+    "url": "https://arxiv.org/abs/2611.12856",
+    "date": "2026-11-09",
+    "authors": ["Einsia AI", "Navers Lab"]
+  },
+  {
+    "id": "gh-workflowarena",
+    "type": "repo",
+    "title": "Einsia/WorkflowArena",
+    "url": "https://github.com/Einsia/WorkflowArena",
+    "date": "2026-11-09",
+    "authors": ["Einsia"]
+  },
+  {
+    "id": "site-workflowarena",
+    "type": "post",
+    "title": "WorkflowArena project site",
+    "url": "https://lab.einsia.ai/workflowarena",
+    "date": "2026-11-10",
+    "authors": ["Einsia AI"]
+  },
+  {
+    "id": "x-einsia-workflowarena",
+    "type": "post",
+    "title": "Introducing Einsia AI's WorkflowArena",
+    "url": "https://x.com/EinsiaAI/status/2120162063905681632",
+    "date": "2026-11-10",
+    "authors": ["Einsia"]
+  },
+  {
+    "id": "x-hastrive-workflow",
+    "type": "post",
+    "title": "The WorkflowArena number I keep coming back to",
+    "url": "https://x.com/HaStrive/status/2120698200831246390",
+    "date": "2026-11-12",
+    "authors": ["HDUX"]
+  },
+  {
+    "id": "x-aakash-mcp-context",
+    "type": "post",
+    "title": "I measured how much context 27 popular MCP servers take in Claude Code",
+    "url": "https://x.com/aakashpawar1999/status/2120523599492833787",
+    "date": "2026-11-11",
+    "authors": ["Aakash Pawar"]
+  },
+  {
+    "id": "arxiv-2611.13960",
+    "type": "paper",
+    "title": "From Attack Surface to Defense Architecture: Compositional Security for Agentic Coding Harnesses",
+    "url": "https://arxiv.org/abs/2611.13960",
+    "date": "2026-11-10",
+    "authors": ["Simon Hegelich", "Bardh Prenkaj", "Habiba Sarhan"]
+  }
+]
