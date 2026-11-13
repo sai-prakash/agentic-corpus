@@ -1,0 +1,66 @@
+[
+  {
+    "id": "arxiv-2611.14326",
+    "type": "paper",
+    "title": "When Should Agents Remember? Falsification-Gated Self-Evolution for LLM Agents",
+    "url": "https://arxiv.org/abs/2611.14326",
+    "date": "2026-11-10",
+    "authors": ["Runxuan Tang", "Haoyu Gao", "Yuyan Ding", "Junyi Yao", "Zihao Zheng", "Zecheng Sheng", "Liwei Hou"]
+  },
+  {
+    "id": "arxiv-2611.14320",
+    "type": "paper",
+    "title": "Don't Just Trust Your Memory: Evidence-Linked Memory Reduces Memory-Induced Degradation in LLM Agents",
+    "url": "https://arxiv.org/abs/2611.14320",
+    "date": "2026-11-10",
+    "authors": ["Yukyeong Lee", "Yumin Choi", "Jinheon Baek", "Sung Ju Hwang"]
+  },
+  {
+    "id": "arxiv-2608.22237",
+    "type": "paper",
+    "title": "Read Less, Solve More: Token-Efficient Sparse Reading of External Content for AI Agents",
+    "url": "https://arxiv.org/abs/2608.22237",
+    "date": "2026-11-07",
+    "authors": ["Zedong Liu", "Jiaan Wu", "Xinyang Ma", "Le Xu", "Kai Wang", "Yuanchao Hu", "Dingwen Tao", "Guangming Tan"]
+  },
+  {
+    "id": "gh-sparseread",
+    "type": "repo",
+    "title": "Zedong-Liu/SparseReading",
+    "url": "https://github.com/Zedong-Liu/SparseReading",
+    "date": "2026-11-07",
+    "authors": ["Zedong Liu"]
+  },
+  {
+    "id": "site-sparseread",
+    "type": "post",
+    "title": "SparseRead project site",
+    "url": "https://sparseread.pages.dev/",
+    "date": "2026-11-07",
+    "authors": ["SparseRead"]
+  },
+  {
+    "id": "x-rohanpaul-reharness",
+    "type": "post",
+    "title": "New MIT and Meta paper finds that agent memory works better when old notes get corrected",
+    "url": "https://x.com/rohanpaul_ai/status/2121040336361533502",
+    "date": "2026-11-13",
+    "authors": ["Rohan Paul"]
+  },
+  {
+    "id": "x-goose-tool-deferral",
+    "type": "post",
+    "title": "Goose 1.59 can defer MCP tool schemas until the model asks for them",
+    "url": "https://x.com/TaylorChristof2/status/2121061962377564440",
+    "date": "2026-11-13",
+    "authors": ["Taylor Christoffersen"]
+  },
+  {
+    "id": "digest-perea-nov11",
+    "type": "post",
+    "title": "AI Research Digest — Nov 11, 2026 | Agent Memory Admission...",
+    "url": "https://justinperea.com/research/2026-11-11",
+    "date": "2026-11-11",
+    "authors": ["Justin Perea"]
+  }
+]
