@@ -1,7 +1,7 @@
 {
   "nodes": [
-    { "id": "agent-harness", "label": "Agent harness", "heat": 5, "updated": "2026-11-13" },
-    { "id": "memory-lifecycle", "label": "Memory lifecycle", "heat": 5, "updated": "2026-11-13" },
+    { "id": "agent-harness", "label": "Agent harness", "heat": 5, "updated": "2026-11-14" },
+    { "id": "memory-lifecycle", "label": "Memory lifecycle", "heat": 5, "updated": "2026-11-14" },
     { "id": "harness-evolution", "label": "Harness evolution", "heat": 4, "updated": "2026-11-12" },
     { "id": "mcp", "label": "MCP", "heat": 4, "updated": "2026-11-11" },
     { "id": "complementary-curation-memory", "label": "Complementary curation memory", "heat": 5, "updated": "2026-11-01" },
@@ -38,7 +38,10 @@
     { "id": "workflowarena", "label": "WorkflowArena", "heat": 4, "updated": "2026-11-12" },
     { "id": "fgse", "label": "FGSE", "heat": 4, "updated": "2026-11-13" },
     { "id": "wikitrace", "label": "WikiTrace", "heat": 4, "updated": "2026-11-13" },
-    { "id": "sparseread", "label": "SparseRead", "heat": 4, "updated": "2026-11-13" }
+    { "id": "sparseread", "label": "SparseRead", "heat": 4, "updated": "2026-11-13" },
+    { "id": "discern", "label": "DISCERN", "heat": 4, "updated": "2026-11-14" },
+    { "id": "ai-ran-context-graph", "label": "AI-RAN Context Graph", "heat": 4, "updated": "2026-11-14" },
+    { "id": "harness-memory-protocol", "label": "Harness Memory Protocol", "heat": 4, "updated": "2026-11-14" }
   ],
   "edges": [
     { "source": "dsh-superagent", "target": "agent-harness", "source_id": "gh-dsh-superagent" },
@@ -84,6 +87,10 @@
     { "source": "fgse", "target": "memory-lifecycle", "source_id": "arxiv-2611.14326" },
     { "source": "wikitrace", "target": "memory-lifecycle", "source_id": "arxiv-2611.14320" },
     { "source": "sparseread", "target": "memory-lifecycle", "source_id": "arxiv-2608.22237" },
-    { "source": "sparseread", "target": "agent-harness", "source_id": "gh-sparseread" }
+    { "source": "sparseread", "target": "agent-harness", "source_id": "gh-sparseread" },
+    { "source": "discern", "target": "memory-lifecycle", "source_id": "arxiv-2611.15729" },
+    { "source": "ai-ran-context-graph", "target": "memory-lifecycle", "source_id": "arxiv-2611.16879" },
+    { "source": "harness-memory-protocol", "target": "memory-lifecycle", "source_id": "gh-harnessrouter" },
+    { "source": "harness-memory-protocol", "target": "agent-harness", "source_id": "x-harnessrouter-memory" }
   ]
 }

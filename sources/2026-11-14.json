@@ -1,0 +1,50 @@
+[
+  {
+    "id": "arxiv-2611.15729",
+    "type": "paper",
+    "title": "DISCERN: Preserve at Write, Resolve at Read for Persistent LLM-Agent Memory",
+    "url": "https://arxiv.org/abs/2611.15729",
+    "date": "2026-11-11",
+    "authors": ["Chirag Ahuja", "Vladislav Tanov", "Ramcharan Kakarla", "Jonathan Taws"]
+  },
+  {
+    "id": "arxiv-2611.16879",
+    "type": "paper",
+    "title": "Context Graph: Explainable Multi-Agent Decision Chains in AI-RAN",
+    "url": "https://arxiv.org/abs/2611.16879",
+    "date": "2026-11-12",
+    "authors": ["Xijun Wang", "Zhaoyang Liu", "Xiang Chen", "Howard H. Yang", "Chenyuan Feng"]
+  },
+  {
+    "id": "gh-harnessrouter",
+    "type": "repo",
+    "title": "HarnessRouter/harnessrouter",
+    "url": "https://github.com/HarnessRouter/harnessrouter",
+    "date": "2026-11-12",
+    "authors": ["HarnessRouter"]
+  },
+  {
+    "id": "uhp-memories",
+    "type": "spec",
+    "title": "Unified Harness Protocol — Memories",
+    "url": "https://github.com/HarnessRouter/harnessrouter/blob/main/protocol/versions/2026-10-04/memories.md",
+    "date": "2026-10-04",
+    "authors": ["HarnessRouter"]
+  },
+  {
+    "id": "x-harnessrouter-memory",
+    "type": "post",
+    "title": "Launching Harness Memory today",
+    "url": "https://x.com/HARNESSROUTER/status/2120954937391853929",
+    "date": "2026-11-12",
+    "authors": ["HarnessRouter"]
+  },
+  {
+    "id": "x-kuanzema-harness-memory",
+    "type": "post",
+    "title": "Different Agent Harnesses can finally share long-term memory!",
+    "url": "https://x.com/kuanzema/status/2120800558173098162",
+    "date": "2026-11-12",
+    "authors": ["Kuanze Ma"]
+  }
+]
