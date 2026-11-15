@@ -1,9 +1,9 @@
 {
   "nodes": [
-    { "id": "agent-harness", "label": "Agent harness", "heat": 5, "updated": "2026-11-14" },
-    { "id": "memory-lifecycle", "label": "Memory lifecycle", "heat": 5, "updated": "2026-11-14" },
-    { "id": "harness-evolution", "label": "Harness evolution", "heat": 4, "updated": "2026-11-12" },
-    { "id": "mcp", "label": "MCP", "heat": 4, "updated": "2026-11-11" },
+    { "id": "agent-harness", "label": "Agent harness", "heat": 5, "updated": "2026-11-15" },
+    { "id": "memory-lifecycle", "label": "Memory lifecycle", "heat": 5, "updated": "2026-11-15" },
+    { "id": "harness-evolution", "label": "Harness evolution", "heat": 4, "updated": "2026-11-15" },
+    { "id": "mcp", "label": "MCP", "heat": 4, "updated": "2026-11-15" },
     { "id": "complementary-curation-memory", "label": "Complementary curation memory", "heat": 5, "updated": "2026-11-01" },
     { "id": "prefix-executability", "label": "Prefix executability", "heat": 4, "updated": "2026-11-01" },
     { "id": "dsh-superagent", "label": "dsh-superagent", "heat": 4, "updated": "2026-11-02" },
@@ -41,7 +41,10 @@
     { "id": "sparseread", "label": "SparseRead", "heat": 4, "updated": "2026-11-13" },
     { "id": "discern", "label": "DISCERN", "heat": 4, "updated": "2026-11-14" },
     { "id": "ai-ran-context-graph", "label": "AI-RAN Context Graph", "heat": 4, "updated": "2026-11-14" },
-    { "id": "harness-memory-protocol", "label": "Harness Memory Protocol", "heat": 4, "updated": "2026-11-14" }
+    { "id": "harness-memory-protocol", "label": "Harness Memory Protocol", "heat": 4, "updated": "2026-11-14" },
+    { "id": "multiloop", "label": "MULTILOOP", "heat": 4, "updated": "2026-11-15" },
+    { "id": "logfire-harness-tracing", "label": "Logfire harness tracing", "heat": 4, "updated": "2026-11-15" },
+    { "id": "edgequake", "label": "EdgeQuake", "heat": 4, "updated": "2026-11-15" }
   ],
   "edges": [
     { "source": "dsh-superagent", "target": "agent-harness", "source_id": "gh-dsh-superagent" },
@@ -91,6 +94,12 @@
     { "source": "discern", "target": "memory-lifecycle", "source_id": "arxiv-2611.15729" },
     { "source": "ai-ran-context-graph", "target": "memory-lifecycle", "source_id": "arxiv-2611.16879" },
     { "source": "harness-memory-protocol", "target": "memory-lifecycle", "source_id": "gh-harnessrouter" },
-    { "source": "harness-memory-protocol", "target": "agent-harness", "source_id": "x-harnessrouter-memory" }
+    { "source": "harness-memory-protocol", "target": "agent-harness", "source_id": "x-harnessrouter-memory" },
+    { "source": "multiloop", "target": "harness-evolution", "source_id": "arxiv-2611.15754" },
+    { "source": "multiloop", "target": "agent-harness", "source_id": "arxiv-2611.15754" },
+    { "source": "logfire-harness-tracing", "target": "agent-harness", "source_id": "blog-pydantic-logfire-tracing" },
+    { "source": "logfire-harness-tracing", "target": "mcp", "source_id": "docs-logfire-mcp" },
+    { "source": "edgequake", "target": "memory-lifecycle", "source_id": "gh-edgequake" },
+    { "source": "edgequake", "target": "mcp", "source_id": "blog-wavect-edgequake" }
   ]
 }

@@ -1,0 +1,58 @@
+[
+  {
+    "id": "arxiv-2611.15754",
+    "type": "paper",
+    "title": "MULTILOOP: Evolving Multi-Agent Harnesses for Complex Information-Seeking Tasks",
+    "url": "https://arxiv.org/abs/2611.15754",
+    "date": "2026-11-11",
+    "authors": ["Daniela Gottesman", "Gal Yona", "Ori Ram", "Zorik Gekhman", "Jonathan Herzig", "Mor Geva", "Roee Aharoni"]
+  },
+  {
+    "id": "openreview-multiloop",
+    "type": "workshop",
+    "title": "MULTILOOP: Evolving Multi-Agent Harnesses for Complex Information-Seeking Tasks (NeurIPS 2026 CL4FMAgents)",
+    "url": "https://openreview.net/forum?id=WRuoh9lSf1",
+    "date": "2026-11-11",
+    "authors": ["Daniela Gottesman et al."]
+  },
+  {
+    "id": "blog-pydantic-logfire-tracing",
+    "type": "blog",
+    "title": "Coding agent tracing in Logfire: cost, skills and evals",
+    "url": "https://pydantic.dev/articles/coding-harness-tracing",
+    "date": "2026-11-13",
+    "authors": ["Pydantic"]
+  },
+  {
+    "id": "x-pydantic-logfire",
+    "type": "post",
+    "title": "A repeated agent failure, pulled from Logfire traces, became a skill",
+    "url": "https://x.com/pydantic/status/2121340074432344499",
+    "date": "2026-11-13",
+    "authors": ["Pydantic"]
+  },
+  {
+    "id": "docs-logfire-mcp",
+    "type": "docs",
+    "title": "Logfire MCP",
+    "url": "https://pydantic.dev/docs/ai/harness/logfire-mcp/",
+    "date": "2026-11-13",
+    "authors": ["Pydantic"]
+  },
+  {
+    "id": "gh-edgequake",
+    "type": "repo",
+    "title": "raphaelmansuy/edgequake",
+    "url": "https://github.com/raphaelmansuy/edgequake",
+    "date": "2026-11-11",
+    "authors": ["Raphael Mansuy"]
+  },
+  {
+    "id": "blog-wavect-edgequake",
+    "type": "blog",
+    "title": "EdgeQuake: PostgreSQL GraphRAG for MCP Agent Memory",
+    "url": "https://wavect.io/blog/edgequake-postgresql-graphrag-mcp-agent-memory/",
+    "date": "2026-11-11",
+    "authors": ["Wavect"]
+  }
+]
