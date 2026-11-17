@@ -1,0 +1,26 @@
+[
+  {
+    "id": "arxiv-2611.18533",
+    "type": "paper",
+    "title": "ModHarness-RL: Recasting Harnesses as Learnable and Evolving Programs for Agentic RL",
+    "url": "https://arxiv.org/abs/2611.18533",
+    "date": "2026-11-13",
+    "notes": "Harness as Compression and Steering programs over typed state blocks that evolve during agentic RL."
+  },
+  {
+    "id": "gh-neural-context-protocol",
+    "type": "repo",
+    "title": "Neural Context Protocol",
+    "url": "https://github.com/kulkarni2u/neural-context-protocol",
+    "date": "2026-11-16",
+    "notes": "MCP-native bounded trust-weighted memory bus for multi-agent systems."
+  },
+  {
+    "id": "arxiv-2611.17797",
+    "type": "paper",
+    "title": "Vision-as-a-Tool: Visual Harness for Multimodal Agentic Coding",
+    "url": "https://arxiv.org/abs/2611.17797",
+    "date": "2026-11-13",
+    "notes": "MLLMs as callable external visual utilities (VHarness)."
+  }
+]

@@ -1,9 +1,9 @@
 {
   "nodes": [
-    { "id": "agent-harness", "label": "Agent harness", "heat": 5, "updated": "2026-11-15" },
-    { "id": "memory-lifecycle", "label": "Memory lifecycle", "heat": 5, "updated": "2026-11-15" },
-    { "id": "harness-evolution", "label": "Harness evolution", "heat": 4, "updated": "2026-11-15" },
-    { "id": "mcp", "label": "MCP", "heat": 4, "updated": "2026-11-15" },
+    { "id": "agent-harness", "label": "Agent harness", "heat": 5, "updated": "2026-11-17" },
+    { "id": "memory-lifecycle", "label": "Memory lifecycle", "heat": 5, "updated": "2026-11-17" },
+    { "id": "harness-evolution", "label": "Harness evolution", "heat": 4, "updated": "2026-11-17" },
+    { "id": "mcp", "label": "MCP", "heat": 4, "updated": "2026-11-17" },
     { "id": "complementary-curation-memory", "label": "Complementary curation memory", "heat": 5, "updated": "2026-11-01" },
     { "id": "prefix-executability", "label": "Prefix executability", "heat": 4, "updated": "2026-11-01" },
     { "id": "dsh-superagent", "label": "dsh-superagent", "heat": 4, "updated": "2026-11-02" },
@@ -44,7 +44,10 @@
     { "id": "harness-memory-protocol", "label": "Harness Memory Protocol", "heat": 4, "updated": "2026-11-14" },
     { "id": "multiloop", "label": "MULTILOOP", "heat": 4, "updated": "2026-11-15" },
     { "id": "logfire-harness-tracing", "label": "Logfire harness tracing", "heat": 4, "updated": "2026-11-15" },
-    { "id": "edgequake", "label": "EdgeQuake", "heat": 4, "updated": "2026-11-15" }
+    { "id": "edgequake", "label": "EdgeQuake", "heat": 4, "updated": "2026-11-15" },
+    { "id": "modharness-rl", "label": "ModHarness-RL", "heat": 4, "updated": "2026-11-17" },
+    { "id": "neural-context-protocol", "label": "Neural Context Protocol", "heat": 4, "updated": "2026-11-17" },
+    { "id": "vaat", "label": "VaaT", "heat": 4, "updated": "2026-11-17" }
   ],
   "edges": [
     { "source": "dsh-superagent", "target": "agent-harness", "source_id": "gh-dsh-superagent" },
@@ -100,6 +103,11 @@
     { "source": "logfire-harness-tracing", "target": "agent-harness", "source_id": "blog-pydantic-logfire-tracing" },
     { "source": "logfire-harness-tracing", "target": "mcp", "source_id": "docs-logfire-mcp" },
     { "source": "edgequake", "target": "memory-lifecycle", "source_id": "gh-edgequake" },
-    { "source": "edgequake", "target": "mcp", "source_id": "blog-wavect-edgequake" }
+    { "source": "edgequake", "target": "mcp", "source_id": "blog-wavect-edgequake" },
+    { "source": "modharness-rl", "target": "harness-evolution", "source_id": "arxiv-2611.18533" },
+    { "source": "modharness-rl", "target": "agent-harness", "source_id": "arxiv-2611.18533" },
+    { "source": "neural-context-protocol", "target": "memory-lifecycle", "source_id": "gh-neural-context-protocol" },
+    { "source": "neural-context-protocol", "target": "mcp", "source_id": "gh-neural-context-protocol" },
+    { "source": "vaat", "target": "agent-harness", "source_id": "arxiv-2611.17797" }
   ]
 }
