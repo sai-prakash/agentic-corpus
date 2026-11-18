@@ -1,9 +1,9 @@
 {
   "nodes": [
-    { "id": "agent-harness", "label": "Agent harness", "heat": 5, "updated": "2026-11-17" },
-    { "id": "memory-lifecycle", "label": "Memory lifecycle", "heat": 5, "updated": "2026-11-17" },
+    { "id": "agent-harness", "label": "Agent harness", "heat": 5, "updated": "2026-11-18" },
+    { "id": "memory-lifecycle", "label": "Memory lifecycle", "heat": 5, "updated": "2026-11-18" },
     { "id": "harness-evolution", "label": "Harness evolution", "heat": 4, "updated": "2026-11-17" },
-    { "id": "mcp", "label": "MCP", "heat": 4, "updated": "2026-11-17" },
+    { "id": "mcp", "label": "MCP", "heat": 4, "updated": "2026-11-18" },
     { "id": "complementary-curation-memory", "label": "Complementary curation memory", "heat": 5, "updated": "2026-11-01" },
     { "id": "prefix-executability", "label": "Prefix executability", "heat": 4, "updated": "2026-11-01" },
     { "id": "dsh-superagent", "label": "dsh-superagent", "heat": 4, "updated": "2026-11-02" },
@@ -47,7 +47,11 @@
     { "id": "edgequake", "label": "EdgeQuake", "heat": 4, "updated": "2026-11-15" },
     { "id": "modharness-rl", "label": "ModHarness-RL", "heat": 4, "updated": "2026-11-17" },
     { "id": "neural-context-protocol", "label": "Neural Context Protocol", "heat": 4, "updated": "2026-11-17" },
-    { "id": "vaat", "label": "VaaT", "heat": 4, "updated": "2026-11-17" }
+    { "id": "vaat", "label": "VaaT", "heat": 4, "updated": "2026-11-17" },
+    { "id": "living-context-graphs", "label": "Living Context Graphs", "heat": 4, "updated": "2026-11-18" },
+    { "id": "toolgraph-q", "label": "ToolGraph Q-function", "heat": 4, "updated": "2026-11-18" },
+    { "id": "agent-harness-anatomy", "label": "Agent harness anatomy", "heat": 4, "updated": "2026-11-18" },
+    { "id": "agentic-graphrag-falkordb", "label": "Agentic GraphRAG (FalkorDB)", "heat": 4, "updated": "2026-11-18" }
   ],
   "edges": [
     { "source": "dsh-superagent", "target": "agent-harness", "source_id": "gh-dsh-superagent" },
@@ -108,6 +112,11 @@
     { "source": "modharness-rl", "target": "agent-harness", "source_id": "arxiv-2611.18533" },
     { "source": "neural-context-protocol", "target": "memory-lifecycle", "source_id": "gh-neural-context-protocol" },
     { "source": "neural-context-protocol", "target": "mcp", "source_id": "gh-neural-context-protocol" },
-    { "source": "vaat", "target": "agent-harness", "source_id": "arxiv-2611.17797" }
+    { "source": "vaat", "target": "agent-harness", "source_id": "arxiv-2611.17797" },
+    { "source": "living-context-graphs", "target": "memory-lifecycle", "source_id": "arxiv-2611.20976" },
+    { "source": "toolgraph-q", "target": "agent-harness", "source_id": "arxiv-2611.20569" },
+    { "source": "agent-harness-anatomy", "target": "agent-harness", "source_id": "arxiv-2611.19960" },
+    { "source": "agentic-graphrag-falkordb", "target": "mcp", "source_id": "gh-falkordb-graphrag-sdk" },
+    { "source": "agentic-graphrag-falkordb", "target": "memory-lifecycle", "source_id": "blog-falkordb-agentic-graphrag" }
   ]
 }

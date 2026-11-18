@@ -1,0 +1,42 @@
+[
+  {
+    "id": "arxiv-2611.20976",
+    "type": "paper",
+    "title": "Living Context Graphs: Continual Semantic Learning for Enterprise Data Reasoning",
+    "url": "https://arxiv.org/abs/2611.20976",
+    "date": "2026-11-16",
+    "notes": "Continual no-copy context layer; +22.6 points held-out text-to-SQL transfer on BIRD splits."
+  },
+  {
+    "id": "arxiv-2611.20569",
+    "type": "paper",
+    "title": "ToolGraph as a Q-Function for Test-Time Scaling of Tool-Use Agents",
+    "url": "https://arxiv.org/abs/2611.20569",
+    "date": "2026-11-16",
+    "notes": "Tool dependency graph composed into goal-conditioned Q; LLM+state estimator beats PageRank."
+  },
+  {
+    "id": "arxiv-2611.19960",
+    "type": "paper",
+    "title": "Anatomy of an Agent Harness: Decisions, Invariants and Corner Cases",
+    "url": "https://arxiv.org/abs/2611.19960",
+    "date": "2026-11-15",
+    "notes": "30 decision cards and invariants for harness decisions; checklist applied to author's harness."
+  },
+  {
+    "id": "gh-falkordb-graphrag-sdk",
+    "type": "repo",
+    "title": "FalkorDB GraphRAG-SDK",
+    "url": "https://github.com/FalkorDB/GraphRAG-SDK",
+    "date": "2026-11-17",
+    "notes": "Agentic GraphRAG tools + MCP server; numbered evidence and citation check."
+  },
+  {
+    "id": "blog-falkordb-agentic-graphrag",
+    "type": "post",
+    "title": "Agentic GraphRAG: Your Agent Plans, FalkorDB Keeps It Honest",
+    "url": "https://www.falkordb.com/blog/agentic-graphrag/",
+    "date": "2026-11-17",
+    "notes": "Architecture of bounded graph tools for existing agents with checkable evidence."
+  }
+]
