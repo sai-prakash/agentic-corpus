@@ -1,1 +1,66 @@
-PLACEHOLDER
+[
+  {
+    "id": "arxiv-2611.22299",
+    "type": "paper",
+    "title": "Harnesses That Improve Themselves: A Unifying Framework for Self-Improving Agent Harnesses",
+    "url": "https://arxiv.org/abs/2611.22299",
+    "date": "2026-11-17",
+    "notes": "Four editable components + four-stage loop; gated modular evolution beats full rewrites on SWE-bench Lite."
+  },
+  {
+    "id": "arxiv-2606.09498",
+    "type": "paper",
+    "title": "Self-Harness: Harnesses That Improve Themselves",
+    "url": "https://arxiv.org/abs/2606.09498",
+    "date": "2026-06-08",
+    "notes": "Prior three-stage Self-Harness loop (weakness mining, proposal, validation) with large held-out gains."
+  },
+  {
+    "id": "arxiv-2611.22461",
+    "type": "paper",
+    "title": "Surfacing Disagreement Beats Resolving It: A Gated Ablation Study of Provenance-Weighted Memory for Multi-Agent Debate",
+    "url": "https://arxiv.org/abs/2611.22461",
+    "date": "2026-11-17",
+    "notes": "Preserving ranked conflict set improves F1 +0.340 and reduces poisoned attacks; harness released."
+  },
+  {
+    "id": "arxiv-2611.22179",
+    "type": "paper",
+    "title": "RAG in a Trenchcoat: When Minimal Memory Is Enough for Agentic Systems, and When It Isn't",
+    "url": "https://arxiv.org/abs/2611.22179",
+    "date": "2026-11-17",
+    "notes": "BRIDGE minimal RAG reaches recall parity; adversarial probes split atomic-fact vs block-summary designs."
+  },
+  {
+    "id": "gh-rag-in-a-trenchcoat",
+    "type": "repo",
+    "title": "rag-in-a-trenchcoat",
+    "url": "https://github.com/Jingyu6/rag-in-a-trenchcoat",
+    "date": "2026-11-18",
+    "notes": "Official code, probes, and outputs for BRIDGE minimal memory."
+  },
+  {
+    "id": "x-dair-ai-bridge",
+    "type": "post",
+    "title": "RAG in a Trenchcoat summary",
+    "url": "https://x.com/dair_ai/status/2123091409435853190",
+    "date": "2026-11-18",
+    "notes": "High-engagement summary of BRIDGE results and the retrieval-vs-action distinction."
+  },
+  {
+    "id": "blog-vscode-skills-mcp",
+    "type": "post",
+    "title": "Skills over MCP are now available in VS Code",
+    "url": "https://techcommunity.microsoft.com/blog/azuredevcommunityblog/skills-over-mcp-are-now-available-in-vs-code/4574580",
+    "date": "2026-11-18",
+    "notes": "VS Code 1.147+ loads skills from MCP servers for Copilot."
+  },
+  {
+    "id": "blog-fastmcp-skills",
+    "type": "post",
+    "title": "Skills over MCP - FastMCP",
+    "url": "https://gofastmcp.com/servers/skills",
+    "date": "2026-11-13",
+    "notes": "SkillCatalogProvider and experimental Skills extension support."
+  }
+]
