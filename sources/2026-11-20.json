@@ -1,0 +1,66 @@
+[
+  {
+    "id": "blog-ms-graphrag-zero",
+    "type": "post",
+    "title": "The evolution of GraphRAG: Advancing systems and evaluation together",
+    "url": "https://www.microsoft.com/en-us/research/story/the-evolution-of-graphrag-advancing-systems-and-evaluation-together/",
+    "date": "2026-11-17",
+    "notes": "GraphRAG Zero: zero LLM at index, optional at query, sub-second via embedding geometry; ships in Foundry IQ and Repo Mind Light."
+  },
+  {
+    "id": "x-msftresearch-graphrag-zero",
+    "type": "post",
+    "title": "GraphRAG Zero announcement",
+    "url": "https://x.com/MSFTResearch/status/2122779387888103867",
+    "date": "2026-11-17",
+    "notes": "High-engagement post on GraphRAG Zero for agents, Foundry IQ and GitHub Repo Mind Light."
+  },
+  {
+    "id": "arxiv-2611.24357",
+    "type": "paper",
+    "title": "Semantic Context Handoff with On-Demand Evidence for Long-Horizon Agents",
+    "url": "https://arxiv.org/abs/2611.24357",
+    "date": "2026-11-18",
+    "notes": "State–evidence separation; evidence recovery improves SWE-bench Pass@1 80%→86.9% at matched cost."
+  },
+  {
+    "id": "x-propriocetive-sch",
+    "type": "post",
+    "title": "Semantic Context Handoff discussion",
+    "url": "https://x.com/Propriocetive/status/2123596252101173425",
+    "date": "2026-11-20",
+    "notes": "Highlights diagnosis vs evidence objects and recovery path after verification failure."
+  },
+  {
+    "id": "arxiv-2611.18856",
+    "type": "paper",
+    "title": "Self-Improvement Memory Enables Continual Recursive Self-Improvement",
+    "url": "https://arxiv.org/abs/2611.18856",
+    "date": "2026-11-13",
+    "notes": "SIM for harness optimizer: +2.36 points avg on coding continuations (p=0.003)."
+  },
+  {
+    "id": "x-contextwindow-sim",
+    "type": "post",
+    "title": "Self-Improvement Memory summary",
+    "url": "https://x.com/ContextWindow_/status/2123241673396469775",
+    "date": "2026-11-19",
+    "notes": "Reports 9/10 coding pairs improved, cross-model transfer gains with SIM."
+  },
+  {
+    "id": "arxiv-2611.23990",
+    "type": "paper",
+    "title": "SCAFFOLD: Toward Warrant-Preserving Evidence Transport for Reusable LLM-Agent Skills",
+    "url": "https://arxiv.org/abs/2611.23990",
+    "date": "2026-11-18",
+    "notes": "Warranted Reuse Claim and evidence transport for skill reuse after context change; formal obligations only."
+  },
+  {
+    "id": "x-maryammiradi-skills-mcp",
+    "type": "post",
+    "title": "Skills vs MCP vs RAG vs Memory",
+    "url": "https://x.com/MaryamMiradi/status/2123160401051533384",
+    "date": "2026-11-18",
+    "notes": "Distinguishes procedure (skills), access (MCP), knowledge (RAG), experience (memory) as complementary."
+  }
+]
