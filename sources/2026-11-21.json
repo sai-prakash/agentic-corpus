@@ -1,0 +1,50 @@
+[
+  {
+    "id": "arxiv-2611.25123",
+    "type": "paper",
+    "title": "Forget Freely, Grep Later: Lossless, Index-Free Memory for Long-Horizon LLM Agents",
+    "url": "https://arxiv.org/abs/2611.25123",
+    "date": "2026-11-18",
+    "notes": "GrepMem: append-only log + regex; 95-97% ContextBench vs ≤21% lossy; +8.8 on BCP-Multi."
+  },
+  {
+    "id": "x-dair-ai-grepmem",
+    "type": "post",
+    "title": "Is grep all you need? GrepMem summary",
+    "url": "https://x.com/dair_ai/status/2123768329810903053",
+    "date": "2026-11-20",
+    "notes": "High-engagement (124 likes, 147 bookmarks) summary of GrepMem claim and results."
+  },
+  {
+    "id": "arxiv-2611.26346",
+    "type": "paper",
+    "title": "Context as a Resource",
+    "url": "https://arxiv.org/abs/2611.26346",
+    "date": "2026-11-19",
+    "notes": "ClonAct routerless context virtualization; 45.9% fewer tokens, higher merge success."
+  },
+  {
+    "id": "gh-clonact",
+    "type": "repo",
+    "title": "Viacol0916/ClonAct",
+    "url": "https://github.com/Viacol0916/ClonAct",
+    "date": "2026-11-19",
+    "notes": "Shipping implementation, benchmarks, and reproduction for ClonAct."
+  },
+  {
+    "id": "arxiv-2611.25582",
+    "type": "paper",
+    "title": "AutoRAGBench: A Benchmark for LLM Agents Automating RAG System Development",
+    "url": "https://arxiv.org/abs/2611.25582",
+    "date": "2026-11-19",
+    "notes": "Agents building RAG from scratch; 56.1 vs 44.4 Human-SOTA; +16.6 when seeded."
+  },
+  {
+    "id": "gh-autoragbench",
+    "type": "repo",
+    "title": "AutoRAGBench code and data",
+    "url": "https://github.com/ZhanGHanG9991/AutoRAGBench",
+    "date": "2026-11-19",
+    "notes": "Public release of tasks, agent trajectories, and evaluation code."
+  }
+]
