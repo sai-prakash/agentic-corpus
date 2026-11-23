@@ -1,7 +1,7 @@
 {
   "nodes": [
     { "id": "agent-harness", "label": "Agent harness", "heat": 5, "updated": "2026-11-21" },
-    { "id": "memory-lifecycle", "label": "Memory lifecycle", "heat": 5, "updated": "2026-11-21" },
+    { "id": "memory-lifecycle", "label": "Memory lifecycle", "heat": 5, "updated": "2026-11-23" },
     { "id": "harness-evolution", "label": "Harness evolution", "heat": 4, "updated": "2026-11-20" },
     { "id": "mcp", "label": "MCP", "heat": 4, "updated": "2026-11-19" },
     { "id": "complementary-curation-memory", "label": "Complementary curation memory", "heat": 5, "updated": "2026-11-01" },
@@ -59,9 +59,11 @@
     { "id": "graphrag-zero", "label": "GraphRAG Zero", "heat": 5, "updated": "2026-11-20" },
     { "id": "semantic-context-handoff", "label": "Semantic Context Handoff", "heat": 4, "updated": "2026-11-20" },
     { "id": "self-improvement-memory", "label": "Self-Improvement Memory", "heat": 4, "updated": "2026-11-20" },
-    { "id": "grepmem", "label": "GrepMem", "heat": 5, "updated": "2026-11-21" },
+    { "id": "grepmem", "label": "GrepMem", "heat": 5, "updated": "2026-11-23" },
     { "id": "clonact", "label": "ClonAct", "heat": 4, "updated": "2026-11-21" },
-    { "id": "autoragbench", "label": "AutoRAGBench", "heat": 4, "updated": "2026-11-21" }
+    { "id": "autoragbench", "label": "AutoRAGBench", "heat": 4, "updated": "2026-11-21" },
+    { "id": "memfolder", "label": "MemFolder", "heat": 4, "updated": "2026-11-23" },
+    { "id": "knowledgeclaw", "label": "KnowledgeClaw", "heat": 4, "updated": "2026-11-23" }
   ],
   "edges": [
     { "source": "dsh-superagent", "target": "agent-harness", "source_id": "gh-dsh-superagent" },
@@ -141,6 +143,8 @@
     { "source": "grepmem", "target": "memory-lifecycle", "source_id": "arxiv-2611.25123" },
     { "source": "clonact", "target": "agent-harness", "source_id": "arxiv-2611.26346" },
     { "source": "clonact", "target": "memory-lifecycle", "source_id": "gh-clonact" },
-    { "source": "autoragbench", "target": "agent-harness", "source_id": "arxiv-2611.25582" }
+    { "source": "autoragbench", "target": "agent-harness", "source_id": "arxiv-2611.25582" },
+    { "source": "memfolder", "target": "memory-lifecycle", "source_id": "arxiv-2611.26427" },
+    { "source": "knowledgeclaw", "target": "memory-lifecycle", "source_id": "arxiv-2611.24294" }
   ]
 }
