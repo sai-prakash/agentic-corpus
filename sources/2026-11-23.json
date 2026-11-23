@@ -1,0 +1,34 @@
+[
+  {
+    "id": "arxiv-2611.26427",
+    "type": "paper",
+    "title": "MemFolder: Structure-Guided Memory Folding for Efficient Agent Memory Management",
+    "url": "https://arxiv.org/abs/2611.26427",
+    "date": "2026-11-19",
+    "notes": "RecordFolder retains 99.0% avg performance with 50% fewer records on Mem0 (+1.9pp vs baseline)."
+  },
+  {
+    "id": "gh-memfolder",
+    "type": "repo",
+    "title": "xuyang-liu16/MemFolder",
+    "url": "https://github.com/xuyang-liu16/MemFolder",
+    "date": "2026-11-19",
+    "notes": "Shipping code for RecordFolder and ContextFolder."
+  },
+  {
+    "id": "arxiv-2611.24294",
+    "type": "paper",
+    "title": "KnowledgeClaw: Towards Agentic Knowledge Engineering via Omnimodal Hypergraphs",
+    "url": "https://arxiv.org/abs/2611.24294",
+    "date": "2026-11-18",
+    "notes": "OmniKE-Bench; KnowledgeClaw 55.9 OKE (+14.6) first on all six tasks."
+  },
+  {
+    "id": "gh-knowledgeclaw",
+    "type": "repo",
+    "title": "LHRLAB/KnowledgeClaw",
+    "url": "https://github.com/LHRLAB/KnowledgeClaw",
+    "date": "2026-11-18",
+    "notes": "Public software and data for KnowledgeClaw and OmniKE-Bench."
+  }
+]
