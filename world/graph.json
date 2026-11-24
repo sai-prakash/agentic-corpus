@@ -41,7 +41,7 @@
     { "id": "sparseread", "label": "SparseRead", "heat": 4, "updated": "2026-11-13" },
     { "id": "discern", "label": "DISCERN", "heat": 4, "updated": "2026-11-14" },
     { "id": "ai-ran-context-graph", "label": "AI-RAN Context Graph", "heat": 4, "updated": "2026-11-14" },
-    { "id": "harness-memory-protocol", "label": "Harness Memory Protocol", "heat": 4, "updated": "2026-11-14" },
+    { "id": "harness-memory-protocol", "label": "Harness Memory Protocol", "heat": 4, "updated": "2026-11-24" },
     { "id": "multiloop", "label": "MULTILOOP", "heat": 4, "updated": "2026-11-15" },
     { "id": "logfire-harness-tracing", "label": "Logfire harness tracing", "heat": 4, "updated": "2026-11-15" },
     { "id": "edgequake", "label": "EdgeQuake", "heat": 4, "updated": "2026-11-15" },
@@ -63,7 +63,8 @@
     { "id": "clonact", "label": "ClonAct", "heat": 4, "updated": "2026-11-21" },
     { "id": "autoragbench", "label": "AutoRAGBench", "heat": 4, "updated": "2026-11-21" },
     { "id": "memfolder", "label": "MemFolder", "heat": 4, "updated": "2026-11-23" },
-    { "id": "knowledgeclaw", "label": "KnowledgeClaw", "heat": 4, "updated": "2026-11-23" }
+    { "id": "knowledgeclaw", "label": "KnowledgeClaw", "heat": 4, "updated": "2026-11-23" },
+    { "id": "harness-recovery-gap", "label": "Harness recovery gap", "heat": 4, "updated": "2026-11-24" }
   ],
   "edges": [
     { "source": "dsh-superagent", "target": "agent-harness", "source_id": "gh-dsh-superagent" },
@@ -145,6 +146,8 @@
     { "source": "clonact", "target": "memory-lifecycle", "source_id": "gh-clonact" },
     { "source": "autoragbench", "target": "agent-harness", "source_id": "arxiv-2611.25582" },
     { "source": "memfolder", "target": "memory-lifecycle", "source_id": "arxiv-2611.26427" },
-    { "source": "knowledgeclaw", "target": "memory-lifecycle", "source_id": "arxiv-2611.24294" }
+    { "source": "knowledgeclaw", "target": "memory-lifecycle", "source_id": "arxiv-2611.24294" },
+    { "source": "harness-recovery-gap", "target": "agent-harness", "source_id": "arxiv-2611.27090" },
+    { "source": "harness-recovery-gap", "target": "harness-evolution", "source_id": "x-arkyyang-recovery" }
   ]
 }

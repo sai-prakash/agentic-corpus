@@ -1,0 +1,34 @@
+[
+  {
+    "id": "arxiv-2611.27090",
+    "type": "paper",
+    "title": "Exercised, Rarely Recovered: What Public Reports Say About Recovery in 50 AI Agent Harnesses and Runtimes",
+    "url": "https://arxiv.org/abs/2611.27090",
+    "date": "2026-11-20",
+    "notes": "Of 128 real-use recovery reports across 50 systems, only 19 full recoveries; checkpoint/resume 1/27, rollback 1/15."
+  },
+  {
+    "id": "x-arkyyang-recovery",
+    "type": "post",
+    "title": "Arky Yang summary of harness recovery paper",
+    "url": "https://x.com/arkyyang/status/2124876907884003595",
+    "date": "2026-11-23",
+    "notes": "Detailed breakdown of the 50-system public-evidence study with product-builder takeaways."
+  },
+  {
+    "id": "x-avichawla-harness-memory",
+    "type": "post",
+    "title": "Avi Chawla: Agent Memory 2.0 / Harness Memory",
+    "url": "https://x.com/_avichawla/status/2124758790910460337",
+    "date": "2026-11-23",
+    "notes": "High-engagement post (350 likes, 468 bookmarks) demonstrating cross-harness memory recall via HarnessRouter."
+  },
+  {
+    "id": "gh-harnessrouter",
+    "type": "repo",
+    "title": "HarnessRouter/harnessrouter",
+    "url": "https://github.com/HarnessRouter/harnessrouter",
+    "date": "2026-11-23",
+    "notes": "Apache-2.0 unified interface and UHP Memories implementation; open-source Harness Memory."
+  }
+]
