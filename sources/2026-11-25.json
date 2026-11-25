@@ -1,0 +1,66 @@
+[
+  {
+    "id": "arxiv-2611.30588",
+    "type": "paper",
+    "title": "SuSi-RAG: A Hybrid Graph RAG for Equipment Maintenance",
+    "url": "https://arxiv.org/abs/2611.30588",
+    "date": "2026-11-23",
+    "notes": "Subgraph similarity matching on maintenance events; Bosch production >8 months, 10k+ interactions, large gains vs vector."
+  },
+  {
+    "id": "x-csir-susi",
+    "type": "post",
+    "title": "IR Papers: SuSi-RAG announcement",
+    "url": "https://x.com/CsIR_papers/status/2125298598669648019",
+    "date": "2026-11-24",
+    "notes": "Independent linking of the SuSi-RAG paper."
+  },
+  {
+    "id": "arxiv-2611.30230",
+    "type": "paper",
+    "title": "Composing Independently Distilled Memory and Retrieval Policies for Long-Term Agents",
+    "url": "https://arxiv.org/abs/2611.30230",
+    "date": "2026-11-23",
+    "notes": "Independent distillation of memory and retrieval policies into 3B models, 73.1% vs 36.2% RL composition on LongMemEval-style."
+  },
+  {
+    "id": "arxiv-2611.26361",
+    "type": "paper",
+    "title": "How Much Should an Agent Remember? Deployment Lessons from Self-Distilled Memory for LLM Agents",
+    "url": "https://arxiv.org/abs/2611.26361",
+    "date": "2026-11-19",
+    "notes": "Self-distilled lessons/guidelines; memory size is model-dependent; production deployment notes."
+  },
+  {
+    "id": "arxiv-2611.30181",
+    "type": "paper",
+    "title": "Retrieval-Augmented Generation in the Agentic Era: Tradition, Present, and Prospect",
+    "url": "https://arxiv.org/abs/2611.30181",
+    "date": "2026-11-23",
+    "notes": "Survey mapping RAG lifecycle with agentic workflows as first-class."
+  },
+  {
+    "id": "arxiv-2611.29709",
+    "type": "paper",
+    "title": "Cache the Knowledge, Not Just the Prompt: Dynamic Datalog as the Action Language for LLM Agents",
+    "url": "https://arxiv.org/abs/2611.29709",
+    "date": "2026-11-22",
+    "notes": "Datalog REPL reuses derived facts across questions; agents write fewer tokens."
+  },
+  {
+    "id": "blog-falkordb-valkey",
+    "type": "blog",
+    "title": "FalkorDB is now available as a Valkey module",
+    "url": "https://www.falkordb.com/blog/falkordb-valkey-module/",
+    "date": "2026-11-23",
+    "notes": "Graph storage, Cypher, and GraphRAG retrieval inside existing Valkey deployments."
+  },
+  {
+    "id": "x-claude-mcp-skills",
+    "type": "post",
+    "title": "Claude: MCP turns 2 — Skills over MCP and Tasks",
+    "url": "https://x.com/ClaudeDevs/status/2125289794871963935",
+    "date": "2026-11-24",
+    "notes": "Skills beta, Tasks, Elicitation; MCP evolving toward agent orchestration."
+  }
+]

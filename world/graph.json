@@ -51,7 +51,7 @@
     { "id": "living-context-graphs", "label": "Living Context Graphs", "heat": 4, "updated": "2026-11-18" },
     { "id": "toolgraph-q", "label": "ToolGraph Q-function", "heat": 4, "updated": "2026-11-18" },
     { "id": "agent-harness-anatomy", "label": "Agent harness anatomy", "heat": 4, "updated": "2026-11-18" },
-    { "id": "agentic-graphrag-falkordb", "label": "Agentic GraphRAG (FalkorDB)", "heat": 4, "updated": "2026-11-18" },
+    { "id": "agentic-graphrag-falkordb", "label": "Agentic GraphRAG (FalkorDB)", "heat": 4, "updated": "2026-11-25" },
     { "id": "self-improving-harness-framework", "label": "Self-improving harness framework", "heat": 4, "updated": "2026-11-19" },
     { "id": "surfacing-disagreement-memory", "label": "Surfacing disagreement memory", "heat": 4, "updated": "2026-11-19" },
     { "id": "bridge-minimal-memory", "label": "BRIDGE minimal memory", "heat": 5, "updated": "2026-11-19" },
@@ -64,7 +64,9 @@
     { "id": "autoragbench", "label": "AutoRAGBench", "heat": 4, "updated": "2026-11-21" },
     { "id": "memfolder", "label": "MemFolder", "heat": 4, "updated": "2026-11-23" },
     { "id": "knowledgeclaw", "label": "KnowledgeClaw", "heat": 4, "updated": "2026-11-23" },
-    { "id": "harness-recovery-gap", "label": "Harness recovery gap", "heat": 4, "updated": "2026-11-24" }
+    { "id": "harness-recovery-gap", "label": "Harness recovery gap", "heat": 4, "updated": "2026-11-24" },
+    { "id": "susi-rag", "label": "SuSi-RAG subgraph similarity", "heat": 4, "updated": "2026-11-25" },
+    { "id": "independent-policy-distillation", "label": "Independent policy distillation", "heat": 4, "updated": "2026-11-25" }
   ],
   "edges": [
     { "source": "dsh-superagent", "target": "agent-harness", "source_id": "gh-dsh-superagent" },
@@ -131,6 +133,7 @@
     { "source": "agent-harness-anatomy", "target": "agent-harness", "source_id": "arxiv-2611.19960" },
     { "source": "agentic-graphrag-falkordb", "target": "mcp", "source_id": "gh-falkordb-graphrag-sdk" },
     { "source": "agentic-graphrag-falkordb", "target": "memory-lifecycle", "source_id": "blog-falkordb-agentic-graphrag" },
+    { "source": "agentic-graphrag-falkordb", "target": "memory-lifecycle", "source_id": "blog-falkordb-valkey" },
     { "source": "self-improving-harness-framework", "target": "agent-harness", "source_id": "arxiv-2611.22299" },
     { "source": "self-improving-harness-framework", "target": "harness-evolution", "source_id": "arxiv-2611.22299" },
     { "source": "surfacing-disagreement-memory", "target": "memory-lifecycle", "source_id": "arxiv-2611.22461" },
@@ -148,6 +151,9 @@
     { "source": "memfolder", "target": "memory-lifecycle", "source_id": "arxiv-2611.26427" },
     { "source": "knowledgeclaw", "target": "memory-lifecycle", "source_id": "arxiv-2611.24294" },
     { "source": "harness-recovery-gap", "target": "agent-harness", "source_id": "arxiv-2611.27090" },
-    { "source": "harness-recovery-gap", "target": "harness-evolution", "source_id": "x-arkyyang-recovery" }
+    { "source": "harness-recovery-gap", "target": "harness-evolution", "source_id": "x-arkyyang-recovery" },
+    { "source": "susi-rag", "target": "memory-lifecycle", "source_id": "arxiv-2611.30588" },
+    { "source": "independent-policy-distillation", "target": "memory-lifecycle", "source_id": "arxiv-2611.30230" },
+    { "source": "independent-policy-distillation", "target": "memory-lifecycle", "source_id": "arxiv-2611.26361" }
   ]
 }
