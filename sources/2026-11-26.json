@@ -1,0 +1,50 @@
+[
+  {
+    "id": "arxiv-2611.32606",
+    "type": "paper",
+    "title": "Recursive Collective Intelligence: Emergence on an Equal-Budget Ladder in Multi-Agent LLM Systems",
+    "url": "https://arxiv.org/abs/2611.32606",
+    "date": "2026-11-24",
+    "notes": "Equal-budget ladder; fact-forwarding exceeds pass@n; spontaneous organization; recursive label-free improvement across generations."
+  },
+  {
+    "id": "x-pin-rci",
+    "type": "post",
+    "title": "Multiagent Systems Papers: RCI announcement",
+    "url": "https://x.com/PIN/status/2125579104883765331",
+    "date": "2026-11-25",
+    "notes": "Independent linking of arXiv:2611.32606."
+  },
+  {
+    "id": "anthropic-skills-over-mcp",
+    "type": "blog",
+    "title": "MCP servers can now ship skills, run tasks, and more with Claude",
+    "url": "https://claude.com/resources/articles/skills-over-mcp-tasks-and-more",
+    "date": "2026-11-24",
+    "notes": "Public beta of Skills over MCP in Claude and Claude Code; Tasks and Elicitation GA."
+  },
+  {
+    "id": "mcp-skills-extension",
+    "type": "docs",
+    "title": "Skills extension overview",
+    "url": "https://modelcontextprotocol.io/extensions/skills/overview",
+    "date": "2026-11-08",
+    "notes": "Official io.modelcontextprotocol/skills extension (SEP-2640 Final); resources-based skill serving with digests."
+  },
+  {
+    "id": "x-claudedevs-skills",
+    "type": "post",
+    "title": "ClaudeDevs: MCP turns two — Skills over MCP",
+    "url": "https://x.com/ClaudeDevs/status/2125289797199511594",
+    "date": "2026-11-24",
+    "notes": "High-engagement announcement of Skills over MCP beta and Tasks."
+  },
+  {
+    "id": "arxiv-2611.31771",
+    "type": "paper",
+    "title": "SPARQL-Planned Single-Hop Traversal over a Live Knowledge Graph for Multi-Hop Question Answering",
+    "url": "https://arxiv.org/abs/2611.31771",
+    "date": "2026-11-24",
+    "notes": "Signal only: interleaves dense retrieval with parsed (not executed) SPARQL plans on Wikidata; beats HippoRAG2 et al."
+  }
+]
