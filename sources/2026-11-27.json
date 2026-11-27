@@ -1,0 +1,58 @@
+[
+  {
+    "id": "arxiv-2611.34147",
+    "type": "paper",
+    "title": "Letting Models Manage Their Own Context: Where We Stand",
+    "url": "https://arxiv.org/abs/2611.34147",
+    "date": "2026-11-25",
+    "notes": "Model-driven context API in NOOA vs harness-triggered compaction; GPT-6.1 21%→56% at 32K on OfficeQA Pro v2; KV cache suffix reuse cuts prefill up to 15%."
+  },
+  {
+    "id": "gh-nooa",
+    "type": "repo",
+    "title": "NVIDIA-NeMo/labs-OO-Agents (NOOA)",
+    "url": "https://github.com/NVIDIA-NeMo/labs-OO-Agents",
+    "date": "2026-11-25",
+    "notes": "Open-source object-oriented agent harness with model-callable context and event APIs; used as the testbed for the model-driven context paper."
+  },
+  {
+    "id": "blog-nvidia-nooa",
+    "type": "blog",
+    "title": "Six Agent Harness Capabilities for Higher Model Performance",
+    "url": "https://developer.nvidia.com/blog/six-agent-harness-capabilities-for-higher-model-performance/",
+    "date": "2026-07-27",
+    "notes": "NOOA design: typed I/O, pass-by-reference, code as action, programmable loops, explicit state, model-callable harness APIs."
+  },
+  {
+    "id": "x-ldataengineer-context",
+    "type": "post",
+    "title": "New Banger on NVIDIA's NOOA: Letting Models Manage Their Own Context",
+    "url": "https://x.com/Ldataengineer/status/2126025265943810374",
+    "date": "2026-11-26",
+    "notes": "Independent summary of the paper results and placement relative to MemGPT, Context-Folding, etc."
+  },
+  {
+    "id": "x-muratcan-context",
+    "type": "post",
+    "title": "Before people start sharing this new NVIDIA paper as “context engineering is over”",
+    "url": "https://x.com/muratcan/status/2126106299800723914",
+    "date": "2026-11-27",
+    "notes": "Notes model variance (GPT gains, Opus declines), context anxiety, and need for per-model profiling."
+  },
+  {
+    "id": "x-rohanpaul-context",
+    "type": "post",
+    "title": "New NVIDIA paper finds that letting models compact their own context nearly tripled GPT-6.1 Sol's score",
+    "url": "https://x.com/rohanpaul_ai/status/2126118830346998047",
+    "date": "2026-11-27",
+    "notes": "Concise independent summary of the OfficeQA results and model differences."
+  },
+  {
+    "id": "arxiv-2611.34778",
+    "type": "paper",
+    "title": "Toward Agentic Robotics: A Large-Scale Study of Harness Design for Robot-Use Agents",
+    "url": "https://arxiv.org/abs/2611.34778",
+    "date": "2026-11-25",
+    "notes": "Signal only: large-scale evaluation of harness structure for combining VLMs with VLA/WAM policies; X-Harness recipe."
+  }
+]
