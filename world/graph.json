@@ -67,7 +67,8 @@
     {"id": "harness-recovery-gap", "label": "Harness recovery gap", "heat": 4, "updated": "2026-11-24"},
     {"id": "susi-rag", "label": "SuSi-RAG subgraph similarity", "heat": 4, "updated": "2026-11-25"},
     {"id": "independent-policy-distillation", "label": "Independent policy distillation", "heat": 4, "updated": "2026-11-25"},
-    {"id": "recursive-collective-intelligence", "label": "Recursive Collective Intelligence", "heat": 4, "updated": "2026-11-26"}
+    {"id": "recursive-collective-intelligence", "label": "Recursive Collective Intelligence", "heat": 4, "updated": "2026-11-26"},
+    {"id": "model-driven-context", "label": "Model-driven context", "heat": 5, "updated": "2026-11-27"}
   ],
   "edges": [
     {"source": "dsh-superagent", "target": "agent-harness", "source_id": "gh-dsh-superagent"},
@@ -158,6 +159,9 @@
     {"source": "independent-policy-distillation", "target": "memory-lifecycle", "source_id": "arxiv-2611.26361"},
     {"source": "recursive-collective-intelligence", "target": "agent-harness", "source_id": "arxiv-2611.32606"},
     {"source": "recursive-collective-intelligence", "target": "harness-evolution", "source_id": "arxiv-2611.32606"},
-    {"source": "skills-over-mcp", "target": "mcp", "source_id": "anthropic-skills-over-mcp"}
+    {"source": "skills-over-mcp", "target": "mcp", "source_id": "anthropic-skills-over-mcp"},
+    {"source": "model-driven-context", "target": "agent-harness", "source_id": "arxiv-2611.34147"},
+    {"source": "model-driven-context", "target": "memory-lifecycle", "source_id": "arxiv-2611.34147"},
+    {"source": "model-driven-context", "target": "agent-harness", "source_id": "gh-nooa"}
   ]
 }
