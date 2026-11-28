@@ -1,1 +1,19 @@
-GRAPH_CONTENT_HERE
+{
+  "nodes": [
+    {"id": "agent-harness", "label": "Agent harness", "heat": 5, "updated": "2026-11-21"},
+    {"id": "memory-lifecycle", "label": "Memory lifecycle", "heat": 5, "updated": "2026-11-23"},
+    {"id": "home", "label": "HoMe harness optimization", "heat": 5, "updated": "2026-11-28"},
+    {"id": "task-memory", "label": "TASK Memory", "heat": 4, "updated": "2026-11-28"},
+    {"id": "pax-pluggable-harness", "label": "Pax pluggable harness", "heat": 4, "updated": "2026-11-28"}
+  ],
+  "edges": [
+    {"source": "home", "target": "memory-lifecycle", "source_id": "arxiv-2611.34624"},
+    {"source": "home", "target": "memory-lifecycle", "source_id": "gh-reme-home"},
+    {"source": "home", "target": "agent-harness", "source_id": "arxiv-2611.34624"},
+    {"source": "task-memory", "target": "memory-lifecycle", "source_id": "arxiv-2611.34762"},
+    {"source": "task-memory", "target": "memory-lifecycle", "source_id": "x-task-memory"},
+    {"source": "pax-pluggable-harness", "target": "agent-harness", "source_id": "blog-pydantic-pax"},
+    {"source": "pax-pluggable-harness", "target": "mcp", "source_id": "x-pax-plugins"},
+    {"source": "pax-pluggable-harness", "target": "agent-harness", "source_id": "x-pax-plugins"}
+  ]
+}
