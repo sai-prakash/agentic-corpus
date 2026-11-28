@@ -1,0 +1,66 @@
+[
+  {
+    "id": "arxiv-2611.34624",
+    "type": "paper",
+    "title": "HoMe: Toward Practical Harness Optimization of Memory Systems for AI Assistants",
+    "url": "https://arxiv.org/abs/2611.34624",
+    "date": "2026-11-25",
+    "notes": "Evaluation-driven harness search for memory systems; +2.8/+5.4 pp and -59%/-41% tokens on LongMemEval-S / BEAM-1M after six candidates."
+  },
+  {
+    "id": "gh-reme-home",
+    "type": "repo",
+    "title": "agentscope-ai/ReMe (HoMe plugin)",
+    "url": "https://github.com/agentscope-ai/ReMe",
+    "date": "2026-11-26",
+    "notes": "Open-source memory kit; HoMe implementation released as plugin with the reported gains."
+  },
+  {
+    "id": "arxiv-2611.34762",
+    "type": "paper",
+    "title": "TASK Memory: Beyond Text-Only Memory with Activation Steering and Knowledge Editing against Memory Hallucination",
+    "url": "https://arxiv.org/abs/2611.34762",
+    "date": "2026-11-25",
+    "notes": "Text + shared-address knowledge edit + content-free steering vectors; memory-ignoring ≤1.5%, neighbour misuse 39.2%→7.5%."
+  },
+  {
+    "id": "x-task-memory",
+    "type": "post",
+    "title": "TASK Memory targets use-time memory failures",
+    "url": "https://x.com/AtMemAi/status/2125897641854939206",
+    "date": "2026-11-26",
+    "notes": "Independent summary of the three hallucination forms and the T+A+S+K design."
+  },
+  {
+    "id": "blog-pydantic-pax",
+    "type": "blog",
+    "title": "Introducing Pax and the Pydantic AI Harness beta",
+    "url": "https://pydantic.dev/articles/pax-harness-beta",
+    "date": "2026-11-25",
+    "notes": "Official announcement: everything is a plugin; Pax as terminal coding agent; Harness-Bench SWE81 results."
+  },
+  {
+    "id": "x-pax-plugins",
+    "type": "post",
+    "title": "Pax is Pydantic official; everything is a plugin",
+    "url": "https://x.com/orangercat/status/2126487873624973486",
+    "date": "2026-11-28",
+    "notes": "Independent note on pluggable coding agent, sandbox, MCP, and Logfire."
+  },
+  {
+    "id": "arxiv-2611.30750",
+    "type": "paper",
+    "title": "SchemaCaps: When a Compatible Tool Update Silently Widens an AI Agent's Authority",
+    "url": "https://arxiv.org/abs/2611.30750",
+    "date": "2026-11-23",
+    "notes": "Signal: compatible MCP schema changes widen authority; none of eight clients re-approve; Coq-checked non-amplification rule."
+  },
+  {
+    "id": "arxiv-2611.28244",
+    "type": "paper",
+    "title": "Demystifying the Autoresearch Harness: How Context and Skills Shape Self-Evolving Agents",
+    "url": "https://arxiv.org/abs/2611.28244",
+    "date": "2026-11-20",
+    "notes": "Signal: context folding + selective skill deletion; MLEvolver 72.7% medal on MLE-Bench Lite."
+  }
+]
